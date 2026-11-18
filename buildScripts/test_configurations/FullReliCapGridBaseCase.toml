@@ -1,0 +1,22 @@
+# Complete ReliCapGrid dataset: every IGM, the RCC (Jotunheim) CGM files,
+# boundary, common and reference data. Imported in full by the test case and
+# used to run a power flow on the complete model.
+#
+# Globs are relative to Instance/ (pathlib semantics: "**" spans folders).
+# Each matched file is placed in the release by create_test_configuration_release.py.
+
+description = "Complete ReliCapGrid dataset for import and a power flow on the complete model."
+
+include = [
+    "**/*.xml",
+    # reference datasets that only exist as Turtle (the other eight are taken from cimxml/)
+    "referenceData/NetworkCode/ttl/ActivityScheme-NCP_RD.ttl",
+    "referenceData/NetworkCode/ttl/ConformanceReleaseScheme-NCP-2-4-1_RD.ttl",
+]
+
+exclude = [
+    # header variants of Jotunheim/NetworkCode (same dataset UUIDs)
+    "Jotunheim/GridSituation/**",
+    # superseded versions of live datasets
+    "**/Dataset_version_dependency/**",
+]

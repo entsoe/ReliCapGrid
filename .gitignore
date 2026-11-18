@@ -22,3 +22,8 @@ __pycache__/
 # generated validation reports (CI run artifacts) #
 ############
 reports/
+
+# generated test configuration releases (create_test_configuration_release.py) #
+############
+/TestConfigurationRelease/*/
+/tools/CimPal-CLI*.jar

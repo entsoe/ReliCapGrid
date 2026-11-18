@@ -14,8 +14,13 @@ file validated with its own PROF validation set over itself plus the transitive
 per-rule diff lands in summary.md; the type-split result is what code scanning
 gets until the closure variant is adopted.
 
+With --release, a generated TestConfigurationRelease is validated instead of
+Instance/ (its cimxml copies are parsed; findings point at the Instance/ sources).
+
 Run:
     uv run buildScripts/validate_instances.py --apl cgmes-3.0=.apl-cgmes --apl ncp-2.5=.apl-ncp
+    uv run buildScripts/validate_instances.py --apl cgmes-3.0=.apl-cgmes --apl ncp-2.5=.apl-ncp \\
+        --release TestConfigurationRelease/FullReliCapGridBaseCase
 """
 import argparse
 import json
@@ -106,19 +111,32 @@ class Group:
     closure_common: list = field(default_factory=list)  # NC only: AllComplex closure for the closure variant
 
 
-def scan_instances():
-    """Parse every instance file once; classify by header profile declaration."""
-    everything = sorted(str(p.relative_to(REPO_ROOT)) for p in REPO_ROOT.glob("Instance/**/*.xml"))
-    duplicates = {p for p in everything if Path(p).match(DUPLICATE_GLOB)}
-    files = [p for p in everything if p not in duplicates]
-    skipped = [(p, "duplicate of Jotunheim/NetworkCode") for p in sorted(duplicates)]
+def instance_files(release=None):
+    """{file to parse: repo-relative Instance/ source path}. A TestConfigurationRelease
+    (create_test_configuration_release.py) is parsed from its cimxml copies, which are
+    byte-identical to their sources, so findings, policies and SARIF locations stay
+    on the editable Instance/ files."""
+    if release is None:
+        return {str(p.relative_to(REPO_ROOT)): str(p.relative_to(REPO_ROOT))
+                for p in sorted(REPO_ROOT.glob("Instance/**/*.xml"))}
+    sources = json.loads((release / "sources.json").read_text(encoding="utf-8"))
+    return {str(release / copy): source for copy, source in sorted(sources.items()) if copy.endswith(".xml")}
 
-    frame = pandas.read_RDF(files, max_workers=os.cpu_count())
+
+def scan_instances(release=None):
+    """Parse every instance file once; classify by header profile declaration."""
+    parsed = instance_files(release)
+    duplicates = {p for p, source in parsed.items() if Path(source).match(DUPLICATE_GLOB)}
+    files = [source for p, source in parsed.items() if p not in duplicates]
+    skipped = [(parsed[p], "duplicate of Jotunheim/NetworkCode") for p in sorted(duplicates)]
+    source_of = {Path(p).resolve(): source for p, source in parsed.items()}
+
+    frame = pandas.read_RDF([p for p in parsed if p not in duplicates], max_workers=os.cpu_count())
 
     # release routing policy over the header inventory: Model.profile => the
     # CGMES release, an ap.cim4.eu conformsTo => the NC release
     headers = cgmes_tools.get_loaded_profiles(frame)
-    headers = headers.assign(path=[str(Path(v).resolve().relative_to(REPO_ROOT)) for v in headers["label"]])
+    headers = headers.assign(path=[source_of[Path(v).resolve()] for v in headers["label"]])
     cgmes = headers[headers["KEY"] == "Model.profile"]
     nc = headers[(headers["KEY"] == "conformsTo") & headers["VALUE"].str.startswith("https://ap.cim4.eu/")]
     boundary_prefix, boundary_profile = BOUNDARY_PROFILE_FIX
@@ -484,6 +502,8 @@ def main():
                         help="APL checkout per release, e.g. cgmes-3.0=.apl-cgmes (repeatable)")
     parser.add_argument("--only", choices=sorted(RELEASES), help="run a single release")
     parser.add_argument("--no-closure", action="store_true", help="skip the dependency-closure comparison run")
+    parser.add_argument("--release", type=Path, metavar="DIR",
+                        help="validate a generated TestConfigurationRelease/<Name> instead of Instance/")
     args = parser.parse_args()
     for override in args.apl:
         release, _, path = override.partition("=")
@@ -491,7 +511,10 @@ def main():
 
     print("triplets", triplets.__version__)
     REPORTS.mkdir(exist_ok=True)
-    frame, infos, skipped, fixed = scan_instances()
+    release_dir = args.release.resolve() if args.release else None
+    if release_dir:
+        print(f"validating test configuration release {release_dir.relative_to(REPO_ROOT)}")
+    frame, infos, skipped, fixed = scan_instances(release_dir)
     print(f"parsed {len(frame):,} triples from {len(infos)} mapped files ({len(skipped)} skipped, "
           f"{len(fixed)} boundary headers fixed)")
 

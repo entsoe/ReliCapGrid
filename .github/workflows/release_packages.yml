@@ -1,0 +1,122 @@
+name: Build Release Packages
+
+# Level 2 of the release process (issue #332): on a GitHub Release, build the
+# distributable CGM / IGM packages and the test configuration releases, and
+# validate the latter (SHACL reports are attached alongside the packages).
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version tag for the package (e.g. v1.0.0)"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build CGM Packages
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Checkout CGMES application profiles (CGMES 3.0)
+        uses: actions/checkout@v4
+        with:
+          repository: entsoe/CGMES-AP
+          path: .apl-cgmes
+
+      - name: Checkout NC application profiles (NCP 2.5)
+        uses: actions/checkout@v4
+        with:
+          repository: entsoe/NC-AP
+          path: .apl-ncp
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: "25"
+
+      - name: Download CimPal CLI
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download --repo griddigit/CimPal --pattern 'CimPal-CLI*.jar' --dir tools --clobber
+
+      - name: Get version
+        id: version
+        run: echo "version=${{ github.event.release.tag_name || inputs.version }}" >> "$GITHUB_OUTPUT"
+
+      - name: Build CGM package (Grid only)
+        run: |
+          uv run python buildScripts/create_cgm_zip.py \
+            --output "ReliCapGrid_CGM_${{ steps.version.outputs.version }}.zip"
+
+      # create_cgm_zip.py appends _NCP to the name, so this does not overwrite the Grid-only package
+      - name: Build CGM package (Grid + Network Code Profiles)
+        run: |
+          uv run python buildScripts/create_cgm_zip.py --ncp \
+            --output "ReliCapGrid_CGM_${{ steps.version.outputs.version }}.zip"
+
+      - name: Build per-TSO IGM packages
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          for tso in $(uv run python buildScripts/create_cgm_zip.py --list-tsos | tail -n +2); do
+            zip_name="ReliCapGrid_IGM_${tso}_${VERSION}.zip"
+            cd Instance
+            files=""
+            if [ -d "$tso/Grid/cimxml" ]; then
+              files="$files $(find "$tso/Grid/cimxml" -name '*.xml')"
+            fi
+            if [ -d "$tso/NetworkCode/cimxml" ]; then
+              files="$files $(find "$tso/NetworkCode/cimxml" -name '*.xml')"
+            fi
+            if [ -n "$files" ]; then
+              zip -j "../$zip_name" $files
+              echo "Created $zip_name"
+            fi
+            cd ..
+          done
+
+      - name: Build test configuration releases
+        run: |
+          uv run buildScripts/create_test_configuration_release.py \
+            --cimpal-jar "$(ls tools/CimPal-CLI*.jar | head -n 1)"
+          VERSION="${{ steps.version.outputs.version }}"
+          cd TestConfigurationRelease
+          for tc in */; do
+            tc="${tc%/}"
+            zip -r -q "../ReliCapGrid_TC_${tc}_${VERSION}.zip" "$tc"
+            echo "Created ReliCapGrid_TC_${tc}_${VERSION}.zip"
+          done
+
+      - name: Validate the test configuration release
+        run: |
+          uv run buildScripts/validate_instances.py --apl cgmes-3.0=.apl-cgmes --apl ncp-2.5=.apl-ncp \
+            --release TestConfigurationRelease/FullReliCapGridBaseCase
+          (cd reports && zip -r -q "../ReliCapGrid_validation-reports_${{ steps.version.outputs.version }}.zip" .)
+          cat reports/summary.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload release assets
+        if: github.event_name == 'release'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for zip in ReliCapGrid_*.zip; do
+            gh release upload "${{ github.event.release.tag_name }}" "$zip" --clobber
+          done
+
+      - name: Upload workflow artifacts
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@v4
+        with:
+          name: relicapgrid-packages-${{ steps.version.outputs.version }}
+          path: ReliCapGrid_*.zip

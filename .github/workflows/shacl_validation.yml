@@ -7,6 +7,8 @@ on:
       - Instance/**
       - buildScripts/validate_instances.py
       - buildScripts/prof_map.py
+      - buildScripts/create_test_configuration_release.py
+      - buildScripts/test_configurations/**
       - .github/workflows/shacl_validation.yml
       - pyproject.toml
 
@@ -38,8 +40,35 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v6
 
-      - name: Validate instances, export SARIF + SHACL reports
-        run: uv run buildScripts/validate_instances.py --apl cgmes-3.0=.apl-cgmes --apl ncp-2.5=.apl-ncp
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: "25"
+
+      - name: Download CimPal CLI
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download --repo griddigit/CimPal --pattern 'CimPal-CLI*.jar' --dir tools --clobber
+
+      # the source data is not validated directly (it may hold negative test
+      # cases); the generated test configuration release is (issue #332)
+      - name: Generate TestConfigurationRelease
+        run: |
+          uv run buildScripts/create_test_configuration_release.py \
+            --cimpal-jar "$(ls tools/CimPal-CLI*.jar | head -n 1)"
+
+      - name: Validate the release, export SARIF + SHACL reports
+        run: |
+          uv run buildScripts/validate_instances.py --apl cgmes-3.0=.apl-cgmes --apl ncp-2.5=.apl-ncp \
+            --release TestConfigurationRelease/FullReliCapGridBaseCase
+
+      - name: Upload TestConfigurationRelease as run artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: TestConfigurationRelease
+          path: |
+            TestConfigurationRelease/
+            !TestConfigurationRelease/ReadMe.asc
 
       # one upload per SARIF run — code scanning does not combine
       # multiple runs uploaded under the same category

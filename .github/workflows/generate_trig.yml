@@ -28,8 +28,14 @@ jobs:
           distribution: temurin
           java-version: "25"
 
+      # tools/cim-trig.pl imports uuid4 from UUID, which Ubuntu's libuuid-perl
+      # does not export; build the current CPAN release against libuuid instead
       - name: Install build dependencies
-        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends libuuid-perl
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends cpanminus uuid-dev
+          sudo cpanm --notest UUID
+          perl -MUUID=uuid4 -e 'print "UUID ", $UUID::VERSION, " uuid4 ok\n"'
 
       - name: Install Apache Jena
         env:

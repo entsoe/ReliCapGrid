@@ -1,3 +1,4 @@
+PREFIX adms:     <http://www.w3.org/ns/adms#>
 PREFIX cim:      <https://cim.ucaiug.io/ns#>
 PREFIX dcat:     <http://www.w3.org/ns/dcat#>
 PREFIX dcat-cim: <https://cim4.eu/ns/dcat-cim#>
@@ -44,6 +45,49 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "891caa7d-9879-40b8-a8f8-729e0ca41307";
             cim:IdentifiedObject.name  "HVDC_2" .
     
+    <urn:uuid:5adde6bb-9ac2-4ce6-b4b5-998e1781c7e8>
+            rdf:type                        nc:OrdinaryContingency;
+            cim:IdentifiedObject.description
+                    "This is an ordinary contingency; loss of branch TieLine_GA_BO2 (ACLineSegment, 220 kV).";
+            cim:IdentifiedObject.mRID       "5adde6bb-9ac2-4ce6-b4b5-998e1781c7e8";
+            cim:IdentifiedObject.name       "CO10_TieLine_GA_BO2";
+            nc:Contingency.EquipmentOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:Contingency.normalMustStudy  true .
+    
+    <urn:uuid:35829001-eb56-4df2-860a-be0846f08315>
+            rdf:type                        nc:OrdinaryContingency;
+            cim:IdentifiedObject.description
+                    "This is an ordinary contingency; loss of branch GA-TR2_1 (PowerTransformer, 400 kV).";
+            cim:IdentifiedObject.mRID       "35829001-eb56-4df2-860a-be0846f08315";
+            cim:IdentifiedObject.name       "CO4_GA_TR2_1";
+            nc:Contingency.EquipmentOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:Contingency.normalMustStudy  true .
+    
+    <urn:uuid:7759f77d-d06d-4247-a1db-22a9565d4cbd>
+            rdf:type                   cim:ContingencyEquipment;
+            cim:ContingencyElement.Contingency
+                    <urn:uuid:5eb13e1c-083b-4646-b141-6beb049f52e5>;
+            cim:ContingencyEquipment.Equipment
+                    <urn:uuid:a279a3dc-550b-426c-af3a-61b7be508dcc>;
+            cim:ContingencyEquipment.contingentStatus
+                    cim:ContingencyEquipmentStatusKind.outOfService;
+            cim:IdentifiedObject.description
+                    "The equipment for this contingency; loss of branch TieLine_GA_BO1";
+            cim:IdentifiedObject.mRID  "7759f77d-d06d-4247-a1db-22a9565d4cbd";
+            cim:IdentifiedObject.name  "CE6_TieLine_GA_BO1" .
+    
+    <urn:uuid:a27bc72a-9f6a-4f35-9c3b-689c1ccc67d7>
+            rdf:type                        nc:OrdinaryContingency;
+            cim:IdentifiedObject.description
+                    "This is an ordinary contingency; loss of branch TieLine_GA_BO4 (ACLineSegment, 400 kV).";
+            cim:IdentifiedObject.mRID       "a27bc72a-9f6a-4f35-9c3b-689c1ccc67d7";
+            cim:IdentifiedObject.name       "CO12_TieLine_GA_BO4";
+            nc:Contingency.EquipmentOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:Contingency.normalMustStudy  true .
+    
     <urn:uuid:a4f7a22a-736f-4d36-a476-3559828e4c7a>
             rdf:type                        nc:OrdinaryContingency;
             cim:IdentifiedObject.description
@@ -51,8 +95,31 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID       "a4f7a22a-736f-4d36-a476-3559828e4c7a";
             cim:IdentifiedObject.name       "CO_HVDC";
             nc:Contingency.EquipmentOperator
-                    <https://energy.referencedata.eu/Test/Model/Galia-CO#X1001A1001A361>;
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
             nc:Contingency.normalMustStudy  true .
+    
+    <urn:uuid:7279c80e-1a36-49a0-b1b2-2fb58822af9b>
+            rdf:type                        nc:OrdinaryContingency;
+            cim:IdentifiedObject.description
+                    "This is an ordinary contingency; loss of branch TieLine_GA-HVDC_GA_BH_1 (ACLineSegment, 220 kV).";
+            cim:IdentifiedObject.mRID       "7279c80e-1a36-49a0-b1b2-2fb58822af9b";
+            cim:IdentifiedObject.name       "CO7_TieLine_GA_HVDC_GA_BH_1";
+            nc:Contingency.EquipmentOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:Contingency.normalMustStudy  true .
+    
+    <urn:uuid:5020c9a6-fb28-4884-9b02-827847b01ae9>
+            rdf:type                   cim:ContingencyEquipment;
+            cim:ContingencyElement.Contingency
+                    <urn:uuid:7279c80e-1a36-49a0-b1b2-2fb58822af9b>;
+            cim:ContingencyEquipment.Equipment
+                    <urn:uuid:8d5bb92f-4938-4027-9322-f1b502b28fbe>;
+            cim:ContingencyEquipment.contingentStatus
+                    cim:ContingencyEquipmentStatusKind.outOfService;
+            cim:IdentifiedObject.description
+                    "The equipment for this contingency; loss of branch TieLine_GA-HVDC_GA_BH_1";
+            cim:IdentifiedObject.mRID  "5020c9a6-fb28-4884-9b02-827847b01ae9";
+            cim:IdentifiedObject.name  "CE4_TieLine_GA_HVDC_GA_BH_1" .
     
     <urn:uuid:bd7bb012-f7b9-45e0-9e15-4e2aa3592829>
             rdf:type                        nc:OrdinaryContingency;
@@ -61,28 +128,194 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID       "bd7bb012-f7b9-45e0-9e15-4e2aa3592829";
             cim:IdentifiedObject.name       "CO3";
             nc:Contingency.EquipmentOperator
-                    <https://energy.referencedata.eu/Test/Model/Galia-CO#X1001A1001A361>;
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:Contingency.normalMustStudy  true .
+    
+    <urn:uuid:219b0448-d99e-423c-8683-b5a32152d71b>
+            rdf:type                   cim:ContingencyEquipment;
+            cim:ContingencyElement.Contingency
+                    <urn:uuid:d9f71b5e-224f-4960-be4c-e6e40ca9513d>;
+            cim:ContingencyEquipment.Equipment
+                    <urn:uuid:dad02278-bd25-476f-8f58-dbe44be72586>;
+            cim:ContingencyEquipment.contingentStatus
+                    cim:ContingencyEquipmentStatusKind.outOfService;
+            cim:IdentifiedObject.description
+                    "The equipment for this contingency; loss of branch TieLine_GA_BO3";
+            cim:IdentifiedObject.mRID  "219b0448-d99e-423c-8683-b5a32152d71b";
+            cim:IdentifiedObject.name  "CE8_TieLine_GA_BO3" .
+    
+    <urn:uuid:6d4e2295-c0ab-4b9e-80df-218ad3d3c2c8>
+            rdf:type                   cim:ContingencyEquipment;
+            cim:ContingencyElement.Contingency
+                    <urn:uuid:be35b960-0f88-4636-9434-66c7b5ee4877>;
+            cim:ContingencyEquipment.Equipment
+                    <urn:uuid:2184f365-8cd5-4b5d-8a28-9d68603bb6a4>;
+            cim:ContingencyEquipment.contingentStatus
+                    cim:ContingencyEquipmentStatusKind.outOfService;
+            cim:IdentifiedObject.description
+                    "The equipment for this contingency; loss of branch GA_TR2_2";
+            cim:IdentifiedObject.mRID  "6d4e2295-c0ab-4b9e-80df-218ad3d3c2c8";
+            cim:IdentifiedObject.name  "CE2_GA_TR2_2" .
+    
+    <urn:uuid:5eb13e1c-083b-4646-b141-6beb049f52e5>
+            rdf:type                        nc:OrdinaryContingency;
+            cim:IdentifiedObject.description
+                    "This is an ordinary contingency; loss of branch TieLine_GA_BO1 (ACLineSegment, 220 kV).";
+            cim:IdentifiedObject.mRID       "5eb13e1c-083b-4646-b141-6beb049f52e5";
+            cim:IdentifiedObject.name       "CO9_TieLine_GA_BO1";
+            nc:Contingency.EquipmentOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:Contingency.normalMustStudy  true .
+    
+    <urn:uuid:6af014b7-6514-4c00-a3a8-e29b0327d72d>
+            rdf:type                   cim:ContingencyEquipment;
+            cim:ContingencyElement.Contingency
+                    <urn:uuid:8db284cd-d16e-4333-9509-c7781f199d31>;
+            cim:ContingencyEquipment.Equipment
+                    <urn:uuid:1ea986bc-7cb9-4efb-b524-69c5dc1372bc>;
+            cim:ContingencyEquipment.contingentStatus
+                    cim:ContingencyEquipmentStatusKind.outOfService;
+            cim:IdentifiedObject.description
+                    "The equipment for this contingency; loss of branch TieLine_GA-HVDC_GA_NH_1";
+            cim:IdentifiedObject.mRID  "6af014b7-6514-4c00-a3a8-e29b0327d72d";
+            cim:IdentifiedObject.name  "CE5_TieLine_GA_HVDC_GA_NH_1" .
+    
+    <urn:uuid:a12973db-d9bb-4c44-acbe-d115c01b1c5f>
+            rdf:type                   cim:ContingencyEquipment;
+            cim:ContingencyElement.Contingency
+                    <urn:uuid:5adde6bb-9ac2-4ce6-b4b5-998e1781c7e8>;
+            cim:ContingencyEquipment.Equipment
+                    <urn:uuid:8fdc7abd-3746-481a-a65e-3df56acd8b13>;
+            cim:ContingencyEquipment.contingentStatus
+                    cim:ContingencyEquipmentStatusKind.outOfService;
+            cim:IdentifiedObject.description
+                    "The equipment for this contingency; loss of branch TieLine_GA_BO2";
+            cim:IdentifiedObject.mRID  "a12973db-d9bb-4c44-acbe-d115c01b1c5f";
+            cim:IdentifiedObject.name  "CE7_TieLine_GA_BO2" .
+    
+    <urn:uuid:99b7fb75-05e2-4c28-ac1a-4cc2a18c8532>
+            rdf:type                   cim:ContingencyEquipment;
+            cim:ContingencyElement.Contingency
+                    <urn:uuid:a27bc72a-9f6a-4f35-9c3b-689c1ccc67d7>;
+            cim:ContingencyEquipment.Equipment
+                    <urn:uuid:7f43f508-2496-4b64-9146-0a40406cbe49>;
+            cim:ContingencyEquipment.contingentStatus
+                    cim:ContingencyEquipmentStatusKind.outOfService;
+            cim:IdentifiedObject.description
+                    "The equipment for this contingency; loss of branch TieLine_GA_BO4";
+            cim:IdentifiedObject.mRID  "99b7fb75-05e2-4c28-ac1a-4cc2a18c8532";
+            cim:IdentifiedObject.name  "CE9_TieLine_GA_BO4" .
+    
+    <urn:uuid:8db284cd-d16e-4333-9509-c7781f199d31>
+            rdf:type                        nc:OrdinaryContingency;
+            cim:IdentifiedObject.description
+                    "This is an ordinary contingency; loss of branch TieLine_GA-HVDC_GA_NH_1 (ACLineSegment, 220 kV).";
+            cim:IdentifiedObject.mRID       "8db284cd-d16e-4333-9509-c7781f199d31";
+            cim:IdentifiedObject.name       "CO8_TieLine_GA_HVDC_GA_NH_1";
+            nc:Contingency.EquipmentOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:Contingency.normalMustStudy  true .
+    
+    <urn:uuid:be35b960-0f88-4636-9434-66c7b5ee4877>
+            rdf:type                        nc:OrdinaryContingency;
+            cim:IdentifiedObject.description
+                    "This is an ordinary contingency; loss of branch GA_TR2_2 (PowerTransformer, 220 kV).";
+            cim:IdentifiedObject.mRID       "be35b960-0f88-4636-9434-66c7b5ee4877";
+            cim:IdentifiedObject.name       "CO5_GA_TR2_2";
+            nc:Contingency.EquipmentOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:Contingency.normalMustStudy  true .
+    
+    <urn:uuid:0981609a-04cd-40b5-9d99-40abf3a4e6a1>
+            rdf:type                   cim:ContingencyEquipment;
+            cim:ContingencyElement.Contingency
+                    <urn:uuid:35829001-eb56-4df2-860a-be0846f08315>;
+            cim:ContingencyEquipment.Equipment
+                    <urn:uuid:e8a7eaec-51d6-4571-b3d9-c36d52073c33>;
+            cim:ContingencyEquipment.contingentStatus
+                    cim:ContingencyEquipmentStatusKind.outOfService;
+            cim:IdentifiedObject.description
+                    "The equipment for this contingency; loss of branch GA-TR2_1";
+            cim:IdentifiedObject.mRID  "0981609a-04cd-40b5-9d99-40abf3a4e6a1";
+            cim:IdentifiedObject.name  "CE1_GA_TR2_1" .
+    
+    <urn:uuid:d9f71b5e-224f-4960-be4c-e6e40ca9513d>
+            rdf:type                        nc:OrdinaryContingency;
+            cim:IdentifiedObject.description
+                    "This is an ordinary contingency; loss of branch TieLine_GA_BO3 (ACLineSegment, 400 kV).";
+            cim:IdentifiedObject.mRID       "d9f71b5e-224f-4960-be4c-e6e40ca9513d";
+            cim:IdentifiedObject.name       "CO11_TieLine_GA_BO3";
+            nc:Contingency.EquipmentOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
             nc:Contingency.normalMustStudy  true .
     
     <urn:uuid:897e711a-7da8-4cfa-a66e-15d4d5ada97d>
             rdf:type              dcat:Dataset;
-            dct:accessRights      "https://energy.referencedata.eu/Confidentiality/Public";
-            dct:conformsTo        "https://cim.ucaiug.io/ns#" , "https://ap.cim4.eu/Contingency/2.3" , "https://cim4.eu/ns/nc/2.4#" , "http://iec.ch/TC57/2013/CIM-schema-cim16#";
+            dct:accessRights      <https://energy.referencedata.eu/Confidentiality/Public>;
+            dct:conformsTo        cim: , <https://ap.cim4.eu/Contingency/2.3> , <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#>;
             dct:description       "This is the contingency dataset for Galia part of ReliCapGrid."@en;
             dct:identifier        "897e711a-7da8-4cfa-a66e-15d4d5ada97d";
             dct:issued            "2022-06-15T22:30:00Z"^^xsd:dateTime;
-            dct:license           "https://creativecommons.org/licenses/by/4.0/";
-            dct:publisher         "https://energy.referencedata.eu/test/party/Galia";
+            dct:license           <https://creativecommons.org/licenses/by/4.0/>;
+            dct:publisher         <https://energy.referencedata.eu/test/party/TSO-Galia>;
             dct:requires          <urn:uuid:a2c02149-a114-4b5e-9de5-74dcccd9793a>;
             dct:rights            "Copyright";
             dct:rightsHolder      "ENTSO-E";
-            dct:spatial           "https://energy.referencedata.eu/Test/Frame/Galia-Power-Transmission-System";
+            dct:spatial           <https://energy.referencedata.eu/Test/Frame/Galia-Power-Transmission-System>;
             dct:title             "20220615_Galia_CO_1.0.0";
+            dct:type              <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
+            adms:versionNotes     "Initial version."@en;
             dcat:endDate          "2023-06-15T22:30:00Z"^^xsd:dateTime;
             dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Galia-CO>;
             dcat:keyword          "CO";
             dcat:startDate        "2022-06-15T22:30:00Z"^^xsd:dateTime;
             dcat:version          "1.0.0";
             prov:generatedAtTime  "2022-06-10T07:06:25Z"^^xsd:dateTime;
-            prov:wasGeneratedBy   "https://energy.referencedata.eu/Activity/CGM-CO" .
+            prov:wasGeneratedBy   <https://energy.referencedata.eu/Activity/CGM-CO> .
+    
+    <urn:uuid:a4098b89-9f4f-4b65-b0f9-12604f15f5de>
+            rdf:type                   cim:ContingencyEquipment;
+            cim:ContingencyElement.Contingency
+                    <urn:uuid:458c9436-d40d-4b10-8633-8edd9369dd63>;
+            cim:ContingencyEquipment.Equipment
+                    <urn:uuid:80016742-31b3-432a-b00a-300667a1e572>;
+            cim:ContingencyEquipment.contingentStatus
+                    cim:ContingencyEquipmentStatusKind.outOfService;
+            cim:IdentifiedObject.description
+                    "The equipment for this contingency; loss of branch GA_TR2_3";
+            cim:IdentifiedObject.mRID  "a4098b89-9f4f-4b65-b0f9-12604f15f5de";
+            cim:IdentifiedObject.name  "CE3_GA_TR2_3" .
+    
+    <urn:uuid:cbef6df6-aeab-41cb-a320-9fd05f4efb00>
+            rdf:type                        nc:OrdinaryContingency;
+            cim:IdentifiedObject.description
+                    "This is an ordinary contingency; loss of branch TieLine_GA_BO5 (ACLineSegment, 400 kV).";
+            cim:IdentifiedObject.mRID       "cbef6df6-aeab-41cb-a320-9fd05f4efb00";
+            cim:IdentifiedObject.name       "CO13_TieLine_GA_BO5";
+            nc:Contingency.EquipmentOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:Contingency.normalMustStudy  true .
+    
+    <urn:uuid:458c9436-d40d-4b10-8633-8edd9369dd63>
+            rdf:type                        nc:OrdinaryContingency;
+            cim:IdentifiedObject.description
+                    "This is an ordinary contingency; loss of branch GA_TR2_3 (PowerTransformer, 220 kV).";
+            cim:IdentifiedObject.mRID       "458c9436-d40d-4b10-8633-8edd9369dd63";
+            cim:IdentifiedObject.name       "CO6_GA_TR2_3";
+            nc:Contingency.EquipmentOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:Contingency.normalMustStudy  true .
+    
+    <urn:uuid:b668bbee-ca0a-4862-8192-83f9fde74404>
+            rdf:type                   cim:ContingencyEquipment;
+            cim:ContingencyElement.Contingency
+                    <urn:uuid:cbef6df6-aeab-41cb-a320-9fd05f4efb00>;
+            cim:ContingencyEquipment.Equipment
+                    <urn:uuid:e8acf6b6-99cb-45ad-b8dc-16c7866a4ddc>;
+            cim:ContingencyEquipment.contingentStatus
+                    cim:ContingencyEquipmentStatusKind.outOfService;
+            cim:IdentifiedObject.description
+                    "The equipment for this contingency; loss of branch TieLine_GA_BO5";
+            cim:IdentifiedObject.mRID  "b668bbee-ca0a-4862-8192-83f9fde74404";
+            cim:IdentifiedObject.name  "CE10_TieLine_GA_BO5" .
 }

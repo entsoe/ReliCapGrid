@@ -1,3 +1,4 @@
+PREFIX adms:     <http://www.w3.org/ns/adms#>
 PREFIX cim:      <https://cim.ucaiug.io/ns#>
 PREFIX dcat:     <http://www.w3.org/ns/dcat#>
 PREFIX dcat-cim: <https://cim4.eu/ns/dcat-cim#>
@@ -18,6 +19,15 @@ PREFIX rdfg:     <http://www.w3.org/2004/03/trix/rdfg-1/>
 PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 
 <urn:uuid:85dd3d01-ccdd-4a59-a6e8-2f66205f6cbe> {
+    <urn:uuid:16e01e5d-ac5f-40bf-b60b-f06d5bec5986>
+            rdf:type                   nc:GenericEnablingSchedule;
+            cim:IdentifiedObject.mRID  "16e01e5d-ac5f-40bf-b60b-f06d5bec5986";
+            cim:IdentifiedObject.name  "Aac phase-shift enable schedule";
+            nc:BaseTimeSeries.interpolationKind
+                    nc:TimeSeriesInterpolationKind.previous;
+            nc:GenericEnablingSchedule.FunctionBlock
+                    <urn:uuid:8d9df89c-b2c4-425f-8f79-eb1f669cac36> .
+    
     <urn:uuid:478043e2-91fa-4719-aec6-a8f11060f20a>
             rdf:type  nc:GridStateAlterationTimePoint;
             nc:GridStateAlterationTimePoint.GridStateAlterationSchedule
@@ -27,27 +37,43 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlterationTimePoint.enabled
                     false .
     
+    <urn:uuid:f1c361f4-83b1-46e6-96e8-47052b8c41f8>
+            rdf:type                      nc:EnablingTimePoint;
+            nc:EnablingTimePoint.GenericEnablingSchedule
+                    <urn:uuid:16e01e5d-ac5f-40bf-b60b-f06d5bec5986>;
+            nc:EnablingTimePoint.atTime   "2022-06-15T23:30:00Z"^^xsd:dateTime;
+            nc:EnablingTimePoint.enabled  true .
+    
+    <urn:uuid:755135cf-b114-4540-9607-54ef62994111>
+            rdf:type                      nc:EnablingTimePoint;
+            nc:EnablingTimePoint.GenericEnablingSchedule
+                    <urn:uuid:16e01e5d-ac5f-40bf-b60b-f06d5bec5986>;
+            nc:EnablingTimePoint.atTime   "2022-06-15T22:30:00Z"^^xsd:dateTime;
+            nc:EnablingTimePoint.enabled  true .
+    
     <urn:uuid:85dd3d01-ccdd-4a59-a6e8-2f66205f6cbe>
             rdf:type              dcat:Dataset;
-            dct:accessRights      "https://energy.referencedata.eu/Confidentiality/Public";
-            dct:conformsTo        "https://cim.ucaiug.io/ns#" , "https://cim4.eu/ns/nc/2.4#" , "https://ap.cim4.eu/StateInstructionSchedule/2.4" , "http://iec.ch/TC57/2013/CIM-schema-cim16#";
+            dct:accessRights      <https://energy.referencedata.eu/Confidentiality/Public>;
+            dct:conformsTo        cim: , <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/StateInstructionSchedule/2.5>;
             dct:description       "This is the State Instruction Schedule dataset for Espheim part of ReliCapGrid."@en;
             dct:identifier        "85dd3d01-ccdd-4a59-a6e8-2f66205f6cbe";
             dct:issued            "2022-06-15T22:30:00Z"^^xsd:dateTime;
-            dct:license           "https://creativecommons.org/licenses/by/4.0/";
-            dct:publisher         "https://energy.referencedata.eu/test/party/Espheim";
+            dct:license           <https://creativecommons.org/licenses/by/4.0/>;
+            dct:publisher         <https://energy.referencedata.eu/test/party/TSO-Espheim>;
             dct:requires          <urn:uuid:e3453a3c-8639-4648-a662-d6c15f512965>;
             dct:rights            "Copyright";
             dct:rightsHolder      "ENTSO-E";
-            dct:spatial           "https://energy.referencedata.eu/Test/Frame/Espheim-Power-Transmission-System";
+            dct:spatial           <https://energy.referencedata.eu/Test/Frame/Espheim-Power-Transmission-System>;
             dct:title             "20220615_Espheim_SIS_1.0.0";
+            dct:type              <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
+            adms:versionNotes     "Initial version."@en;
             dcat:endDate          "2023-06-15T22:30:00Z"^^xsd:dateTime;
             dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Espheim-SIS>;
             dcat:keyword          "SIS";
             dcat:startDate        "2022-06-15T22:30:00Z"^^xsd:dateTime;
             dcat:version          "1.0.0";
             prov:generatedAtTime  "2022-06-10T07:06:25Z"^^xsd:dateTime;
-            prov:wasGeneratedBy   "https://energy.referencedata.eu/Activity/CGM-SIS" .
+            prov:wasGeneratedBy   <https://energy.referencedata.eu/Activity/CGM-SIS> .
     
     <urn:uuid:f5205bd4-637a-4eb7-b0d8-e03638bc570b>
             rdf:type                   nc:GridStateAlterationSchedule;

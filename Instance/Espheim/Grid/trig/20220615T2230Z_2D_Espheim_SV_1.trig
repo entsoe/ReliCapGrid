@@ -6940,12 +6940,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:SvPowerFlow.p         "1.86355"^^xsd:float;
             cim:SvPowerFlow.q         "-0.00840895"^^xsd:float .
     
-    <urn:uuid:2f5360ab-d393-4570-9c6b-38e3435a37bd>
-            rdf:type                cim:SvStatus;
-            cim:SvStatus.ConductingEquipment
-                    <urn:uuid:050bd9ce-ce4b-980c-8f8b-dc476f0a9d0a>;
-            cim:SvStatus.inService  true .
-    
     <urn:uuid:d22a2953-0fab-4640-b6cc-e1cbe066d636>
             rdf:type                cim:SvStatus;
             cim:SvStatus.ConductingEquipment
@@ -9628,6 +9622,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:SvPowerFlow.p         "-19.843"^^xsd:float;
             cim:SvPowerFlow.q         "-24.0717"^^xsd:float .
     
+    <urn:uuid:6658db99-ec71-4b3b-b979-8ab5d1f2aedd>
+            rdf:type             cim:SvSwitch;
+            cim:SvSwitch.Switch  <urn:uuid:f18bc2b1-b591-4125-be5d-bccc573aea87>;
+            cim:SvSwitch.open    false .
+    
     <urn:uuid:217e61d5-54c0-4a20-a01a-a28e3f7baefd>
             rdf:type                cim:SvStatus;
             cim:SvStatus.ConductingEquipment
@@ -10384,6 +10383,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:SvPowerFlow.p         "-20.0345"^^xsd:float;
             cim:SvPowerFlow.q         "-5.14314"^^xsd:float .
     
+    <urn:uuid:bc083d93-d0a6-42ae-b8ed-e0f00213acb1>
+            rdf:type             cim:SvSwitch;
+            cim:SvSwitch.Switch  <urn:uuid:a37f594e-e546-4a10-b375-6a705112b937>;
+            cim:SvSwitch.open    false .
+    
     <urn:uuid:5e6f1275-d530-41c1-86bb-82bfd32e142a>
             rdf:type                  cim:SvPowerFlow;
             cim:SvPowerFlow.Terminal  <urn:uuid:046ab84b-c766-11e1-8775-005056c00008>;
@@ -10954,6 +10958,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:f9b3481b-0cab-4358-bffe-2b602166d616>
             rdf:type             cim:SvSwitch;
             cim:SvSwitch.Switch  <urn:uuid:3743369c-a1ed-4272-adec-4131267059c8>;
+            cim:SvSwitch.open    false .
+    
+    <urn:uuid:ae462e67-7efd-4a99-a925-72d4ba5971ed>
+            rdf:type             cim:SvSwitch;
+            cim:SvSwitch.Switch  <urn:uuid:1b4e33f8-959c-47da-b19a-f71a0f9f9b03>;
             cim:SvSwitch.open    false .
     
     <urn:uuid:a5104894-c302-405e-8daf-44d22429ed4e>
@@ -13995,6 +14004,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     <urn:uuid:04524e47-c766-11e1-8775-005056c00008>;
             cim:SvStatus.inService  true .
     
+    <urn:uuid:c1b048ff-3e4c-4ca2-bd18-40a76b0571fe>
+            rdf:type             cim:SvSwitch;
+            cim:SvSwitch.Switch  <urn:uuid:c5eee612-6eaa-439c-b68e-a150f178298c>;
+            cim:SvSwitch.open    false .
+    
     <urn:uuid:254a282f-81bf-495b-bb53-a6d8e38dc06d>
             rdf:type                  cim:SvPowerFlow;
             cim:SvPowerFlow.Terminal  <urn:uuid:f45144ef-b17c-43fe-b6a4-f8a1bee167ab>;
@@ -16645,6 +16659,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:SvPowerFlow.Terminal  <urn:uuid:ec34c24c-6f54-44cd-8794-4c7e6f6901a0>;
             cim:SvPowerFlow.p         "-3.35168"^^xsd:float;
             cim:SvPowerFlow.q         "-2.17287"^^xsd:float .
+    
+    <urn:uuid:aa8d6ec7-1c91-4a0f-83f3-b1c2d7f1cbe5>
+            rdf:type             cim:SvSwitch;
+            cim:SvSwitch.Switch  <urn:uuid:5cc1ca38-7fd4-4a4e-aa29-54650ef13d5b>;
+            cim:SvSwitch.open    false .
     
     <urn:uuid:9c14af5f-650b-4bf0-8a6a-22ce29d4cd31>
             rdf:type                cim:SvStatus;
@@ -20529,6 +20548,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:SvPowerFlow.p         "-70.1479"^^xsd:float;
             cim:SvPowerFlow.q         "12.6156"^^xsd:float .
     
+    <urn:uuid:6a69d33d-2fbb-4492-94da-bfc01e68e33c>
+            rdf:type             cim:SvSwitch;
+            cim:SvSwitch.Switch  <urn:uuid:6a714a8d-54a8-4653-9daf-982af14eae88>;
+            cim:SvSwitch.open    false .
+    
     <urn:uuid:7fce8480-a7c8-45a3-81d9-6be7629f7961>
             rdf:type                  cim:SvPowerFlow;
             cim:SvPowerFlow.Terminal  <urn:uuid:e92eff32-54a0-46c6-a522-4874ed0c230c>;
@@ -21216,6 +21240,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:SvVoltage.TopologicalNode  <urn:uuid:4c9375ed-5c9b-ac34-e2a7-dcc4f260b414>;
             cim:SvVoltage.angle            "-33.2323"^^xsd:float;
             cim:SvVoltage.v                "122.711"^^xsd:float .
+    
+    <urn:uuid:a3a7cfe8-ed95-475b-ad89-ed5f351be571>
+            rdf:type             cim:SvSwitch;
+            cim:SvSwitch.Switch  <urn:uuid:a097a1fa-e454-4152-ae05-b6f2c16701da>;
+            cim:SvSwitch.open    false .
     
     <urn:uuid:baae6a63-ce18-4cd0-9fe0-60db3741f2ea>
             rdf:type                cim:SvStatus;
@@ -24765,6 +24794,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:SvPowerFlow.p         "66.851"^^xsd:float;
             cim:SvPowerFlow.q         "-1.75509"^^xsd:float .
     
+    <urn:uuid:47699903-ac47-43e6-95f3-703dbf8090cb>
+            rdf:type             cim:SvSwitch;
+            cim:SvSwitch.Switch  <urn:uuid:caaaec78-564f-4cf6-82f7-f1153418d795>;
+            cim:SvSwitch.open    false .
+    
     <urn:uuid:f209f3b5-6cb3-4949-b17b-a98b5fe17826>
             rdf:type                  cim:SvPowerFlow;
             cim:SvPowerFlow.Terminal  <urn:uuid:cd1ef1d7-f6b0-483e-8aa9-eb5ddc231a05>;
@@ -24948,6 +24982,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:SvPowerFlow.Terminal  <urn:uuid:1e7ebfac-d889-4b63-9f05-025fe6d3733e>;
             cim:SvPowerFlow.p         "-1.15539"^^xsd:float;
             cim:SvPowerFlow.q         "-3.44382"^^xsd:float .
+    
+    <urn:uuid:0ec050de-9c6e-4689-a215-4a489c7c82b1>
+            rdf:type             cim:SvSwitch;
+            cim:SvSwitch.Switch  <urn:uuid:86978cfb-8057-4578-a419-d4efe70609a1>;
+            cim:SvSwitch.open    false .
     
     <urn:uuid:3973ecbd-955b-4e24-b9c4-469d83d72722>
             rdf:type                  cim:SvPowerFlow;
@@ -26274,6 +26313,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:SvPowerFlow.Terminal  <urn:uuid:b13fc839-dfda-49ab-b5a9-231a546ab856>;
             cim:SvPowerFlow.p         "22.76"^^xsd:float;
             cim:SvPowerFlow.q         "5.48945"^^xsd:float .
+    
+    <urn:uuid:a5ad30f6-3306-46de-95e3-2507ea16ecc0>
+            rdf:type             cim:SvSwitch;
+            cim:SvSwitch.Switch  <urn:uuid:aa72cb02-267d-403f-a667-f317f5e76413>;
+            cim:SvSwitch.open    false .
     
     <urn:uuid:70efbfca-0363-4fe9-b478-0d9890ec4b66>
             rdf:type             cim:SvSwitch;
@@ -28032,6 +28076,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:SvStatus.ConductingEquipment
                     <urn:uuid:045163e2-c766-11e1-8775-005056c00008>;
             cim:SvStatus.inService  true .
+    
+    <urn:uuid:bea59c3d-123f-44fa-868d-6ef4f35a146a>
+            rdf:type             cim:SvSwitch;
+            cim:SvSwitch.Switch  <urn:uuid:35ffa96f-ccce-4835-904c-38b6bda760d1>;
+            cim:SvSwitch.open    false .
     
     <urn:uuid:fb20da76-75e2-40ce-93e9-70d1409a9314>
             rdf:type                  cim:SvPowerFlow;
@@ -30119,6 +30168,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:SvPowerFlow.p         "-156.971"^^xsd:float;
             cim:SvPowerFlow.q         "-174.607"^^xsd:float .
     
+    <urn:uuid:f70a02de-b215-4cf5-ad87-f2294d14b53d>
+            rdf:type             cim:SvSwitch;
+            cim:SvSwitch.Switch  <urn:uuid:f6315393-17f7-406c-bb16-e77372f85ff9>;
+            cim:SvSwitch.open    false .
+    
     <urn:uuid:f8fe215a-2b44-49cb-ba85-0b1a1df00373>
             rdf:type             cim:SvSwitch;
             cim:SvSwitch.Switch  <urn:uuid:c227d425-ccfd-4941-85b9-6be22957e347>;
@@ -31936,6 +31990,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:SvPowerFlow.Terminal  <urn:uuid:9f33bb14-ed8c-4adb-873b-fb60852eb037>;
             cim:SvPowerFlow.p         "-26.8528"^^xsd:float;
             cim:SvPowerFlow.q         "1.21357"^^xsd:float .
+    
+    <urn:uuid:45436b6d-1629-4aa0-b77b-8a181fbcacb5>
+            rdf:type             cim:SvSwitch;
+            cim:SvSwitch.Switch  <urn:uuid:ff1db38c-8fbc-4b1d-a5ff-46cd02a2df74>;
+            cim:SvSwitch.open    false .
     
     <urn:uuid:d5aac7b6-bce7-4d65-bd60-2405c61b387e>
             rdf:type                  cim:SvPowerFlow;
@@ -34432,6 +34491,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:SvSwitch.Switch  <urn:uuid:480b1c1b-446b-41c7-b987-f31c4c86fb6d>;
             cim:SvSwitch.open    false .
     
+    <urn:uuid:7a2627c5-cb67-444d-8682-2e75039fd68e>
+            rdf:type             cim:SvSwitch;
+            cim:SvSwitch.Switch  <urn:uuid:389f64cd-db57-4e4b-ad05-33fa7fac4db2>;
+            cim:SvSwitch.open    false .
+    
     <urn:uuid:13373984-c2fe-4f5e-b424-f2ffe2225410>
             rdf:type                cim:SvStatus;
             cim:SvStatus.ConductingEquipment
@@ -34478,6 +34542,11 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:SvPowerFlow.Terminal  <urn:uuid:5fbac245-9bf9-4393-a7e3-df2a6a675349>;
             cim:SvPowerFlow.p         "-202.984"^^xsd:float;
             cim:SvPowerFlow.q         "-74.9936"^^xsd:float .
+    
+    <urn:uuid:91be9b0e-77d9-4ec4-9589-4ee39d52fc7d>
+            rdf:type             cim:SvSwitch;
+            cim:SvSwitch.Switch  <urn:uuid:8211fc3c-0f49-49b7-a20f-d5c9ec874f0c>;
+            cim:SvSwitch.open    false .
     
     <urn:uuid:36911a05-3538-446f-94ea-ded78c2f4e3b>
             rdf:type                  cim:SvPowerFlow;

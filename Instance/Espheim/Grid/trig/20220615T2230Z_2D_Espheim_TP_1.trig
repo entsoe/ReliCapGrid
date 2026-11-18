@@ -50,15 +50,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:bd398087-279e-0ab3-2ddb-a89513c08b48> .
     
-    <urn:uuid:c2eb1a9d-230d-f821-2309-6c8bfe1bacf6>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "c2eb1a9d-230d-f821-2309-6c8bfe1bacf6";
-            cim:IdentifiedObject.name  "Bus-899649563";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:debad97a-9746-4c1b-a25b-58c8de436b5d>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:9b4b3748-5faa-4558-585d-4af40d05cb1f> .
@@ -205,15 +196,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:cb43451d-b188-4abd-a9e8-e9ed8fcad0f7>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:9b7a55fe-7b8a-e87c-8dae-d0951dca5689> .
-    
-    <urn:uuid:3994fcda-fd8a-ce8b-38c1-c4742616790e>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "3994fcda-fd8a-ce8b-38c1-c4742616790e";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE310";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04742e21-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:aacb5859-4351-4a7c-99c8-b7ded612702f>
             rdf:type                      cim:Terminal;
@@ -446,15 +428,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:c361d705-2cf1-9365-2362-b588473a00c2> .
     
-    <urn:uuid:7f51715f-665f-5358-2736-cc9364b49e0a>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "7f51715f-665f-5358-2736-cc9364b49e0a";
-            cim:IdentifiedObject.name  "BP_EH-PT2";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:eb3018f0-767e-4829-9a50-1a12f9505849> .
-    
     <urn:uuid:648a1b9b-952b-4dbe-98e0-87bbc753439e>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -507,15 +480,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:5a3dda7d-f400-438f-9b68-97275ffddb6b>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:04bdda68-f0f3-c622-d36d-01b5c50e11b9> .
-    
-    <urn:uuid:a4a1e3fe-7e4f-5c8b-f940-2cb373161f2d>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "a4a1e3fe-7e4f-5c8b-f940-2cb373161f2d";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE59";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:047eb579-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:10776dfa-4e06-458f-9e58-20d6005c94f1>
             rdf:type                      cim:Terminal;
@@ -574,15 +538,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:880e16ec-ee04-e1f3-9027-dcb5c897dbde> .
-    
-    <urn:uuid:dbf3bfff-5c26-d547-664b-f6c419bb2d08>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "dbf3bfff-5c26-d547-664b-f6c419bb2d08";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE792";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04773b62-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:5cbb731a-03fb-4495-a521-718565dcc3bd>
             rdf:type                      cim:Terminal;
@@ -768,15 +723,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:9b4b3748-5faa-4558-585d-4af40d05cb1f> .
     
-    <urn:uuid:cc65f800-665a-af11-0d16-25253a5f5b3d>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "cc65f800-665a-af11-0d16-25253a5f5b3d";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE1018";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:048a9c58-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:6cfef5bf-d226-4ce3-8a2e-f36a308c0f64>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:ee1fc2d6-c588-66a0-82b3-0e29343a43d9> .
@@ -788,24 +734,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:04642891-c766-11e1-8775-005056c00008>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:a8e223cf-fe8b-624b-34d9-44b12ac4ee32> .
-    
-    <urn:uuid:f5c4f033-7713-e8c1-07b0-0927d50652ca>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "f5c4f033-7713-e8c1-07b0-0927d50652ca";
-            cim:IdentifiedObject.name  "Bus-1959159080";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
-    <urn:uuid:d49221b6-5032-d605-f332-d2a3746f70ce>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "d49221b6-5032-d605-f332-d2a3746f70ce";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE136";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:044fb634-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:461b6fba-edca-4db1-83bd-a42b3525a3ce>
             rdf:type  cim:ConnectivityNode;
@@ -1075,15 +1003,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:99f8d492-798e-bede-43cb-44971cecd382> .
     
-    <urn:uuid:2c7fb4a7-ac48-3813-f977-b5f8c9e2bffc>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "2c7fb4a7-ac48-3813-f977-b5f8c9e2bffc";
-            cim:IdentifiedObject.name  "Bus-579070256";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:ccbe98d5-2c83-418e-ac91-f5216be2eab8>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -1153,15 +1072,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:a47faedd-fe4e-445a-8425-12b39c8996ca>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:103c0b87-4b30-59da-ab69-cd1d3b487553> .
-    
-    <urn:uuid:0470c882-08a6-91a4-c605-7a861f9e6e49>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "0470c882-08a6-91a4-c605-7a861f9e6e49";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE314";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:046512f8-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:7316f1f1-a8fa-48da-933a-1b23d6428e24>
             rdf:type                      cim:Terminal;
@@ -1293,15 +1203,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:18096938-0e2c-dcbd-de87-2154c570df8d> .
     
-    <urn:uuid:14263543-5417-4dab-bbfb-5c6d785099d0>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "14263543-5417-4dab-bbfb-5c6d785099d0";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE5";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:047b3309-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:d589a15f-9db5-4e5d-8c16-218c3766c628>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:e4f607b8-f623-3a3a-32ee-c3822a2f1b5f> .
@@ -1333,15 +1234,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:43d951de-bed6-4f5b-a8ae-c18845be2e27>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:c443acc1-fa2f-08e6-eca8-ecabf69d5459> .
-    
-    <urn:uuid:91d57b12-89df-b7ad-6956-beb583380bea>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "91d57b12-89df-b7ad-6956-beb583380bea";
-            cim:IdentifiedObject.name  "BP_SD-EH2";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:41d4fafe-e4ce-4ca3-86d9-f181ae3f8ea3> .
     
     <urn:uuid:321e367e-a53d-42dc-bd26-f23cd7057f5d>
             rdf:type                      cim:Terminal;
@@ -1552,15 +1444,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:d49221b6-5032-d605-f332-d2a3746f70ce> .
     
-    <urn:uuid:c361d705-2cf1-9365-2362-b588473a00c2>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "c361d705-2cf1-9365-2362-b588473a00c2";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE246";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0471bd23-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:3d2298e8-6d48-4cdf-b9a2-c8a348e6f49e>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:1b1547d4-455b-3815-6f3a-cdf47c2efcc3> .
@@ -1617,15 +1500,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:d2f5b34a-d18a-4b6e-81db-bc12949943e7>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:4c272455-f966-9a2f-f62f-194ac6b2673e> .
-    
-    <urn:uuid:880e16ec-ee04-e1f3-9027-dcb5c897dbde>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "880e16ec-ee04-e1f3-9027-dcb5c897dbde";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE872";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:048a272b-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:2ca823f5-21d8-4306-be6d-82debf3a68a1>
             rdf:type  cim:ConnectivityNode;
@@ -1715,15 +1589,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:bb028dff-21f0-d392-9eab-7e1518fcb00f> .
-    
-    <urn:uuid:7b504a22-40f0-9fec-f390-e65c0a0a05e2>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "7b504a22-40f0-9fec-f390-e65c0a0a05e2";
-            cim:IdentifiedObject.name  "Bus-356394339";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:04505274-c766-11e1-8775-005056c00008>
             rdf:type                      cim:Terminal;
@@ -2174,15 +2039,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:ac5c5b5c-99ec-06d3-be90-469e2d593ec2> .
     
-    <urn:uuid:509c3e99-b796-6355-6ee6-c198aff88d11>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "509c3e99-b796-6355-6ee6-c198aff88d11";
-            cim:IdentifiedObject.name  "Bus-175798813";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:2bcdc020-c668-4fc6-8d74-81e4c854554d>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -2245,11 +2101,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:41dccb15-cfa2-deed-b4a6-3e0cadbd65b9>
             rdf:type                   cim:TopologicalNode;
             cim:IdentifiedObject.mRID  "41dccb15-cfa2-deed-b4a6-3e0cadbd65b9";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE151";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:046efe09-c766-11e1-8775-005056c00008> .
+            cim:IdentifiedObject.name  "CONNECTIVITY_NODE151" .
     
     <urn:uuid:e404ceae-4f29-4bab-95be-f6fb5837f7f9>
             rdf:type                      cim:Terminal;
@@ -2282,15 +2134,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:7e543166-040f-4627-9f23-07f30e239ca4>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:61f81e2d-5837-28e6-b150-1e898a76957f> .
-    
-    <urn:uuid:17573115-4399-ec3f-c782-e4ffccfecdbe>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "17573115-4399-ec3f-c782-e4ffccfecdbe";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE595";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04808a33-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:4ea909f4-06f4-41f7-8e29-a941cee41609>
             rdf:type                      cim:Terminal;
@@ -2360,15 +2203,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:1ef86b35-baf2-a435-4c4f-4854ae60bc33> .
-    
-    <urn:uuid:ac5c5b5c-99ec-06d3-be90-469e2d593ec2>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "ac5c5b5c-99ec-06d3-be90-469e2d593ec2";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE94";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:048740f7-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:6a580acd-4b66-43d8-acfc-87e983f4f8f8>
             rdf:type                      cim:Terminal;
@@ -2505,15 +2339,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:1d9d5137-b7c7-d698-06ff-d438e2051e22> .
     
-    <urn:uuid:0aca3b1b-e6ca-999d-6b19-31c8013f2d68>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "0aca3b1b-e6ca-999d-6b19-31c8013f2d68";
-            cim:IdentifiedObject.name  "Bus-451549407";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:6cb78d6a-a61f-5fdc-e0ec-3df0607e6201>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:cacc578d-03e8-671c-9709-88c2ae524ba5> .
@@ -2623,15 +2448,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:fbf99b3e-d874-a1fb-9f60-a153f79aa9df> .
     
-    <urn:uuid:3e5a964a-a320-f926-dd4c-07f9cda64c73>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "3e5a964a-a320-f926-dd4c-07f9cda64c73";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE51";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:044d1e26-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:22780543-0fc1-4d02-9bd8-6ed35c61785a>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:fb7276f6-c661-2527-0555-faeea7de087d> .
@@ -2669,15 +2485,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:7d9018a2-bc9e-def2-7f56-91fed41d959f> .
-    
-    <urn:uuid:0df16517-1256-9235-3de4-a56dd26c62f7>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "0df16517-1256-9235-3de4-a56dd26c62f7";
-            cim:IdentifiedObject.name  "Bus-187501123";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:61e0e727-164e-426a-ad7f-51b79a64082f>
             rdf:type                      cim:Terminal;
@@ -2821,15 +2628,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:9b7a55fe-7b8a-e87c-8dae-d0951dca5689> .
     
-    <urn:uuid:ae9bbe65-76c5-0fd2-15e5-462c790b5923>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "ae9bbe65-76c5-0fd2-15e5-462c790b5923";
-            cim:IdentifiedObject.name  "Bus-1593219673";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:4d6f9125-1748-4ffe-af3f-59086ec59512>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:e4f607b8-f623-3a3a-32ee-c3822a2f1b5f> .
@@ -2897,15 +2695,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:6c122db5-c643-46d5-ae74-9c8b58cea3d2>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:eb9a4253-bf6f-87d0-3c7b-acadc4f0bab6> .
-    
-    <urn:uuid:02c66501-e71e-ce51-6c56-65338571b6a0>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "02c66501-e71e-ce51-6c56-65338571b6a0";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE231";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:046ed6f7-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:04865695-c766-11e1-8775-005056c00008>
             rdf:type                      cim:Terminal;
@@ -3847,15 +3636,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:e5caa7b2-870a-8a2c-0bd6-1267bd1959e4> .
     
-    <urn:uuid:61f81e2d-5837-28e6-b150-1e898a76957f>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "61f81e2d-5837-28e6-b150-1e898a76957f";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE577";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04808a33-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:d971b8fc-45ea-4573-9461-078747ae3ff5>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -4060,15 +3840,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:ae8c6a08-24e1-c4d4-28b9-639ae36fe867> .
     
-    <urn:uuid:4b6d51a1-755c-7c5f-e512-01935305993b>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "4b6d51a1-755c-7c5f-e512-01935305993b";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE1028";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0460f448-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:08322950-2f8e-4bf2-b01f-9261a482e96a>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:7323e078-d24c-ea7f-837c-0bc333c03029> .
@@ -4116,15 +3887,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:dad4d094-3391-a069-8dee-6af1cf2f55af> .
-    
-    <urn:uuid:fbf99b3e-d874-a1fb-9f60-a153f79aa9df>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "fbf99b3e-d874-a1fb-9f60-a153f79aa9df";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE330";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:045d98e1-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:ad3a38eb-d34d-4bdf-8cf8-84b77df7af19>
             rdf:type                      cim:Terminal;
@@ -4928,15 +4690,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:3ba420dc-ca2f-dc47-3b80-171510079a69> .
     
-    <urn:uuid:7f142a30-1a9b-55cc-a134-075790ba3840>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "7f142a30-1a9b-55cc-a134-075790ba3840";
-            cim:IdentifiedObject.name  "BP_SD-EH1";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:63893f24-5b4e-407c-9a1e-4ff71121f33c>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:c3f46fe5-0cd1-4a1c-b722-e967b9ab21e2> .
-    
     <urn:uuid:908f10d9-fff1-4a19-84ed-25a2b4340366>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:ae8c6a08-24e1-c4d4-28b9-639ae36fe867> .
@@ -5089,15 +4842,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:5c759def-05f9-0437-3f37-bb7240026de6> .
     
-    <urn:uuid:0ecc9e58-66ce-00cd-f9c1-90b8d01b90d3>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "0ecc9e58-66ce-00cd-f9c1-90b8d01b90d3";
-            cim:IdentifiedObject.name  "Bus-1678975551";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:94a7cd99-da67-46a3-b667-09e996822266>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -5124,15 +4868,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:6a55f162-3daa-4e92-985c-77df8ba499ba>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:6d12b7b0-7cb3-80fa-8e29-2794e62c01de> .
-    
-    <urn:uuid:2180de78-78d1-3734-21d0-5f2078fdd0d8>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "2180de78-78d1-3734-21d0-5f2078fdd0d8";
-            cim:IdentifiedObject.name  "Bus-380387728";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:5fa368ec-1950-4532-b4c7-7b58a02267e0>
             rdf:type                      cim:Terminal;
@@ -5200,24 +4935,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:af8e58c9-b736-01de-ad9a-6a75ec25ba65> .
-    
-    <urn:uuid:372a0dcd-2906-08ca-9ce2-0f0c25d3984a>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "372a0dcd-2906-08ca-9ce2-0f0c25d3984a";
-            cim:IdentifiedObject.name  "Bus-1354613314";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
-    <urn:uuid:8f81f0f4-c5af-e1ba-e4b9-d890a1d58579>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "8f81f0f4-c5af-e1ba-e4b9-d890a1d58579";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE859";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04544a15-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:f88bff3f-f8ee-4904-85f9-93f98bba00fb>
             rdf:type                      cim:Terminal;
@@ -5312,10 +5029,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:33ce9676-a61f-bb48-134b-2c8783c721a1> .
     
-    <urn:uuid:ee433f38-c62f-4cb1-c431-fcdffe4e0983>
-            rdf:type                      cim:Terminal;
-            cim:Terminal.TopologicalNode  <urn:uuid:5ee2f76f-d4f0-d789-2752-ee25f5c2a45f> .
-    
     <urn:uuid:5810d882-9e34-4c49-b8b4-bffa567265e1>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:cacc578d-03e8-671c-9709-88c2ae524ba5> .
@@ -5361,15 +5074,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:1c5efa3e-fbce-31a7-aef1-8fabff676146> .
     
-    <urn:uuid:cc139874-0898-dd1b-d0cc-c4d44e4bcaba>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "cc139874-0898-dd1b-d0cc-c4d44e4bcaba";
-            cim:IdentifiedObject.name  "Bus-430283358";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:59c43966-55ad-40b7-b5a5-3cb61e05f905>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:97e0e93e-a166-489a-77ec-e4a7fcc5e2fb> .
@@ -5411,15 +5115,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:41dccb15-cfa2-deed-b4a6-3e0cadbd65b9> .
-    
-    <urn:uuid:7db9357e-b675-b422-7e47-f8fd3314e91e>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "7db9357e-b675-b422-7e47-f8fd3314e91e";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE166";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0483977a-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:3538d609-cb1e-40c1-82d1-5d1a50d64d13>
             rdf:type  cim:ConnectivityNode;
@@ -5486,27 +5181,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:80d36dba-7ee5-5e29-d693-40fb26b3b9e4> .
     
-    <urn:uuid:077adbe7-a282-2c2f-ff68-2a574f57cd3b>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "077adbe7-a282-2c2f-ff68-2a574f57cd3b";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE334";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:047dcb11-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:8b2d8dc3-81d2-4b43-ba9e-d79e9668ca19>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:e00a825a-9ccc-019e-1739-694ac50f30bd> .
-    
-    <urn:uuid:b6b70d54-bace-e014-48e4-0b86ba639508>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "b6b70d54-bace-e014-48e4-0b86ba639508";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE28";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:048433b5-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:7fb5567e-5981-4bee-9af6-49f0941602ee>
             rdf:type                      cim:Terminal;
@@ -5542,15 +5219,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:7b3fe9e3-eaea-43b5-a08b-8151ef1918a9>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:019e0f03-6fc7-6174-2f7e-6774d7524ddb> .
-    
-    <urn:uuid:a07aeb9a-f685-da01-3dde-d6a118966756>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "a07aeb9a-f685-da01-3dde-d6a118966756";
-            cim:IdentifiedObject.name  "Bus-806847058";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:8aaa3f52-70a1-469e-ba76-610a925866e3>
             rdf:type                      cim:Terminal;
@@ -5612,15 +5280,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:77844e8a-c4da-9ea1-eee9-6a36751014d1> .
     
-    <urn:uuid:5947342c-943b-b068-d2d7-4ff4516e42c0>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "5947342c-943b-b068-d2d7-4ff4516e42c0";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE105";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:045a1672-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:3be9367d-294a-496e-8b04-dae05ed5cf7d>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -5638,15 +5297,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:04060462-d084-484b-bc57-6a9ae0baadac>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:f1260c6c-be5c-cdab-437d-8babb56681b4> .
-    
-    <urn:uuid:05cea974-779f-a9a8-7811-3d32f19a6f5e>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "05cea974-779f-a9a8-7811-3d32f19a6f5e";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE421";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0448d867-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:376d6671-3614-4dfe-9e25-260dd0960adf>
             rdf:type                      cim:Terminal;
@@ -5711,15 +5361,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:ac5c5b5c-99ec-06d3-be90-469e2d593ec2> .
     
-    <urn:uuid:9b4b3748-5faa-4558-585d-4af40d05cb1f>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "9b4b3748-5faa-4558-585d-4af40d05cb1f";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE183";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:044be5a3-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:89056ff8-89a6-4461-883d-531030d18dec>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:3ba420dc-ca2f-dc47-3b80-171510079a69> .
@@ -5762,15 +5403,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:a4a1e3fe-7e4f-5c8b-f940-2cb373161f2d> .
     
-    <urn:uuid:33ce9676-a61f-bb48-134b-2c8783c721a1>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "33ce9676-a61f-bb48-134b-2c8783c721a1";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE477";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0479d371-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:46212a72-a073-4d5a-94ff-fee124220ec9>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:e7e9ff14-1654-1dcd-e76a-ed0de1272ef9> .
@@ -5797,15 +5429,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:e6d26ae1-11d2-8a32-1ff6-28f6cf4291d2> .
-    
-    <urn:uuid:0c309ee9-5a7c-822e-f754-cefdacfae30c>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "0c309ee9-5a7c-822e-f754-cefdacfae30c";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE585";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04773b6a-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:5b698cf7-840d-422f-ba6e-609d8a0a051f>
             rdf:type  cim:ConnectivityNode;
@@ -6144,15 +5767,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:b66f6ef1-77f8-6d6c-192a-13784b77d5ed> .
     
-    <urn:uuid:151c99fb-5a78-dc2e-a7c0-34a6eaa6bdec>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "151c99fb-5a78-dc2e-a7c0-34a6eaa6bdec";
-            cim:IdentifiedObject.name  "Bus-1456734938";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:4df94486-ddf9-494d-ad96-d331337b436d>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -6200,15 +5814,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:048c22f6-c766-11e1-8775-005056c00008>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:6e9b6e5a-f7f5-85a5-1209-0946b138199f> .
-    
-    <urn:uuid:bb028dff-21f0-d392-9eab-7e1518fcb00f>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "bb028dff-21f0-d392-9eab-7e1518fcb00f";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE235";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:047e675c-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:0bdbbe73-07fe-4f24-8245-638567541263>
             rdf:type                      cim:Terminal;
@@ -6433,15 +6038,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:2f2dfe8e-8d3a-8bf3-848e-50bbcb9cbadd> .
     
-    <urn:uuid:18096938-0e2c-dcbd-de87-2154c570df8d>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "18096938-0e2c-dcbd-de87-2154c570df8d";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE659";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0463da78-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:6f885e60-c11c-4824-b6de-31a1e28036fb>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:98779f97-46e1-23e4-766f-47d313a45135> .
@@ -6585,15 +6181,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:ad8ca2de-0586-4345-b831-fca2313c7a45>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:b66f6ef1-77f8-6d6c-192a-13784b77d5ed> .
-    
-    <urn:uuid:dad4d094-3391-a069-8dee-6af1cf2f55af>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "dad4d094-3391-a069-8dee-6af1cf2f55af";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE90";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:047147f4-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:04837069-c766-11e1-8775-005056c00008>
             rdf:type                      cim:Terminal;
@@ -6739,27 +6326,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:c2823d2b-87d1-9972-25c7-f2047e586d4a> .
     
-    <urn:uuid:4c272455-f966-9a2f-f62f-194ac6b2673e>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "4c272455-f966-9a2f-f62f-194ac6b2673e";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE277";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0455a9a2-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:46dfb851-cdb5-45ed-8e37-84ef54f36d94>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:7f51715f-665f-5358-2736-cc9364b49e0a> .
-    
-    <urn:uuid:d270337b-8e2b-f626-48d3-3a40603ac949>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "d270337b-8e2b-f626-48d3-3a40603ac949";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE629";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04767817-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:c324da75-7c81-46f3-8480-4cce928701b3>
             rdf:type  cim:ConnectivityNode;
@@ -6797,15 +6366,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:5e2546e8-8994-2ad2-4963-bb0d6f40b740> .
-    
-    <urn:uuid:5c759def-05f9-0437-3f37-bb7240026de6>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "5c759def-05f9-0437-3f37-bb7240026de6";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE204";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0483be8b-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:02e95730-d9a9-41a3-a067-102ba633af90>
             rdf:type                      cim:Terminal;
@@ -6980,15 +6540,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:885ae276-e8bb-deb6-3113-fb3782c0e439> .
     
-    <urn:uuid:f82169e3-e722-f833-a24d-e5dc3a02bb3c>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "f82169e3-e722-f833-a24d-e5dc3a02bb3c";
-            cim:IdentifiedObject.name  "Bus-356393826";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:4e7249b2-1af6-4bae-a3a4-5952ac0841c0>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -7006,27 +6557,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:fb641a02-0e8e-aaaa-a0c3-a8ef5e450231> .
     
-    <urn:uuid:eb9a4253-bf6f-87d0-3c7b-acadc4f0bab6>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "eb9a4253-bf6f-87d0-3c7b-acadc4f0bab6";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE13";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04479fe2-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:ca711f85-e277-43fe-a164-09470db16ab7>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:abd9b542-b39d-f7b0-164a-e5ae79f5f84d> .
-    
-    <urn:uuid:5c21da6d-0e21-d888-9721-ae74bdee5e3a>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "5c21da6d-0e21-d888-9721-ae74bdee5e3a";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE464";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0448d866-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:4e14cb83-b876-4c29-b9e2-86669cd0299f>
             rdf:type                      cim:Terminal;
@@ -7170,15 +6703,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:0470c882-08a6-91a4-c605-7a861f9e6e49> .
     
-    <urn:uuid:c400a540-af9f-de41-b9ba-6daed150129a>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "c400a540-af9f-de41-b9ba-6daed150129a";
-            cim:IdentifiedObject.name  "Bus-1358950179";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:d5b8b7f4-f20c-411c-bfb4-c88f1a142967>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:14263543-5417-4dab-bbfb-5c6d785099d0> .
@@ -7289,15 +6813,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:b6b70d54-bace-e014-48e4-0b86ba639508> .
     
-    <urn:uuid:0f60eeed-5905-5dcd-8747-a7aa5db0df51>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "0f60eeed-5905-5dcd-8747-a7aa5db0df51";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE55";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0488c79a-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:0ac4d893-ad98-4e92-b83c-fd51994fb4ab>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -7349,15 +6864,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:41dccb15-cfa2-deed-b4a6-3e0cadbd65b9> .
     
-    <urn:uuid:d46da85f-0dec-d116-8c03-4a832a5caf34>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "d46da85f-0dec-d116-8c03-4a832a5caf34";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE9";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:045d4ac5-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:5c5329d7-b7d5-477b-85a0-2c6cd01d89ab>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:4b6d51a1-755c-7c5f-e512-01935305993b> .
@@ -7373,15 +6879,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:30807ff2-8f5e-496a-ad31-3c66afe3a08c>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:17573115-4399-ec3f-c782-e4ffccfecdbe> .
-    
-    <urn:uuid:885ae276-e8bb-deb6-3113-fb3782c0e439>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "885ae276-e8bb-deb6-3113-fb3782c0e439";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE208";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:045e8349-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:8c18af0f-3049-439b-a95c-2ec576dbe8c0>
             rdf:type  cim:ConnectivityNode;
@@ -7549,15 +7046,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:ac5c5b5c-99ec-06d3-be90-469e2d593ec2> .
     
-    <urn:uuid:2a52e763-a5a6-8991-0784-f45404ea7c65>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "2a52e763-a5a6-8991-0784-f45404ea7c65";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE322";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:046c65f4-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:559a9ff5-5aab-4016-9652-0f1c965f310d>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:57ccef8d-5a5b-8a45-f8f8-b7900cd26cbc> .
@@ -7643,15 +7131,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:1cde89e1-2576-d93b-95f1-1249f25c9f9d> .
     
-    <urn:uuid:f9753232-5d20-092f-f95d-1720ce10173c>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "f9753232-5d20-092f-f95d-1720ce10173c";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE63";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0468bc77-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:0fc04886-7a5d-4898-8e3c-c2503c4d2ab1>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -7716,15 +7195,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:a3077f51-ce64-342f-85fd-ce4351ffb1d8> .
     
-    <urn:uuid:f1260c6c-be5c-cdab-437d-8babb56681b4>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "f1260c6c-be5c-cdab-437d-8babb56681b4";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE401";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:046f7338-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:3dd59bcf-7827-4386-a124-544437ac7a03>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:ce86952d-91a1-1094-4c66-d625064b55cf> .
@@ -7749,27 +7219,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:22c7aee2-37b4-f6dd-812e-7ae831bb3109> .
     
-    <urn:uuid:ae8c6a08-24e1-c4d4-28b9-639ae36fe867>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "ae8c6a08-24e1-c4d4-28b9-639ae36fe867";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE655";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04544a18-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:02c957fe-ac46-426f-95f8-a1721fb3f8f3>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:e00a825a-9ccc-019e-1739-694ac50f30bd> .
-    
-    <urn:uuid:351b9646-9e74-9eda-d27a-9bfc82b612fc>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "351b9646-9e74-9eda-d27a-9bfc82b612fc";
-            cim:IdentifiedObject.name  "Bus-1699194132";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:9ea61674-86ee-f7c6-4162-543b62b37099>
             rdf:type                      cim:Terminal;
@@ -7809,15 +7261,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:d3228495-199c-938d-f801-65a718b71541> .
     
-    <urn:uuid:77844e8a-c4da-9ea1-eee9-6a36751014d1>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "77844e8a-c4da-9ea1-eee9-6a36751014d1";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE411";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0476c639-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:b463932f-a030-492d-b1cd-1e271bdb5ab4>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:17573115-4399-ec3f-c782-e4ffccfecdbe> .
@@ -7841,15 +7284,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:074c79fc-137f-4f74-9198-c074efb2e9a3>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:05cea974-779f-a9a8-7811-3d32f19a6f5e> .
-    
-    <urn:uuid:b21afff2-d0d2-fe17-9bf7-95332cd050c2>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "b21afff2-d0d2-fe17-9bf7-95332cd050c2";
-            cim:IdentifiedObject.name  "Bus-1560536772";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:1c03fefe-c526-4f61-a7c1-2cdaa71d49e5>
             rdf:type  cim:ConnectivityNode;
@@ -7971,15 +7405,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:d587d732-2f83-4ab1-874a-6ec1a850acaa>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:18096938-0e2c-dcbd-de87-2154c570df8d> .
-    
-    <urn:uuid:e48894d5-3327-5daf-9abe-6cc6af15a333>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "e48894d5-3327-5daf-9abe-6cc6af15a333";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE124";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04765109-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:a385bc22-17ae-4df6-b377-4365ea803431>
             rdf:type  cim:ConnectivityNode;
@@ -8119,15 +7544,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:e48894d5-3327-5daf-9abe-6cc6af15a333> .
     
-    <urn:uuid:1e05cadb-d21c-38f3-6718-0888435df40b>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "1e05cadb-d21c-38f3-6718-0888435df40b";
-            cim:IdentifiedObject.name  "Bus-749229152";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:4bd8221b-9357-4197-aea1-3d4235f39016>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:e48894d5-3327-5daf-9abe-6cc6af15a333> .
@@ -8258,24 +7674,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:e00a825a-9ccc-019e-1739-694ac50f30bd> .
     
-    <urn:uuid:d3228495-199c-938d-f801-65a718b71541>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "d3228495-199c-938d-f801-65a718b71541";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE351";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0467ab04-c766-11e1-8775-005056c00008> .
-    
-    <urn:uuid:2b6287eb-699e-62e4-ef6f-111f76b31c6d>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "2b6287eb-699e-62e4-ef6f-111f76b31c6d";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE24";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:048c22fa-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:e31b6d3c-3811-46fb-89fe-9950ed928be4>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:2b6287eb-699e-62e4-ef6f-111f76b31c6d> .
@@ -8389,15 +7787,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:4fd3c405-a40f-335e-7dd6-b089c6589aef> .
     
-    <urn:uuid:8c5839d0-ab60-2b9d-aa28-b951f0cec997>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "8c5839d0-ab60-2b9d-aa28-b951f0cec997";
-            cim:IdentifiedObject.name  "Bus-1013464159";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:408fa248-f6af-4785-b93b-629be3ea35ed>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -8478,15 +7867,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:0dd0a21d-1a38-4f4e-b556-a687a480d759>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:b5645179-3c0b-4af9-d624-80da8103eea9> .
-    
-    <urn:uuid:7fe098d2-b3d1-d2aa-efaa-2e45f7369ba1>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "7fe098d2-b3d1-d2aa-efaa-2e45f7369ba1";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE958";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04542300-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:04642894-c766-11e1-8775-005056c00008>
             rdf:type                      cim:Terminal;
@@ -8569,15 +7949,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:1cde89e1-2576-d93b-95f1-1249f25c9f9d> .
     
-    <urn:uuid:fd6ce649-9746-7f07-da98-87bd01e9f194>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "fd6ce649-9746-7f07-da98-87bd01e9f194";
-            cim:IdentifiedObject.name  "Bus-482527154";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:7effccc6-1fd0-437f-97b1-f0b138ddf6c8>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -8604,15 +7975,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:bb028dff-21f0-d392-9eab-7e1518fcb00f> .
-    
-    <urn:uuid:e6d26ae1-11d2-8a32-1ff6-28f6cf4291d2>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "e6d26ae1-11d2-8a32-1ff6-28f6cf4291d2";
-            cim:IdentifiedObject.name  "Bus-1768410431";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:82b58b4a-1b9a-4c1b-8d83-68a9100df1c2>
             rdf:type                      cim:Terminal;
@@ -8667,15 +8029,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:ae8c6a08-24e1-c4d4-28b9-639ae36fe867> .
     
-    <urn:uuid:d2732a7d-3fe7-9579-3ace-126158825844>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "d2732a7d-3fe7-9579-3ace-126158825844";
-            cim:IdentifiedObject.name  "Bus-1401591009";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:0477d7a5-c766-11e1-8775-005056c00008>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:fb7276f6-c661-2527-0555-faeea7de087d> .
@@ -8729,15 +8082,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:2398c855-0121-48c0-999d-06188c97ea59>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:483d205c-30f0-46ef-24ff-34d8c4c1a3ea> .
-    
-    <urn:uuid:e7e9ff14-1654-1dcd-e76a-ed0de1272ef9>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "e7e9ff14-1654-1dcd-e76a-ed0de1272ef9";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE708";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04808a33-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:bfc9e4d5-3a67-48d0-a3de-636b74ad62ab>
             rdf:type                      cim:Terminal;
@@ -8916,15 +8260,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:5529eacb-b131-c340-384a-13e1c4836a88> .
     
-    <urn:uuid:57ccef8d-5a5b-8a45-f8f8-b7900cd26cbc>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "57ccef8d-5a5b-8a45-f8f8-b7900cd26cbc";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE831";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:047b8129-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:0fffdf44-0aeb-4b01-8121-5158387855a5>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -9082,15 +8417,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:fb7276f6-c661-2527-0555-faeea7de087d> .
     
-    <urn:uuid:ee1fc2d6-c588-66a0-82b3-0e29343a43d9>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "ee1fc2d6-c588-66a0-82b3-0e29343a43d9";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE384";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04633e3a-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:0f71ad04-b759-47c0-bbf8-d841f086268d>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -9223,15 +8549,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:97e0e93e-a166-489a-77ec-e4a7fcc5e2fb> .
     
-    <urn:uuid:8cf61c4b-e6b7-5023-3437-527f4fbd92a7>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "8cf61c4b-e6b7-5023-3437-527f4fbd92a7";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE306";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:047b8123-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:dcb2071c-ff7b-401f-99f6-ba80eca8943e>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:11fe43b4-548f-b66b-77b9-70d9ab097643> .
@@ -9321,15 +8638,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:fbb4855b-5792-3c5b-8fcd-17c62d4dadd0> .
     
-    <urn:uuid:923df908-49a0-a9c9-8fba-a5130ad0098d>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "923df908-49a0-a9c9-8fba-a5130ad0098d";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE258";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:048c4a08-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:10df4cb4-e552-4591-8c16-f6f8f1c196f5>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:923df908-49a0-a9c9-8fba-a5130ad0098d> .
@@ -9351,24 +8659,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:e2471f70-85c5-57c6-8a80-8f59fe34ed2a> .
-    
-    <urn:uuid:878454b6-0438-8cfd-304e-1ff1b0b32b0c>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "878454b6-0438-8cfd-304e-1ff1b0b32b0c";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE897";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04588fd5-c766-11e1-8775-005056c00008> .
-    
-    <urn:uuid:639ef47d-cf01-55ad-fe57-bc2a670bc576>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "639ef47d-cf01-55ad-fe57-bc2a670bc576";
-            cim:IdentifiedObject.name  "Bus-1635587689";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:0472f5a9-c766-11e1-8775-005056c00008>
             rdf:type                      cim:Terminal;
@@ -9456,15 +8746,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:22c7aee2-37b4-f6dd-812e-7ae831bb3109> .
     
-    <urn:uuid:532fe836-789f-c618-2e30-6f941e06f57f>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "532fe836-789f-c618-2e30-6f941e06f57f";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE158";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04481510-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:c2640bb4-e032-444e-a452-c52f60adc575>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:9b4b3748-5faa-4558-585d-4af40d05cb1f> .
@@ -9547,15 +8828,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:41dccb15-cfa2-deed-b4a6-3e0cadbd65b9> .
     
-    <urn:uuid:9e1e2b16-9086-92b7-1f34-74d1693f09f2>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "9e1e2b16-9086-92b7-1f34-74d1693f09f2";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE36";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04689563-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:eea230d9-378a-4c4f-ac05-00a087faf344>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:e48894d5-3327-5daf-9abe-6cc6af15a333> .
@@ -9628,15 +8900,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:18096938-0e2c-dcbd-de87-2154c570df8d> .
-    
-    <urn:uuid:eccd8b08-638d-e83e-6fb7-f4208029c424>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "eccd8b08-638d-e83e-6fb7-f4208029c424";
-            cim:IdentifiedObject.name  "Bus-287432965";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:0efd341e-9831-4c18-9ef0-2c6327119081>
             rdf:type                      cim:Terminal;
@@ -9805,15 +9068,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:eaf891d2-4fbf-4bb8-9867-ecca07ffdb83>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:1c5efa3e-fbce-31a7-aef1-8fabff676146> .
-    
-    <urn:uuid:517e8b94-29e1-864a-d9d7-4ac1d7d26997>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "517e8b94-29e1-864a-d9d7-4ac1d7d26997";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE220";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0465611a-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:52f8a6fb-df1c-4966-b033-ce981d1bda7e>
             rdf:type                      cim:Terminal;
@@ -10037,15 +9291,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:880e16ec-ee04-e1f3-9027-dcb5c897dbde> .
     
-    <urn:uuid:103c0b87-4b30-59da-ab69-cd1d3b487553>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "103c0b87-4b30-59da-ab69-cd1d3b487553";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE1011";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04817490-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:0e836368-4f4a-4664-82f3-5bb2e8c7dca0>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:3e5a964a-a320-f926-dd4c-07f9cda64c73> .
@@ -10229,15 +9474,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:cc139874-0898-dd1b-d0cc-c4d44e4bcaba> .
     
-    <urn:uuid:e00a825a-9ccc-019e-1739-694ac50f30bd>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "e00a825a-9ccc-019e-1739-694ac50f30bd";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE32";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:047bcf46-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:a110514f-4695-4a2b-8fb8-f226cd45bd14>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:17573115-4399-ec3f-c782-e4ffccfecdbe> .
@@ -10322,15 +9558,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:3e5a964a-a320-f926-dd4c-07f9cda64c73> .
-    
-    <urn:uuid:af8e58c9-b736-01de-ad9a-6a75ec25ba65>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "af8e58c9-b736-01de-ad9a-6a75ec25ba65";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE43";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04662460-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:5bfab43a-81df-4d47-9602-239b239f6ea6>
             rdf:type                      cim:Terminal;
@@ -10426,15 +9653,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:ac5c5b5c-99ec-06d3-be90-469e2d593ec2> .
-    
-    <urn:uuid:1d9d5137-b7c7-d698-06ff-d438e2051e22>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "1d9d5137-b7c7-d698-06ff-d438e2051e22";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE732";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:045d23b4-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:2588cefe-2e6b-46da-b6fd-7da0e03ecc81>
             rdf:type                      cim:Terminal;
@@ -10548,15 +9766,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:cbb1e546-1ac2-4bdc-9ec4-7b72b9f51e68>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:dbf3bfff-5c26-d547-664b-f6c419bb2d08> .
-    
-    <urn:uuid:6d12b7b0-7cb3-80fa-8e29-2794e62c01de>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "6d12b7b0-7cb3-80fa-8e29-2794e62c01de";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE292";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04878f10-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:71a4523c-1422-476b-9748-261550520ba1>
             rdf:type                      cim:Terminal;
@@ -10709,15 +9918,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:cacc578d-03e8-671c-9709-88c2ae524ba5> .
     
-    <urn:uuid:04bdda68-f0f3-c622-d36d-01b5c50e11b9>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "04bdda68-f0f3-c622-d36d-01b5c50e11b9";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE262";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:048719e8-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:bfd53eb1-6113-4f70-8317-4b4703ac2177>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -10834,15 +10034,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:0c309ee9-5a7c-822e-f754-cefdacfae30c> .
-    
-    <urn:uuid:8c1f8028-e26e-a2f5-a0da-5eb7d477c37c>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "8c1f8028-e26e-a2f5-a0da-5eb7d477c37c";
-            cim:IdentifiedObject.name  "Bus-335673470";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:be6130cb-6e98-4380-8074-f02c21d566fb>
             rdf:type  cim:ConnectivityNode;
@@ -11043,15 +10234,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:5c759def-05f9-0437-3f37-bb7240026de6> .
     
-    <urn:uuid:900f12ae-9e10-e261-5f4c-60729c42a83e>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "900f12ae-9e10-e261-5f4c-60729c42a83e";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE239";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0489b1f8-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:044a5f07-c766-11e1-8775-005056c00008>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:b3eae9b0-94d6-149f-a63d-879d4326514c> .
@@ -11191,15 +10373,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:f1260c6c-be5c-cdab-437d-8babb56681b4> .
     
-    <urn:uuid:5e2546e8-8994-2ad2-4963-bb0d6f40b740>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "5e2546e8-8994-2ad2-4963-bb0d6f40b740";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE460";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04784cd1-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:c927aac5-01f0-4cf0-ac5e-3227e30a2bc9>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -11255,15 +10428,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:ff91bf99-5e45-41ae-a140-7dc9c2a32653>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:18096938-0e2c-dcbd-de87-2154c570df8d> .
-    
-    <urn:uuid:f718a804-0f44-d0d4-a843-96a3fa104148>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "f718a804-0f44-d0d4-a843-96a3fa104148";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE692";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0484f70a-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:451801b0-5c88-4573-b6bc-eb025bbf1811>
             rdf:type                      cim:Terminal;
@@ -11639,15 +10803,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:e4f607b8-f623-3a3a-32ee-c3822a2f1b5f> .
     
-    <urn:uuid:7d9018a2-bc9e-def2-7f56-91fed41d959f>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "7d9018a2-bc9e-def2-7f56-91fed41d959f";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE75";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:045ed163-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:b4d46bfb-02d4-41c6-bc1a-06df8c327a80>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:e48894d5-3327-5daf-9abe-6cc6af15a333> .
@@ -11703,28 +10858,10 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:ce86952d-91a1-1094-4c66-d625064b55cf> .
     
-    <urn:uuid:22c7aee2-37b4-f6dd-812e-7ae831bb3109>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "22c7aee2-37b4-f6dd-812e-7ae831bb3109";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE273";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0450eeb4-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:43587d59-1b50-44a5-a13a-88f88b75416a>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:eb9a4253-bf6f-87d0-3c7b-acadc4f0bab6> .
-    
-    <urn:uuid:134c938d-acea-0b7a-3a38-61e2b7563a9a>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "134c938d-acea-0b7a-3a38-61e2b7563a9a";
-            cim:IdentifiedObject.name  "Bus-914710842";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:695a4540-a8a9-444d-905f-7fad0d3f79db>
             rdf:type  cim:ConnectivityNode;
@@ -11948,15 +11085,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:fb1db3ed-d2d9-2903-5ceb-9fd1a42db645> .
     
-    <urn:uuid:bbd89c15-ed1e-cc2d-74c9-8e033fb758b3>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "bbd89c15-ed1e-cc2d-74c9-8e033fb758b3";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE216";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04876804-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:b6c9f751-31e0-4d7a-976a-4744fe2cc871>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -12037,15 +11165,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:bb028dff-21f0-d392-9eab-7e1518fcb00f> .
-    
-    <urn:uuid:01e32a95-b0a7-7c8a-f05b-cd566241a5b6>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "01e32a95-b0a7-7c8a-f05b-cd566241a5b6";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE109";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:046bf0c5-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:835e895a-3850-479a-bd70-50879023f0a5>
             rdf:type                      cim:Terminal;
@@ -12219,15 +11338,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:66d540c1-240d-4357-87c0-714c72a3c3e9>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:4b6d51a1-755c-7c5f-e512-01935305993b> .
-    
-    <urn:uuid:1163cc91-8b6d-f7f5-c153-9a55e37fd193>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "1163cc91-8b6d-f7f5-c153-9a55e37fd193";
-            cim:IdentifiedObject.name  "Bus-2078651277";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:22b9a5af-147c-457b-8baa-c5368d0b405b>
             rdf:type                      cim:Terminal;
@@ -12514,15 +11624,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:17573115-4399-ec3f-c782-e4ffccfecdbe> .
     
-    <urn:uuid:575b49ed-a230-f85b-9b18-83facbeea804>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "575b49ed-a230-f85b-9b18-83facbeea804";
-            cim:IdentifiedObject.name  "Bus-42322623";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:69365def-f9d6-452f-96a9-2b55eb9ecd89>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:dad4d094-3391-a069-8dee-6af1cf2f55af> .
@@ -12569,15 +11670,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:9760c844-f61f-46c5-87d5-eea7bfd6b3d5>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:61f81e2d-5837-28e6-b150-1e898a76957f> .
-    
-    <urn:uuid:7a64846f-4a62-784a-d89f-7500b66bcfc7>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "7a64846f-4a62-784a-d89f-7500b66bcfc7";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE187";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04605807-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:bcc0e5c7-6232-4a85-bbd9-6d0342c1f2ee>
             rdf:type  cim:ConnectivityNode;
@@ -12694,15 +11786,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:923df908-49a0-a9c9-8fba-a5130ad0098d> .
     
-    <urn:uuid:83c1f9ae-0481-ee51-15bf-6e9f9875c726>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "83c1f9ae-0481-ee51-15bf-6e9f9875c726";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE581";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:044f8f29-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:5e86d4af-07d0-424d-a892-01cceb84cee5>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:22c7aee2-37b4-f6dd-812e-7ae831bb3109> .
@@ -12720,15 +11803,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:5947342c-943b-b068-d2d7-4ff4516e42c0> .
-    
-    <urn:uuid:5e458210-58cd-329b-3819-0c888802dd07>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "5e458210-58cd-329b-3819-0c888802dd07";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE144";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:047eb571-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:0544145a-8e4c-4d12-882f-f8f6f31d385e>
             rdf:type                      cim:Terminal;
@@ -12892,15 +11966,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:6e9b6e5a-f7f5-85a5-1209-0946b138199f> .
     
-    <urn:uuid:c168ca5c-5fe0-4a2a-a449-537a362db01e>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "c168ca5c-5fe0-4a2a-a449-537a362db01e";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE79";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:048a7544-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:354d33d1-3a6c-40c8-8bff-f4a8285f9dfe>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:532fe836-789f-c618-2e30-6f941e06f57f> .
@@ -12912,15 +11977,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:c64e9292-dcbf-49be-93e2-4802c92acfc3>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:5947342c-943b-b068-d2d7-4ff4516e42c0> .
-    
-    <urn:uuid:97bee6e2-0e48-630f-346c-4df130f6aa29>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "97bee6e2-0e48-630f-346c-4df130f6aa29";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE269";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04644fa4-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:7597d97a-54a7-45eb-b685-7a9a5bf150df>
             rdf:type  cim:ConnectivityNode;
@@ -12982,15 +12038,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:22c7aee2-37b4-f6dd-812e-7ae831bb3109> .
     
-    <urn:uuid:d85071bc-0cb0-9f4d-e97d-0483aef34745>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "d85071bc-0cb0-9f4d-e97d-0483aef34745";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE318";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04728074-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:8203dbdc-a36d-4d49-add9-e530382bcbb0>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:6d12b7b0-7cb3-80fa-8e29-2794e62c01de> .
@@ -13020,15 +12067,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:d270337b-8e2b-f626-48d3-3a40603ac949> .
-    
-    <urn:uuid:b5645179-3c0b-4af9-d624-80da8103eea9>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "b5645179-3c0b-4af9-d624-80da8103eea9";
-            cim:IdentifiedObject.name  "Bus-886597915";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:aa8f6f1b-5097-42cf-af53-24124e8e5165>
             rdf:type                      cim:Terminal;
@@ -13080,15 +12118,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:3994fcda-fd8a-ce8b-38c1-c4742616790e> .
     
-    <urn:uuid:3ba420dc-ca2f-dc47-3b80-171510079a69>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "3ba420dc-ca2f-dc47-3b80-171510079a69";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE326";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:046b7b99-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:f9b3ac80-67a8-47b2-8696-79e06d1d7d0c>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -13128,15 +12157,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:44a346c5-3d59-4ebc-8f5a-a946bd833068>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:e4f607b8-f623-3a3a-32ee-c3822a2f1b5f> .
-    
-    <urn:uuid:19ecb673-9d0a-1a0a-f4f2-b1767e260127>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "19ecb673-9d0a-1a0a-f4f2-b1767e260127";
-            cim:IdentifiedObject.name  "BP_SD-EH3";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:78525c97-a5b6-4cbb-8028-1236ca2f4a37> .
     
     <urn:uuid:02acb863-3e83-4258-b2f5-8fec88636a2b>
             rdf:type                      cim:Terminal;
@@ -13255,15 +12275,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:8ff1127c-e021-4363-a181-a1f5a4a033b4>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:83c1f9ae-0481-ee51-15bf-6e9f9875c726> .
-    
-    <urn:uuid:d77de40e-7f33-da6c-358a-9413dbc9f38f>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "d77de40e-7f33-da6c-358a-9413dbc9f38f";
-            cim:IdentifiedObject.name  "Bus-1266364153";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:32b03a29-f4b9-4458-8c99-8a14939c88ce>
             rdf:type                      cim:Terminal;
@@ -13463,15 +12474,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:5947342c-943b-b068-d2d7-4ff4516e42c0> .
     
-    <urn:uuid:1c5efa3e-fbce-31a7-aef1-8fabff676146>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "1c5efa3e-fbce-31a7-aef1-8fabff676146";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE527";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:044f8f2a-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:c5fa9684-0e37-4cb8-9423-6cdb233e72a8>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:ce86952d-91a1-1094-4c66-d625064b55cf> .
@@ -13537,15 +12539,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:6235c32c-1b49-436c-9e73-767cdcf50f47>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:cc65f800-665a-af11-0d16-25253a5f5b3d> .
-    
-    <urn:uuid:1cde89e1-2576-d93b-95f1-1249f25c9f9d>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "1cde89e1-2576-d93b-95f1-1249f25c9f9d";
-            cim:IdentifiedObject.name  "Bus-107262704";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:e5d6be66-2d73-470a-9e79-6b31ca2b90fb>
             rdf:type  cim:ConnectivityNode;
@@ -13693,15 +12686,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:22c7aee2-37b4-f6dd-812e-7ae831bb3109> .
     
-    <urn:uuid:c443acc1-fa2f-08e6-eca8-ecabf69d5459>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "c443acc1-fa2f-08e6-eca8-ecabf69d5459";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE128";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04479fe8-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:daf56f1b-8281-4633-9e61-8638b574dda5>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -13736,15 +12720,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:7e346805-95f0-4538-bdb4-cb72b4d2b710>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:c168ca5c-5fe0-4a2a-a449-537a362db01e> .
-    
-    <urn:uuid:3a080a3c-ce24-9a8a-f11a-aefe0626070d>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "3a080a3c-ce24-9a8a-f11a-aefe0626070d";
-            cim:IdentifiedObject.name  "Bus-1314028064";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:c6c754af-37de-f5b9-6d34-75d17817b003>
             rdf:type                      cim:Terminal;
@@ -13811,15 +12786,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:eeee405e-59a3-4be4-9bd1-f9b6ec3f8262>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:5c21da6d-0e21-d888-9721-ae74bdee5e3a> .
-    
-    <urn:uuid:97e0e93e-a166-489a-77ec-e4a7fcc5e2fb>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "97e0e93e-a166-489a-77ec-e4a7fcc5e2fb";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE755";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0470f9d2-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:227a0f90-2d37-4762-afbf-8a9e8f44a86c>
             rdf:type                      cim:Terminal;
@@ -14050,15 +13016,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:1b1547d4-455b-3815-6f3a-cdf47c2efcc3> .
     
-    <urn:uuid:8221574e-bac9-efac-bf39-559c292b00fa>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "8221574e-bac9-efac-bf39-559c292b00fa";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE371";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04851e1b-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:7e9f7d8b-e772-43fe-9c59-daa81cc3cfbf>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:33ce9676-a61f-bb48-134b-2c8783c721a1> .
@@ -14274,15 +13231,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:af175be1-2fb8-ec49-c96e-2d080244a4b0> .
     
-    <urn:uuid:7323e078-d24c-ea7f-837c-0bc333c03029>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "7323e078-d24c-ea7f-837c-0bc333c03029";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE20";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04791027-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:6d0775ec-d827-4f9c-9eb6-d36c47d6110a>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:14263543-5417-4dab-bbfb-5c6d785099d0> .
@@ -14326,15 +13274,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:19b2951a-b2ae-4ce4-8275-f8e9d60f4e3f>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:0fa80ab7-6df9-5c9c-7cf1-7b1aaaa23d3b> .
-    
-    <urn:uuid:019e0f03-6fc7-6174-2f7e-6774d7524ddb>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "019e0f03-6fc7-6174-2f7e-6774d7524ddb";
-            cim:IdentifiedObject.name  "Bus-675230371";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:784054d7-565a-4916-9f2f-720f7cb029a3>
             rdf:type                      cim:Terminal;
@@ -14754,15 +13693,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:2b6287eb-699e-62e4-ef6f-111f76b31c6d> .
     
-    <urn:uuid:473c34ac-2af8-9abf-0141-3f7046bd8d86>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "473c34ac-2af8-9abf-0141-3f7046bd8d86";
-            cim:IdentifiedObject.name  "Bus-2049137522";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:8c28312d-8c75-4581-a809-fede3a679b54>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:18096938-0e2c-dcbd-de87-2154c570df8d> .
@@ -15145,27 +14075,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:fbb4855b-5792-3c5b-8fcd-17c62d4dadd0> .
     
-    <urn:uuid:1b1547d4-455b-3815-6f3a-cdf47c2efcc3>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "1b1547d4-455b-3815-6f3a-cdf47c2efcc3";
-            cim:IdentifiedObject.name  "Bus-1131909578";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:63ef8666-af8a-43a3-b2d9-3c2474c3ca1a>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:4c272455-f966-9a2f-f62f-194ac6b2673e> .
-    
-    <urn:uuid:ceebaeee-f679-bd19-8439-65bed3c0d531>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "ceebaeee-f679-bd19-8439-65bed3c0d531";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE250";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04740714-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:91faad0d-d4b9-49ce-b203-84bbcdbe94fa>
             rdf:type                      cim:Terminal;
@@ -15174,15 +14086,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:cea0d1b2-8374-4836-a13c-2a7cadf76104>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:900f12ae-9e10-e261-5f4c-60729c42a83e> .
-    
-    <urn:uuid:1ef86b35-baf2-a435-4c4f-4854ae60bc33>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "1ef86b35-baf2-a435-4c4f-4854ae60bc33";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE450";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04728079-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:271fd05f-2cfb-4ba4-b2de-e796b51e028c>
             rdf:type                      cim:Terminal;
@@ -15293,15 +14196,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:2171c62b-aff8-5f29-3890-de94e628cb95> .
     
-    <urn:uuid:2171c62b-aff8-5f29-3890-de94e628cb95>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "2171c62b-aff8-5f29-3890-de94e628cb95";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE817";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04555b83-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:935994b8-33d8-440c-b4b6-b0636e462c06>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -15311,15 +14205,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:1ef86b35-baf2-a435-4c4f-4854ae60bc33> .
-    
-    <urn:uuid:bd751818-932d-f9d4-2d4d-af08405c651c>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "bd751818-932d-f9d4-2d4d-af08405c651c";
-            cim:IdentifiedObject.name  "Bus-356392442";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:ae9ed559-bead-4e93-acc0-84b804e160dd>
             rdf:type  cim:ConnectivityNode;
@@ -15582,15 +14467,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:e5caa7b2-870a-8a2c-0bd6-1267bd1959e4> .
     
-    <urn:uuid:a3077f51-ce64-342f-85fd-ce4351ffb1d8>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "a3077f51-ce64-342f-85fd-ce4351ffb1d8";
-            cim:IdentifiedObject.name  "EH_border3";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:28d0a44c-6c05-3d69-41e6-5e72dcdee073> .
-    
     <urn:uuid:ef70ee92-7e40-43d2-a6b0-977f501718b1>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:18096938-0e2c-dcbd-de87-2154c570df8d> .
@@ -15665,15 +14541,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:4943c67d-927c-41f8-97a0-c0998174deef>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:05cea974-779f-a9a8-7811-3d32f19a6f5e> .
-    
-    <urn:uuid:8f21f2cf-9cb2-1ba6-347e-b9e4f368369d>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "8f21f2cf-9cb2-1ba6-347e-b9e4f368369d";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE679";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0485e169-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:ea253942-7957-433b-b2ee-f0517212b758>
             rdf:type  cim:ConnectivityNode;
@@ -15773,15 +14640,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:98779f97-46e1-23e4-766f-47d313a45135> .
     
-    <urn:uuid:a512c934-81eb-a4a4-905b-ce41e38325c2>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "a512c934-81eb-a4a4-905b-ce41e38325c2";
-            cim:IdentifiedObject.name  "TerminalES41";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:e0c90f4a-75fa-a6ca-a243-773e9562095b> .
-    
     <urn:uuid:fc65a861-8d66-4c8e-b289-3ef9bbae6575>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -15864,15 +14722,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:dc01f6f9-995a-2607-a7c2-9ed8632b661e> .
     
-    <urn:uuid:99f8d492-798e-bede-43cb-44971cecd382>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "99f8d492-798e-bede-43cb-44971cecd382";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE748";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:044f4102-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:8a767b19-92e6-4826-838f-4122e16cd8c1>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:f6d791b0-051a-3d6b-8abd-3b9f5225d82c> .
@@ -15949,15 +14798,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:bcc75b77-70f8-496f-a059-f97802b50dab>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:dbf3bfff-5c26-d547-664b-f6c419bb2d08> .
-    
-    <urn:uuid:0fa80ab7-6df9-5c9c-7cf1-7b1aaaa23d3b>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "0fa80ab7-6df9-5c9c-7cf1-7b1aaaa23d3b";
-            cim:IdentifiedObject.name  "Bus-356391067";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:96dc6abf-1d65-4cf0-a1dd-fd30993ba7cd>
             rdf:type                      cim:Terminal;
@@ -16055,11 +14895,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:7fe098d2-b3d1-d2aa-efaa-2e45f7369ba1> .
     
-    <urn:uuid:221d599c-4098-47fd-859d-c8be218abcb4>
-            rdf:type  cim:ConnectivityNode;
-            cim:ConnectivityNode.TopologicalNode
-                    <urn:uuid:5ee2f76f-d4f0-d789-2752-ee25f5c2a45f> .
-    
     <urn:uuid:49240cbb-22a5-4c79-b83b-d5695d92a111>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:8cf61c4b-e6b7-5023-3437-527f4fbd92a7> .
@@ -16108,15 +14943,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:850d4fa1-905f-4d88-8145-f0843b239ef9>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:e00a825a-9ccc-019e-1739-694ac50f30bd> .
-    
-    <urn:uuid:fa9228e9-1445-2bde-e2cc-0c8674b626a7>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "fa9228e9-1445-2bde-e2cc-0c8674b626a7";
-            cim:IdentifiedObject.name  "Bus-32754615";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:c5ca5c47-0f00-4487-8aa0-133ae36ed642>
             rdf:type  cim:ConnectivityNode;
@@ -16178,15 +15004,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:44cd12c6-c361-184a-b0c8-c6141b2ac8d5> .
     
-    <urn:uuid:fb7276f6-c661-2527-0555-faeea7de087d>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "fb7276f6-c661-2527-0555-faeea7de087d";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE1";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04636548-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:be1ead3a-ca3c-4b9e-845c-34186859e4e1>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:7db9357e-b675-b422-7e47-f8fd3314e91e> .
@@ -16233,15 +15050,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:dbf3bfff-5c26-d547-664b-f6c419bb2d08> .
     
-    <urn:uuid:d1907036-c639-232c-231b-e2701d7a7141>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "d1907036-c639-232c-231b-e2701d7a7141";
-            cim:IdentifiedObject.name  "EH_SD_400kV";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:642b722c-b3d8-92a2-051f-7ecc8bd3344b> .
-    
     <urn:uuid:d590a2c5-ec2b-4514-bbfa-7b0fa1df0190>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -16285,15 +15093,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:c443acc1-fa2f-08e6-eca8-ecabf69d5459> .
-    
-    <urn:uuid:fbb4855b-5792-3c5b-8fcd-17c62d4dadd0>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "fbb4855b-5792-3c5b-8fcd-17c62d4dadd0";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE132";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04703689-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:28e54728-3d0d-4ff3-88dc-7057f2887f3d>
             rdf:type                      cim:Terminal;
@@ -16675,15 +15474,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:cacc578d-03e8-671c-9709-88c2ae524ba5> .
     
-    <urn:uuid:45365612-23d6-10fe-aa3e-1d29defb9d18>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "45365612-23d6-10fe-aa3e-1d29defb9d18";
-            cim:IdentifiedObject.name  "Bus-516795565";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:04784cdb-c766-11e1-8775-005056c00008>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:ac5c5b5c-99ec-06d3-be90-469e2d593ec2> .
@@ -16745,15 +15535,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:1012ec8f-cb1f-40b2-9e4e-e069d35cbee2>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:bd398087-279e-0ab3-2ddb-a89513c08b48> .
-    
-    <urn:uuid:e5caa7b2-870a-8a2c-0bd6-1267bd1959e4>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "e5caa7b2-870a-8a2c-0bd6-1267bd1959e4";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE170";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:044f4108-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:60d4da3d-db7f-41c6-9763-4271275301f4>
             rdf:type                      cim:Terminal;
@@ -17387,15 +16168,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:9b7a55fe-7b8a-e87c-8dae-d0951dca5689> .
     
-    <urn:uuid:4fd3c405-a40f-335e-7dd6-b089c6589aef>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "4fd3c405-a40f-335e-7dd6-b089c6589aef";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE977";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0478c204-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:4d659ec2-a180-4b00-b924-1b5faf1581eb>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:9e1e2b16-9086-92b7-1f34-74d1693f09f2> .
@@ -17606,15 +16378,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:41dccb15-cfa2-deed-b4a6-3e0cadbd65b9> .
     
-    <urn:uuid:80d36dba-7ee5-5e29-d693-40fb26b3b9e4>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "80d36dba-7ee5-5e29-d693-40fb26b3b9e4";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE546";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:045cfca4-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:b5394fb4-e0be-4d7d-bd86-a43c83caa8cb>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -17659,15 +16422,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:01e32a95-b0a7-7c8a-f05b-cd566241a5b6> .
-    
-    <urn:uuid:c2823d2b-87d1-9972-25c7-f2047e586d4a>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "c2823d2b-87d1-9972-25c7-f2047e586d4a";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE83";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:044778d3-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:01bea3e9-cd8b-4aa7-bb56-7d9f58340cb2>
             rdf:type  cim:ConnectivityNode;
@@ -17724,15 +16478,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:939f045a-cca7-48fc-8923-2e6cac844676>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:e5caa7b2-870a-8a2c-0bd6-1267bd1959e4> .
-    
-    <urn:uuid:e2471f70-85c5-57c6-8a80-8f59fe34ed2a>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "e2471f70-85c5-57c6-8a80-8f59fe34ed2a";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE1122";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04854527-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:bcb66b91-1819-4884-b023-808c1ae61136>
             rdf:type  cim:ConnectivityNode;
@@ -17842,15 +16587,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:045ef879-c766-11e1-8775-005056c00008>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:97e0e93e-a166-489a-77ec-e4a7fcc5e2fb> .
-    
-    <urn:uuid:183725e6-2ba8-0463-5e45-0ec83292fbe9>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "183725e6-2ba8-0463-5e45-0ec83292fbe9";
-            cim:IdentifiedObject.name  "BP_SD-EH_DC1";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:ba130a7b-fb46-4c73-a6cf-ec41812a14c0> .
     
     <urn:uuid:7901e7c3-1109-48e1-a757-39cb57767546>
             rdf:type                      cim:Terminal;
@@ -17994,15 +16730,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:8cf61c4b-e6b7-5023-3437-527f4fbd92a7> .
     
-    <urn:uuid:42a0ae28-88d9-bf2f-18a0-8047dbb1cd71>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "42a0ae28-88d9-bf2f-18a0-8047dbb1cd71";
-            cim:IdentifiedObject.name  "BP_EH-PT3";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:dc31ca8a-6261-4eaa-b8b4-11ec57e9cc28> .
-    
     <urn:uuid:6d58de70-be19-34d9-2c07-c7ad4f97bc76>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:d1907036-c639-232c-231b-e2701d7a7141> .
@@ -18057,15 +16784,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:d85071bc-0cb0-9f4d-e97d-0483aef34745> .
     
-    <urn:uuid:483d205c-30f0-46ef-24ff-34d8c4c1a3ea>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "483d205c-30f0-46ef-24ff-34d8c4c1a3ea";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE117";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0457f396-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:6a7bece5-ce2b-476e-a3d6-2095e2e03b9d>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -18095,15 +16813,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:5c21da6d-0e21-d888-9721-ae74bdee5e3a> .
-    
-    <urn:uuid:9b7a55fe-7b8a-e87c-8dae-d0951dca5689>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "9b7a55fe-7b8a-e87c-8dae-d0951dca5689";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE98";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:047a96c5-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:70da49ab-b624-47eb-a53c-19b8c1502ba3>
             rdf:type                      cim:Terminal;
@@ -18248,15 +16957,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:4323e293-d9db-4a1c-947f-bfa3d8007b1a>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:d270337b-8e2b-f626-48d3-3a40603ac949> .
-    
-    <urn:uuid:af175be1-2fb8-ec49-c96e-2d080244a4b0>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "af175be1-2fb8-ec49-c96e-2d080244a4b0";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE651";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:045c8779-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:b789cac9-9436-4ea0-acfa-03a08e75cc67>
             rdf:type                      cim:Terminal;
@@ -18437,15 +17137,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:a4a1e3fe-7e4f-5c8b-f940-2cb373161f2d> .
     
-    <urn:uuid:9a0d18ca-4274-c637-ed84-14cc398c9b66>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "9a0d18ca-4274-c637-ed84-14cc398c9b66";
-            cim:IdentifiedObject.name  "Bus-1482479380";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:afefa3e8-9829-45af-8ec3-acba16c150db>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:1b1547d4-455b-3815-6f3a-cdf47c2efcc3> .
@@ -18553,15 +17244,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:61f81e2d-5837-28e6-b150-1e898a76957f> .
     
-    <urn:uuid:5ee2f76f-d4f0-d789-2752-ee25f5c2a45f>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "5ee2f76f-d4f0-d789-2752-ee25f5c2a45f";
-            cim:IdentifiedObject.name  "EH_31";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:4da02ca4-ccdb-0e71-a8ae-86d6343108b4> .
-    
     <urn:uuid:6e9d3278-1ce4-4c6e-b824-3820ec0c7bdb>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -18657,15 +17339,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:a512c934-81eb-a4a4-905b-ce41e38325c2> .
     
-    <urn:uuid:cacc578d-03e8-671c-9709-88c2ae524ba5>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "cacc578d-03e8-671c-9709-88c2ae524ba5";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE140";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:044f6818-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:be48bc98-2fad-523f-049a-22b4761ac4f1>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:bec51022-d79d-cde0-8bcd-9422116d0f25> .
@@ -18695,24 +17368,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:0481749a-c766-11e1-8775-005056c00008>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:c443acc1-fa2f-08e6-eca8-ecabf69d5459> .
-    
-    <urn:uuid:dc01f6f9-995a-2607-a7c2-9ed8632b661e>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "dc01f6f9-995a-2607-a7c2-9ed8632b661e";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE669";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:047b0bf4-c766-11e1-8775-005056c00008> .
-    
-    <urn:uuid:a8e223cf-fe8b-624b-34d9-44b12ac4ee32>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "a8e223cf-fe8b-624b-34d9-44b12ac4ee32";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE191";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04664b78-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:3674a103-7361-42d9-a493-98138ce757f5>
             rdf:type                      cim:Terminal;
@@ -18878,15 +17533,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:bb028dff-21f0-d392-9eab-7e1518fcb00f> .
     
-    <urn:uuid:f6d791b0-051a-3d6b-8abd-3b9f5225d82c>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "f6d791b0-051a-3d6b-8abd-3b9f5225d82c";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE446";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:048bd4da-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:7ffc2324-9e63-4b7d-82ee-ad98bdb923b8>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:0ecc9e58-66ce-00cd-f9c1-90b8d01b90d3> .
@@ -19002,15 +17648,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:dad4d094-3391-a069-8dee-6af1cf2f55af> .
     
-    <urn:uuid:2f2dfe8e-8d3a-8bf3-848e-50bbcb9cbadd>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "2f2dfe8e-8d3a-8bf3-848e-50bbcb9cbadd";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE1210";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04555b88-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:70701834-6ac9-4cd2-947a-3f0416b18e3e>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:18096938-0e2c-dcbd-de87-2154c570df8d> .
@@ -19123,15 +17760,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:04860874-c766-11e1-8775-005056c00008>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:34bb127c-ed73-bf7c-97d4-15a684f12c1a> .
-    
-    <urn:uuid:4c9375ed-5c9b-ac34-e2a7-dcc4f260b414>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "4c9375ed-5c9b-ac34-e2a7-dcc4f260b414";
-            cim:IdentifiedObject.name  "BP_EH-PT1";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0b5bf2ef-a008-4b9a-9fe9-3c528c8bec50> .
     
     <urn:uuid:d0045fe5-cb85-4398-898b-304090d5a214>
             rdf:type  cim:ConnectivityNode;
@@ -19252,15 +17880,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:d3228495-199c-938d-f801-65a718b71541> .
     
-    <urn:uuid:354793c3-93f2-ef08-f647-d2eb396b92c5>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "354793c3-93f2-ef08-f647-d2eb396b92c5";
-            cim:IdentifiedObject.name  "Bus-1376803904";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:1d6a2dfc-7b49-4d09-a2c0-ae47c11ebcf9>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:c443acc1-fa2f-08e6-eca8-ecabf69d5459> .
@@ -19325,24 +17944,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:6d3a5d1a-bfb3-c925-826f-3e612e9e46f6>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:99f8d492-798e-bede-43cb-44971cecd382> .
-    
-    <urn:uuid:e4f607b8-f623-3a3a-32ee-c3822a2f1b5f>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "e4f607b8-f623-3a3a-32ee-c3822a2f1b5f";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE47";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0457f394-c766-11e1-8775-005056c00008> .
-    
-    <urn:uuid:fb1db3ed-d2d9-2903-5ceb-9fd1a42db645>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "fb1db3ed-d2d9-2903-5ceb-9fd1a42db645";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE496";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0456bb11-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:04795e46-c766-11e1-8775-005056c00008>
             rdf:type                      cim:Terminal;
@@ -19496,15 +18097,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:3e5a964a-a320-f926-dd4c-07f9cda64c73> .
     
-    <urn:uuid:44cd12c6-c361-184a-b0c8-c6141b2ac8d5>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "44cd12c6-c361-184a-b0c8-c6141b2ac8d5";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE67";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0467d214-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:18807b8a-ac09-436e-8374-67227947934b>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:5c759def-05f9-0437-3f37-bb7240026de6> .
@@ -19555,15 +18147,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:a3077f51-ce64-342f-85fd-ce4351ffb1d8> .
     
-    <urn:uuid:b66f6ef1-77f8-6d6c-192a-13784b77d5ed>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "b66f6ef1-77f8-6d6c-192a-13784b77d5ed";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE728";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04819ba0-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:e40c69fb-b3c5-4328-b5e4-dbaf0cb90099>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -19606,15 +18189,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:73a646a2-711c-4339-aa43-a57df71ef082>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:22c7aee2-37b4-f6dd-812e-7ae831bb3109> .
-    
-    <urn:uuid:82149693-78b6-5177-657f-b9252bdeeb00>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "82149693-78b6-5177-657f-b9252bdeeb00";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE224";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:046205b3-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:f657f1ec-6d83-42dd-9a3f-ce6e193b7f56>
             rdf:type                      cim:Terminal;
@@ -19888,15 +18462,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:ceebaeee-f679-bd19-8439-65bed3c0d531> .
     
-    <urn:uuid:29590a1f-0471-3cab-1c39-d9f77f4beecd>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "29590a1f-0471-3cab-1c39-d9f77f4beecd";
-            cim:IdentifiedObject.name  "Bus-791842263";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:a0274ca6-2c15-49df-b546-daf1d9613308>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -19952,15 +18517,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:e4f607b8-f623-3a3a-32ee-c3822a2f1b5f> .
-    
-    <urn:uuid:339bf9e7-d0c8-e830-bde1-b2f1205d24bd>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "339bf9e7-d0c8-e830-bde1-b2f1205d24bd";
-            cim:IdentifiedObject.name  "Bus-1431295692";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:600a6a18-5df9-420c-afdc-836b4dc0ef6b>
             rdf:type                      cim:Terminal;
@@ -20049,15 +18605,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:e5f70232-644c-492d-bb8f-faee78d19e82>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:7fe098d2-b3d1-d2aa-efaa-2e45f7369ba1> .
-    
-    <urn:uuid:b3eae9b0-94d6-149f-a63d-879d4326514c>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "b3eae9b0-94d6-149f-a63d-879d4326514c";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE71";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04789af0-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:68f6cfef-e677-4fb5-8e8e-ac396baf1439>
             rdf:type                      cim:Terminal;
@@ -20242,15 +18789,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:5c759def-05f9-0437-3f37-bb7240026de6> .
     
-    <urn:uuid:fb641a02-0e8e-aaaa-a0c3-a8ef5e450231>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "fb641a02-0e8e-aaaa-a0c3-a8ef5e450231";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE254";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:046a1c00-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:e26fb613-1064-488c-a520-07fa4e485bd2>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -20382,15 +18920,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:dc01f6f9-995a-2607-a7c2-9ed8632b661e> .
-    
-    <urn:uuid:44d17a52-7b15-5581-58e2-7fe32e3a61ca>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "44d17a52-7b15-5581-58e2-7fe32e3a61ca";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE281";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0449e9d2-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:bc296935-9902-4368-9bd0-34185b15aad9>
             rdf:type  cim:ConnectivityNode;
@@ -20642,15 +19171,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:5c759def-05f9-0437-3f37-bb7240026de6> .
     
-    <urn:uuid:a164ca0d-a806-00dc-aaae-1cb698b536bb>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "a164ca0d-a806-00dc-aaae-1cb698b536bb";
-            cim:IdentifiedObject.name  "Bus-1134795176";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:c1f1cb15-5076-4624-b777-cb8871db5a65>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:34bb127c-ed73-bf7c-97d4-15a684f12c1a> .
@@ -20801,15 +19321,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:7323e078-d24c-ea7f-837c-0bc333c03029> .
     
-    <urn:uuid:abd9b542-b39d-f7b0-164a-e5ae79f5f84d>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "abd9b542-b39d-f7b0-164a-e5ae79f5f84d";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE358";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:047d07c9-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:16810fdc-97bf-4e49-bcce-9c75c5f300d1>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:1cde89e1-2576-d93b-95f1-1249f25c9f9d> .
@@ -20827,15 +19338,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:5c21da6d-0e21-d888-9721-ae74bdee5e3a> .
-    
-    <urn:uuid:0ce9a929-c3d3-05d4-815f-7f99f1475e10>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "0ce9a929-c3d3-05d4-815f-7f99f1475e10";
-            cim:IdentifiedObject.name  "Bus-559080022";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:491ce986-1a47-43d7-86f1-73f678441c00>
             rdf:type  cim:ConnectivityNode;
@@ -20896,15 +19398,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:fd0b0dea-ff2e-4d15-90d4-9eaff1b39f4d>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:ceebaeee-f679-bd19-8439-65bed3c0d531> .
-    
-    <urn:uuid:5529eacb-b131-c340-384a-13e1c4836a88>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "5529eacb-b131-c340-384a-13e1c4836a88";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE162";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0475b4c0-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:95c81492-fa85-4c0c-9733-21b7b8347bbd>
             rdf:type                      cim:Terminal;
@@ -21042,15 +19535,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:33ce9676-a61f-bb48-134b-2c8783c721a1> .
     
-    <urn:uuid:4498802d-afb2-b0f8-0b65-7567d87f81bf>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "4498802d-afb2-b0f8-0b65-7567d87f81bf";
-            cim:IdentifiedObject.name  "Bus-356394335";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:ce5405d7-1ead-48aa-8fac-635b16940bc4>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:0ecc9e58-66ce-00cd-f9c1-90b8d01b90d3> .
@@ -21175,15 +19659,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:c361d705-2cf1-9365-2362-b588473a00c2> .
     
-    <urn:uuid:11fe43b4-548f-b66b-77b9-70d9ab097643>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "11fe43b4-548f-b66b-77b9-70d9ab097643";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE212";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:04806326-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:832cd380-6b3c-4036-887e-380ba10df0f4>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -21200,15 +19675,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:bfccc809-ceab-4951-bd7b-9bd19bd57c09>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:33ce9676-a61f-bb48-134b-2c8783c721a1> .
-    
-    <urn:uuid:bd398087-279e-0ab3-2ddb-a89513c08b48>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "bd398087-279e-0ab3-2ddb-a89513c08b48";
-            cim:IdentifiedObject.name  "Bus-1025750665";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
     
     <urn:uuid:2b647149-786a-4533-b27c-297ce3379575>
             rdf:type                      cim:Terminal;
@@ -21333,15 +19799,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:6d12b7b0-7cb3-80fa-8e29-2794e62c01de> .
     
-    <urn:uuid:98779f97-46e1-23e4-766f-47d313a45135>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "98779f97-46e1-23e4-766f-47d313a45135";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE344";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:047f9fdb-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:6659ae95-6ab6-4355-bf1f-ec8a09c1f1c9>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:c2823d2b-87d1-9972-25c7-f2047e586d4a> .
@@ -21399,15 +19856,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:e5caa7b2-870a-8a2c-0bd6-1267bd1959e4> .
     
-    <urn:uuid:ce86952d-91a1-1094-4c66-d625064b55cf>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "ce86952d-91a1-1094-4c66-d625064b55cf";
-            cim:IdentifiedObject.name  "Bus-1150881858";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:f7fbb5e0-d8af-4c6f-a34f-a0f16ea1942f> .
-    
     <urn:uuid:d3838c76-ed9f-4461-b293-084dad340f24>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:c443acc1-fa2f-08e6-eca8-ecabf69d5459> .
@@ -21451,15 +19899,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:483d205c-30f0-46ef-24ff-34d8c4c1a3ea> .
     
-    <urn:uuid:bec51022-d79d-cde0-8bcd-9422116d0f25>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "bec51022-d79d-cde0-8bcd-9422116d0f25";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE296";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:046bf0c7-c766-11e1-8775-005056c00008> .
-    
     <urn:uuid:460ec417-358e-4820-aa46-bfbdbee4d84a>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -21468,15 +19907,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:c18dcb63-0255-4bee-8bc8-9d18e4398845>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:ceebaeee-f679-bd19-8439-65bed3c0d531> .
-    
-    <urn:uuid:6e9b6e5a-f7f5-85a5-1209-0946b138199f>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "6e9b6e5a-f7f5-85a5-1209-0946b138199f";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE388";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:046b2d70-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:033d2cec-2a25-4682-b872-b89244514811>
             rdf:type                      cim:Terminal;
@@ -21538,15 +19968,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:04507980-c766-11e1-8775-005056c00008>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:483d205c-30f0-46ef-24ff-34d8c4c1a3ea> .
-    
-    <urn:uuid:34bb127c-ed73-bf7c-97d4-15a684f12c1a>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "34bb127c-ed73-bf7c-97d4-15a684f12c1a";
-            cim:IdentifiedObject.name  "CONNECTIVITY_NODE113";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4bd4054c530445289e31df0770d1c939>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:0456e220-c766-11e1-8775-005056c00008> .
     
     <urn:uuid:55452619-8a34-a7e2-e591-5010c4df1665>
             rdf:type                      cim:Terminal;

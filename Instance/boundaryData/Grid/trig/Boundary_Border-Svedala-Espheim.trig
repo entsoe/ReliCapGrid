@@ -17,66 +17,54 @@ PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfg:     <http://www.w3.org/2004/03/trix/rdfg-1/>
 PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 
-<urn:uuid:af6450db-fe15-4caf-94a1-e22f3fced32e> {
+<urn:uuid:329b3bf7-7c62-4cc0-8e05-c91eb571d1b5> {
     <urn:uuid:32ce7243-65f1-7183-1eab-9a0db513868a>
-            rdf:type                       eu:BoundaryPoint;
+            rdf:type                       nc:BoundaryPoint;
             cim:IdentifiedObject.description
                     "BP_EH-SD_DC1";
             cim:IdentifiedObject.mRID      "32ce7243-65f1-7183-1eab-9a0db513868a";
-            cim:IdentifiedObject.name      "BP_EH-SD_DC1";
-            eu:BoundaryPoint.ConnectivityNode
-                    <urn:uuid:0a31ada8-2dfc-41c5-a07f-6c2151cea34d>;
-            eu:BoundaryPoint.fromEndIsoCode
-                    "EH";
-            eu:BoundaryPoint.fromEndName   "Madgar4";
-            eu:BoundaryPoint.fromEndNameTso
-                    "TSO-Espheim";
-            eu:BoundaryPoint.isExcludedFromAreaInterchange
-                    false;
-            eu:BoundaryPoint.toEndIsoCode  "EH";
-            eu:BoundaryPoint.toEndName     "Leyva1";
-            eu:BoundaryPoint.toEndNameTso  "TSO-Svedala";
-            eu:IdentifiedObject.shortName  "BP_EH-SD_DC1" .
+            cim:IdentifiedObject.name      "Madgar4-Leyva1";
+            eu:IdentifiedObject.shortName  "BP_EH-SD_DC1";
+            nc:BoundaryPoint.BoundaryPointBorder
+                    <urn:uuid:74b087c0-533c-dba6-a039-17891ffd50dd>;
+            nc:BoundaryPoint.partyOneResourceName
+                    "Madgar4";
+            nc:BoundaryPoint.partyTwoResourceName
+                    "Leyva1";
+            nc:CommonResponsibilityPoint.ConnectivityNode
+                    <urn:uuid:0a31ada8-2dfc-41c5-a07f-6c2151cea34d> .
     
     <urn:uuid:983cb0bc-264d-a9a1-c642-960cd4a767de>
-            rdf:type                       eu:BoundaryPoint;
+            rdf:type                       nc:BoundaryPoint;
             cim:IdentifiedObject.description
                     "Boundary point 3 between Svedala (substation name) and Espheim (substation name) (400kV).";
             cim:IdentifiedObject.mRID      "e364f3e7-a2a8-3561-5540-6e74801a20ff";
-            cim:IdentifiedObject.name      "BP_SD-EH3";
-            eu:BoundaryPoint.ConnectivityNode
-                    <urn:uuid:8dd436f0-f8a2-405b-a991-1a2479077ef5>;
-            eu:BoundaryPoint.fromEndIsoCode
-                    "SD";
-            eu:BoundaryPoint.fromEndName   "Parila3";
-            eu:BoundaryPoint.fromEndNameTso
-                    "TSO-Svedala";
-            eu:BoundaryPoint.isExcludedFromAreaInterchange
-                    false;
-            eu:BoundaryPoint.toEndIsoCode  "EH";
-            eu:BoundaryPoint.toEndName     "Barigar3";
-            eu:BoundaryPoint.toEndNameTso  "TSO-Espheim";
-            eu:IdentifiedObject.shortName  "BP_SD-EH3" .
+            cim:IdentifiedObject.name      "Parila3-Barigar3";
+            eu:IdentifiedObject.shortName  "BP_SD-EH3";
+            nc:BoundaryPoint.BoundaryPointBorder
+                    <urn:uuid:f87b8a28-2ad3-b214-ce6c-9961504be42f>;
+            nc:BoundaryPoint.partyOneResourceName
+                    "Parila3";
+            nc:BoundaryPoint.partyTwoResourceName
+                    "Barigar3";
+            nc:CommonResponsibilityPoint.ConnectivityNode
+                    <urn:uuid:8dd436f0-f8a2-405b-a991-1a2479077ef5> .
     
     <urn:uuid:afa96836-2de5-e633-1c07-491489b89b52>
-            rdf:type                       eu:BoundaryPoint;
+            rdf:type                       nc:BoundaryPoint;
             cim:IdentifiedObject.description
                     "Boundary point 1 between Svedala (substation name) and Espheim (substation name) (220kV).";
             cim:IdentifiedObject.mRID      "afa96836-2de5-e633-1c07-491489b89b52";
-            cim:IdentifiedObject.name      "BP_SD-EH1";
-            eu:BoundaryPoint.ConnectivityNode
-                    <urn:uuid:49831d24-33e9-4233-8424-3f88186a924e>;
-            eu:BoundaryPoint.fromEndIsoCode
-                    "SD";
-            eu:BoundaryPoint.fromEndName   "Parila1";
-            eu:BoundaryPoint.fromEndNameTso
-                    "TSO-Svedala";
-            eu:BoundaryPoint.isExcludedFromAreaInterchange
-                    false;
-            eu:BoundaryPoint.toEndIsoCode  "EH";
-            eu:BoundaryPoint.toEndName     "Barigar1";
-            eu:BoundaryPoint.toEndNameTso  "TSO-Espheim";
-            eu:IdentifiedObject.shortName  "BP_SD-EH1" .
+            cim:IdentifiedObject.name      "Parila1-Barigar1";
+            eu:IdentifiedObject.shortName  "BP_SD-EH1";
+            nc:BoundaryPoint.BoundaryPointBorder
+                    <urn:uuid:f87b8a28-2ad3-b214-ce6c-9961504be42f>;
+            nc:BoundaryPoint.partyOneResourceName
+                    "Parila1";
+            nc:BoundaryPoint.partyTwoResourceName
+                    "Barigar1";
+            nc:CommonResponsibilityPoint.ConnectivityNode
+                    <urn:uuid:49831d24-33e9-4233-8424-3f88186a924e> .
     
     <urn:uuid:c3f46fe5-0cd1-4a1c-b722-e967b9ab21e2>
             rdf:type                       cim:Line;
@@ -86,23 +74,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name      "BP_SD-EH1";
             cim:Line.Region                <urn:uuid:fbcc6679-6da5-4cfd-b50c-8ce23f450c78>;
             eu:IdentifiedObject.shortName  "BP_SD-EH1" .
-    
-    <urn:uuid:af6450db-fe15-4caf-94a1-e22f3fced32e>
-            rdf:type           rdfg:Graph , dcat:Dataset;
-            dct:conformsTo     <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
-            dct:description    "The equipment dataset of the boundary that is used in the ReliCapGrid.";
-            dct:identifier     "af6450db-fe15-4caf-94a1-e22f3fced32e";
-            dct:issued         "2025-02-06T14:18:22Z"^^xsd:dateTime;
-            dct:requires       <urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3>;
-            dct:temporal       [ rdf:type        dct:PeriodOfTime;
-                                 dcat:startDate  "2022-06-16T23:30:00Z"^^xsd:dateTime
-                               ];
-            dcat:distribution  [ rdf:type    dcat:Distribution;
-                                 dct:issued  "2025-02-06T14:18:22Z"^^xsd:dateTime
-                               ];
-            dcat:isVersionOf   <http://ninerealms.nr/boundary>;
-            dcat:version       "1";
-            json-ld:base       "http://ninerealms.nr/boundary#" .
     
     <urn:uuid:89caa531-9769-4e1c-9d37-0af93bfada13>
             rdf:type                       cim:ConnectivityNode;
@@ -117,26 +88,39 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             eu:IdentifiedObject.shortName  "BP_SD-EH_DC1" .
     
     <urn:uuid:d4ac0227-f443-a68f-fadd-09dfc0bcd7a1>
-            rdf:type                       eu:BoundaryPoint;
+            rdf:type                       nc:BoundaryPoint;
             cim:IdentifiedObject.description
                     "BP_SD-EH_DC1";
             cim:IdentifiedObject.mRID      "d4ac0227-f443-a68f-fadd-09dfc0bcd7a1";
-            cim:IdentifiedObject.name      "BP_SD-EH_DC1";
-            eu:BoundaryPoint.ConnectivityNode
-                    <urn:uuid:89caa531-9769-4e1c-9d37-0af93bfada13>;
-            eu:BoundaryPoint.fromEndIsoCode
-                    "SD";
-            eu:BoundaryPoint.fromEndName   "Parila4";
-            eu:BoundaryPoint.fromEndNameTso
-                    "TSO-Svedala";
-            eu:BoundaryPoint.isExcludedFromAreaInterchange
-                    false;
-            eu:BoundaryPoint.toEndIsoCode  "EH";
-            eu:BoundaryPoint.toEndName     "Barigar1";
-            eu:BoundaryPoint.toEndNameTso  "TSO-Espheim";
+            cim:IdentifiedObject.name      "Parila4-Barigar1";
             eu:IdentifiedObject.energyIdentCodeEic
                     "10T-AT-DE-00017X";
-            eu:IdentifiedObject.shortName  "BP_SD-EH_DC1" .
+            eu:IdentifiedObject.shortName  "BP_SD-EH_DC1";
+            nc:BoundaryPoint.BoundaryPointBorder
+                    <urn:uuid:f87b8a28-2ad3-b214-ce6c-9961504be42f>;
+            nc:BoundaryPoint.partyOneResourceName
+                    "Parila4";
+            nc:BoundaryPoint.partyTwoResourceName
+                    "Barigar1";
+            nc:CommonResponsibilityPoint.ConnectivityNode
+                    <urn:uuid:89caa531-9769-4e1c-9d37-0af93bfada13> .
+    
+    <urn:uuid:f87b8a28-2ad3-b214-ce6c-9961504be42f>
+            rdf:type                   nc:BoundaryPointBorder;
+            cim:IdentifiedObject.mRID  "f87b8a28-2ad3-b214-ce6c-9961504be42f";
+            cim:IdentifiedObject.name  "TSO-Svedala-TSO-Espheim";
+            nc:BoundaryPointBorder.partyOneDesignatorRef
+                    <https://vocabulary.uncefact.org/unlocode-countries#SD>;
+            nc:BoundaryPointBorder.partyOneName
+                    "TSO-Svedala";
+            nc:BoundaryPointBorder.partyOneRef
+                    <https://energy.referencedata.eu/party/TSO-Svedala>;
+            nc:BoundaryPointBorder.partyTwoDesignatorRef
+                    <https://vocabulary.uncefact.org/unlocode-countries#EH>;
+            nc:BoundaryPointBorder.partyTwoName
+                    "TSO-Espheim";
+            nc:BoundaryPointBorder.partyTwoRef
+                    <https://energy.referencedata.eu/party/TSO-Espheim> .
     
     <urn:uuid:ba130a7b-fb46-4c73-a6cf-ec41812a14c0>
             rdf:type                       cim:Line;
@@ -150,24 +134,39 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             eu:IdentifiedObject.shortName  "BP_SD-EH_DC1" .
     
     <urn:uuid:f3954bf0-0bf9-54ff-eb28-b1559373568d>
-            rdf:type                       eu:BoundaryPoint;
+            rdf:type                       nc:BoundaryPoint;
             cim:IdentifiedObject.description
                     "Boundary point 2 between Svedala (substation name) and Espheim (substation name) (400kV).";
             cim:IdentifiedObject.mRID      "f3954bf0-0bf9-54ff-eb28-b1559373568d";
-            cim:IdentifiedObject.name      "BP_SD-EH2";
-            eu:BoundaryPoint.ConnectivityNode
-                    <urn:uuid:183d126d-2522-4ff2-a8cd-c5016cf09c1b>;
-            eu:BoundaryPoint.fromEndIsoCode
-                    "SD";
-            eu:BoundaryPoint.fromEndName   "Parila2";
-            eu:BoundaryPoint.fromEndNameTso
-                    "TSO-Svedala";
-            eu:BoundaryPoint.isExcludedFromAreaInterchange
-                    false;
-            eu:BoundaryPoint.toEndIsoCode  "EH";
-            eu:BoundaryPoint.toEndName     "Barigar2";
-            eu:BoundaryPoint.toEndNameTso  "TSO-Espheim";
-            eu:IdentifiedObject.shortName  "BP_SD-EH2" .
+            cim:IdentifiedObject.name      "Parila2-Barigar2";
+            eu:IdentifiedObject.shortName  "BP_SD-EH2";
+            nc:BoundaryPoint.BoundaryPointBorder
+                    <urn:uuid:f87b8a28-2ad3-b214-ce6c-9961504be42f>;
+            nc:BoundaryPoint.partyOneResourceName
+                    "Parila2";
+            nc:BoundaryPoint.partyTwoResourceName
+                    "Barigar2";
+            nc:CommonResponsibilityPoint.ConnectivityNode
+                    <urn:uuid:183d126d-2522-4ff2-a8cd-c5016cf09c1b> .
+    
+    <urn:uuid:329b3bf7-7c62-4cc0-8e05-c91eb571d1b5>
+            rdf:type              dcat:Dataset;
+            dct:accessRights      <https://energy.referencedata.eu/Confidentiality/Public>;
+            dct:conformsTo        cim: , <https://cim4.eu/ns/nc/2.4#>;
+            dct:description       "The equipment dataset of the boundary that is used in the ReliCapGrid."@en;
+            dct:identifier        "329b3bf7-7c62-4cc0-8e05-c91eb571d1b5";
+            dct:license           <https://creativecommons.org/licenses/by/4.0/>;
+            dct:publisher         <https://energy.referencedata.eu/test/party/RCC-Jotunheim>;
+            dct:requires          <urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3>;
+            dct:rights            "Copyright";
+            dct:rightsHolder      "ENTSO-E";
+            dct:spatial           <https://energy.referencedata.eu/test/frame/Svedala-Espheim-Transmission>;
+            dcat:isVersionOf      <https://energy.referencedata.eu/test/model/TSO-Svedala-TSO-Espheim_BD>;
+            dcat:keyword          "BD";
+            dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
+            dcat:version          "1";
+            prov:generatedAtTime  "2026-03-20T15:54:36Z"^^xsd:dateTime;
+            prov:wasGeneratedBy   <https://energy.referencedata.eu/activity/BD> .
     
     <urn:uuid:0a31ada8-2dfc-41c5-a07f-6c2151cea34d>
             rdf:type                       cim:ConnectivityNode;
@@ -178,6 +177,23 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID      "0a31ada8-2dfc-41c5-a07f-6c2151cea34d";
             cim:IdentifiedObject.name      "BP_EH-SD_DC1";
             eu:IdentifiedObject.shortName  "BP_EH-SD_DC1" .
+    
+    <urn:uuid:74b087c0-533c-dba6-a039-17891ffd50dd>
+            rdf:type                   nc:BoundaryPointBorder;
+            cim:IdentifiedObject.mRID  "74b087c0-533c-dba6-a039-17891ffd50dd";
+            cim:IdentifiedObject.name  "TSO-Espheim-TSO-Svedala";
+            nc:BoundaryPointBorder.partyOneDesignatorRef
+                    <https://vocabulary.uncefact.org/unlocode-countries#EH>;
+            nc:BoundaryPointBorder.partyOneName
+                    "TSO-Espheim";
+            nc:BoundaryPointBorder.partyOneRef
+                    <https://energy.referencedata.eu/party/TSO-Espheim>;
+            nc:BoundaryPointBorder.partyTwoDesignatorRef
+                    <https://vocabulary.uncefact.org/unlocode-countries#EH>;
+            nc:BoundaryPointBorder.partyTwoName
+                    "TSO-Svedala";
+            nc:BoundaryPointBorder.partyTwoRef
+                    <https://energy.referencedata.eu/party/TSO-Svedala> .
     
     <urn:uuid:8dd436f0-f8a2-405b-a991-1a2479077ef5>
             rdf:type                       cim:ConnectivityNode;

@@ -2,7 +2,6 @@ PREFIX adms:     <http://www.w3.org/ns/adms#>
 PREFIX cim:      <https://cim.ucaiug.io/ns#>
 PREFIX dcat:     <http://www.w3.org/ns/dcat#>
 PREFIX dcat-cim: <https://cim4.eu/ns/dcat-cim#>
-PREFIX dcatcim:  <https://cim4.eu/ns/dcatcim#>
 PREFIX dct:      <http://purl.org/dc/terms/>
 PREFIX dcterms:  <http://purl.org/dc/terms/>
 PREFIX dm:       <http://iec.ch/TC57/61970-552/DifferenceModel/1#>
@@ -36,6 +35,16 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RemedialAction.normalAvailable
                     true .
     
+    <urn:uuid:7b09ac5a-abeb-4d70-87a9-423f0d8cbabc>
+            rdf:type                       nc:PinContingency;
+            cim:IdentifiedObject.mRID      "7b09ac5a-abeb-4d70-87a9-423f0d8cbabc";
+            cim:IdentifiedObject.name      "Contingency occurred";
+            nc:GateInputPin.Gate           <urn:uuid:ed90cae2-cc84-4c37-a6b7-80cb9fe5c464>;
+            nc:GateInputPin.absoluteValue  false;
+            nc:GateInputPin.duration       "P0Y0M0DT0H0M0S"^^xsd:duration;
+            nc:GateInputPin.negate         false;
+            nc:PinContingency.Contingency  <urn:uuid:e05bbe20-9d4a-40da-9777-8424d216785d> .
+    
     <urn:uuid:8e60eea4-9c86-4e9d-8012-6645d5efb96d>
             rdf:type                   nc:RotatingMachineAction;
             cim:IdentifiedObject.mRID  "8e60eea4-9c86-4e9d-8012-6645d5efb96d";
@@ -43,7 +52,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationCollection
                     <urn:uuid:02a420c3-dcc2-413e-9f7d-a4997c42e155>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/RotatingMachine.p>;
+                    cim:RotatingMachine.p;
             nc:RotatingMachineAction.RotatingMachine
                     <urn:uuid:2a35657f-a1a8-45dc-911e-e71535b35d87> .
     
@@ -73,7 +82,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RangeConstraint.normalValue  "1.0"^^xsd:float;
             nc:RangeConstraint.valueKind    nc:ValueOffsetKind.absolute;
             nc:StaticPropertyRange.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open> .
+                    cim:Switch.open .
     
     <urn:uuid:d45195f1-9b95-44b6-b9d9-47600b855e41>
             rdf:type                     nc:StageTrigger;
@@ -111,7 +120,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RangeConstraint.normalValue  "1"^^xsd:float;
             nc:RangeConstraint.valueKind    nc:ValueOffsetKind.absolute;
             nc:StaticPropertyRange.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open> .
+                    cim:Switch.open .
     
     <urn:uuid:3a833fbd-9e2e-42df-919d-7be00de94cbc>
             rdf:type                       nc:PinOperationalLimit;
@@ -139,7 +148,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationRemedialAction
                     <urn:uuid:fa3e3533-345a-4ef1-a46d-3ab6d251924a>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:GridStateAlteration.maximumPerDay
                     5;
             nc:GridStateAlteration.minimumActivation
@@ -159,7 +168,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationRemedialAction
                     <urn:uuid:5e401955-387e-45ce-b126-dd142b06b20c>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:GridStateAlteration.normalEnabled
                     true;
             nc:TopologyAction.Switch   <urn:uuid:8e55fb9d-e514-4f4b-8a5d-8fd05b1dc02e> .
@@ -186,10 +195,24 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationRemedialAction
                     <urn:uuid:b2555ccc-6562-4887-8abc-19a6e51cfe36>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:GridStateAlteration.normalEnabled
                     true;
             nc:TopologyAction.Switch   <urn:uuid:86dff3a9-afae-4122-afeb-651f2c01c795> .
+    
+    <urn:uuid:298d76d3-7a8c-4948-888e-31a684c7dc7d>
+            rdf:type                   nc:TopologyAction;
+            cim:IdentifiedObject.description
+                    "Isolates transformer RUTHUVUD_G1_TRAFO (_2ab1b800-0c93-4517-86b5-8fd6a3a24ee7) by opening bus selector FT62_G1-B-F1.";
+            cim:IdentifiedObject.mRID  "298d76d3-7a8c-4948-888e-31a684c7dc7d";
+            cim:IdentifiedObject.name  "RUTHUVUD_G1_TRAFO FT62_G1-B-F1 OPEN";
+            nc:GridStateAlteration.GridStateAlterationRemedialAction
+                    <urn:uuid:347f4f7e-a2b6-4880-846a-8bd1effb00d5>;
+            nc:GridStateAlteration.PropertyReference
+                    cim:Switch.open;
+            nc:GridStateAlteration.normalEnabled
+                    true;
+            nc:TopologyAction.Switch   <urn:uuid:902046a4-40e9-421d-9ef1-9adab0d9d41d> .
     
     <urn:uuid:3a364a5b-7aba-4e48-abd5-4cd79e2e8676>
             rdf:type  nc:ContingencyWithRemedialAction;
@@ -229,7 +252,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationRemedialAction
                     <urn:uuid:bf8157d8-d787-44f7-a997-751e50e69165>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/StaticVarCompensator.q>;
+                    cim:StaticVarCompensator.q;
             nc:GridStateAlteration.normalEnabled
                     true;
             nc:StaticVarCompensatorAction.StaticVarCompensator
@@ -266,7 +289,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationCollection
                     <urn:uuid:332b7627-e0ad-4bd5-a678-aebb305727a6>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:TopologyAction.Switch   <urn:uuid:ecc7d452-3cc6-4a6f-ac55-cfc80f3aac53> .
     
     <urn:uuid:d9bd3aaf-cda3-4b54-bb2e-b03dd9925817>
@@ -372,7 +395,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RangeConstraint.normalValue  "1"^^xsd:float;
             nc:RangeConstraint.valueKind    nc:ValueOffsetKind.absolute;
             nc:StaticPropertyRange.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open> .
+                    cim:Switch.open .
     
     <urn:uuid:bc460391-dcc1-4ad1-a54c-c6a55f947582>
             rdf:type                        nc:StaticPropertyRange;
@@ -386,23 +409,13 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RangeConstraint.normalValue  "1.0"^^xsd:float;
             nc:RangeConstraint.valueKind    nc:ValueOffsetKind.absolute;
             nc:StaticPropertyRange.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open> .
+                    cim:Switch.open .
     
     <urn:uuid:ed90cae2-cc84-4c37-a6b7-80cb9fe5c464>
             rdf:type                   nc:Gate;
             cim:IdentifiedObject.mRID  "ed90cae2-cc84-4c37-a6b7-80cb9fe5c464";
             cim:IdentifiedObject.name  "Gate 1";
             nc:Gate.kind               nc:GateLogicKind.and .
-
-    <urn:uuid:7b09ac5a-abeb-4d70-87a9-423f0d8cbabc>
-            rdf:type                       nc:PinContingency;
-            cim:IdentifiedObject.mRID      "7b09ac5a-abeb-4d70-87a9-423f0d8cbabc";
-            cim:IdentifiedObject.name      "Contingency occurred";
-            nc:GateInputPin.Gate           <urn:uuid:ed90cae2-cc84-4c37-a6b7-80cb9fe5c464>;
-            nc:GateInputPin.absoluteValue  false;
-            nc:GateInputPin.duration       "P0Y0M0DT0H0M0S"^^xsd:duration;
-            nc:GateInputPin.negate         false;
-            nc:PinContingency.Contingency  <urn:uuid:e05bbe20-9d4a-40da-9777-8424d216785d> .
     
     <urn:uuid:fe13b0ad-0f87-45d8-a96f-93fdfc33c50b>
             rdf:type                   nc:TopologyAction;
@@ -413,7 +426,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationRemedialAction
                     <urn:uuid:7e422768-207d-455f-976e-0b1cb2338509>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:GridStateAlteration.maximumPerDay
                     5;
             nc:GridStateAlteration.minimumActivation
@@ -436,7 +449,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RangeConstraint.normalValue  "1.0"^^xsd:float;
             nc:RangeConstraint.valueKind    nc:ValueOffsetKind.absolute;
             nc:StaticPropertyRange.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open> .
+                    cim:Switch.open .
     
     <urn:uuid:cd289bed-6b17-4cb8-8554-61e1aee3453a>
             rdf:type  nc:ContingencyWithRemedialAction;
@@ -490,7 +503,16 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RangeConstraint.normalValue  "-10"^^xsd:float;
             nc:RangeConstraint.valueKind    nc:ValueOffsetKind.absolute;
             nc:StaticPropertyRange.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/RotatingMachine.p> .
+                    cim:RotatingMachine.p .
+    
+    <urn:uuid:b6617e31-c8f1-4e44-b157-d630948695f1>
+            rdf:type                     nc:StageTrigger;
+            cim:IdentifiedObject.mRID    "b6617e31-c8f1-4e44-b157-d630948695f1";
+            cim:IdentifiedObject.name    "Current flow through the line CL6 is higher than TATL";
+            nc:StageTrigger.GateTrigger  <urn:uuid:068d8431-c5b8-4908-8af0-9642779347c0>;
+            nc:StageTrigger.Stage        <urn:uuid:2f60b546-dfcf-4e0c-b0d6-40264de45cbd>;
+            nc:StageTrigger.normalArmed  true;
+            nc:StageTrigger.priority     0 .
     
     <urn:uuid:ea6979c2-2ad4-484a-9f41-bec157a0eedd>
             rdf:type                   nc:GridStateAlterationCollection;
@@ -518,7 +540,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationRemedialAction
                     <urn:uuid:fa3e3533-345a-4ef1-a46d-3ab6d251924a>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:GridStateAlteration.maximumPerDay
                     5;
             nc:GridStateAlteration.minimumActivation
@@ -535,9 +557,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name     "RAS1";
             nc:RemedialActionScheme.GateArmed
                     <urn:uuid:ed90cae2-cc84-4c37-a6b7-80cb9fe5c464>;
-            nc:RemedialActionScheme.kind  nc:RemedialActionSchemeKind.sips;
             nc:RemedialActionScheme.SchemeRemedialAction
                     <urn:uuid:31d41e36-11c8-417b-bafb-c410d4391898>;
+            nc:RemedialActionScheme.kind  nc:RemedialActionSchemeKind.sips;
             nc:RemedialActionScheme.normalArmed
                     true .
     
@@ -548,7 +570,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationCollection
                     <urn:uuid:12097f09-e5cc-4fdc-98eb-0675d0f2af11>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:TopologyAction.Switch   <urn:uuid:ecc7d452-3cc6-4a6f-ac55-cfc80f3aac53> .
     
     <urn:uuid:7e29e44b-85b3-4e93-9e35-00b76f98e9fc>
@@ -563,7 +585,21 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RangeConstraint.normalValue  "1.0"^^xsd:float;
             nc:RangeConstraint.valueKind    nc:ValueOffsetKind.absolute;
             nc:StaticPropertyRange.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open> .
+                    cim:Switch.open .
+    
+    <urn:uuid:65ade64a-32cb-4e0b-93c6-bc6239293763>
+            rdf:type                   nc:TopologyAction;
+            cim:IdentifiedObject.description
+                    "Isolates transformer RUTHUVUD_G1_TRAFO (_2ab1b800-0c93-4517-86b5-8fd6a3a24ee7) by opening bus selector FT62_G1-A-F1.";
+            cim:IdentifiedObject.mRID  "65ade64a-32cb-4e0b-93c6-bc6239293763";
+            cim:IdentifiedObject.name  "RUTHUVUD_G1_TRAFO FT62_G1-A-F1 OPEN";
+            nc:GridStateAlteration.GridStateAlterationRemedialAction
+                    <urn:uuid:347f4f7e-a2b6-4880-846a-8bd1effb00d5>;
+            nc:GridStateAlteration.PropertyReference
+                    cim:Switch.open;
+            nc:GridStateAlteration.normalEnabled
+                    true;
+            nc:TopologyAction.Switch   <urn:uuid:39428c75-098b-4366-861d-2df2a857a805> .
     
     <urn:uuid:c4861bc3-bc10-4ae7-9f26-e4d5b3bec2c4>
             rdf:type                       nc:Stage;
@@ -581,7 +617,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationCollection
                     <urn:uuid:b7a0d8df-2809-4bd3-952c-474ba032aa46>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/RotatingMachine.p>;
+                    cim:RotatingMachine.p;
             nc:RotatingMachineAction.RotatingMachine
                     <urn:uuid:2a35657f-a1a8-45dc-911e-e71535b35d87> .
     
@@ -597,7 +633,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RangeConstraint.normalValue  "1.0"^^xsd:float;
             nc:RangeConstraint.valueKind    nc:ValueOffsetKind.absolute;
             nc:StaticPropertyRange.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open> .
+                    cim:Switch.open .
     
     <urn:uuid:bd7aaf12-e6b9-44ef-9e04-3d2992581718>
             rdf:type                   nc:TopologyAction;
@@ -608,7 +644,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationRemedialAction
                     <urn:uuid:587cb391-ed16-4a1d-876e-f90241addce5>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:GridStateAlteration.normalEnabled
                     true;
             nc:TopologyAction.Switch   <urn:uuid:d5fffe1c-8834-4fcb-ab4a-dba67d2218b8> .
@@ -657,7 +693,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationCollection
                     <urn:uuid:124a56f0-22cc-47b0-a9ab-219641b76e25>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:TopologyAction.Switch   <urn:uuid:dafeb217-8a10-4068-b88a-2e884a2bdc32> .
     
     <urn:uuid:b7a0d8df-2809-4bd3-952c-474ba032aa46>
@@ -683,7 +719,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationRemedialAction
                     <urn:uuid:b5f07ec3-3a3c-49ec-8e85-02a77d4f79c1>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/RegulatingControl.targetValue>;
+                    cim:RegulatingControl.targetValue;
             nc:GridStateAlteration.normalEnabled
                     true;
             nc:RegulatingControlAction.RegulatingControl
@@ -701,7 +737,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RangeConstraint.normalValue  "1.0"^^xsd:float;
             nc:RangeConstraint.valueKind    nc:ValueOffsetKind.absolute;
             nc:StaticPropertyRange.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open> .
+                    cim:Switch.open .
     
     <urn:uuid:587cb391-ed16-4a1d-876e-f90241addce5>
             rdf:type                   nc:GridStateAlterationRemedialAction;
@@ -729,7 +765,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RangeConstraint.normalValue  "1"^^xsd:float;
             nc:RangeConstraint.valueKind    nc:ValueOffsetKind.absolute;
             nc:StaticPropertyRange.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open> .
+                    cim:Switch.open .
     
     <urn:uuid:6d2c8901-d068-4d22-8ce9-7379644b4f17>
             rdf:type                   nc:GridStateAlterationRemedialAction;
@@ -742,7 +778,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RemedialAction.AppointedToRegion
                     <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
             nc:RemedialAction.RemedialActionSystemOperator
-                    <https://data.europa.eu/energy/EIC/TSOA------Q>;
+                    <urn:uuid:b9fbb881-573b-4e98-9b7b-31f00a45ebe0>;
             nc:RemedialAction.isCrossBorderRelevant
                     true;
             nc:RemedialAction.kind     nc:RemedialActionKind.preventive;
@@ -770,7 +806,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationRemedialAction
                     <urn:uuid:7e422768-207d-455f-976e-0b1cb2338509>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:GridStateAlteration.maximumPerDay
                     5;
             nc:GridStateAlteration.minimumActivation
@@ -791,7 +827,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RangeConstraint.normalValue  "-10"^^xsd:float;
             nc:RangeConstraint.valueKind    nc:ValueOffsetKind.absolute;
             nc:StaticPropertyRange.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/RotatingMachine.p> .
+                    cim:RotatingMachine.p .
     
     <urn:uuid:b2555ccc-6562-4887-8abc-19a6e51cfe36>
             rdf:type                   nc:GridStateAlterationRemedialAction;
@@ -834,7 +870,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationRemedialAction
                     <urn:uuid:6d2c8901-d068-4d22-8ce9-7379644b4f17>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:GridStateAlteration.maximumPerDay
                     5;
             nc:GridStateAlteration.minimumActivation
@@ -854,7 +890,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationRemedialAction
                     <urn:uuid:cfabf356-c5e1-4391-b91b-3330bc24f0c9>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:GridStateAlteration.normalEnabled
                     true;
             nc:TopologyAction.Switch   <urn:uuid:2db971f1-ed3d-4ea6-acf5-983c4289d51b> .
@@ -906,7 +942,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RangeConstraint.normalValue  "1.0"^^xsd:float;
             nc:RangeConstraint.valueKind    nc:ValueOffsetKind.absolute;
             nc:StaticPropertyRange.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open> .
+                    cim:Switch.open .
     
     <urn:uuid:fa3e3533-345a-4ef1-a46d-3ab6d251924a>
             rdf:type                   nc:GridStateAlterationRemedialAction;
@@ -919,7 +955,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RemedialAction.AppointedToRegion
                     <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
             nc:RemedialAction.RemedialActionSystemOperator
-                    <https://energy.referencedata.eu/test/party/Svedala>;
+                    <urn:uuid:b9fbb881-573b-4e98-9b7b-31f00a45ebe0>;
             nc:RemedialAction.isCrossBorderRelevant
                     true;
             nc:RemedialAction.kind     nc:RemedialActionKind.preventive;
@@ -940,7 +976,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RangeConstraint.normalValue  "0.0"^^xsd:float;
             nc:RangeConstraint.valueKind    nc:ValueOffsetKind.absolute;
             nc:StaticPropertyRange.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open> .
+                    cim:Switch.open .
     
     <urn:uuid:55961174-efb4-44be-8832-b0fb107de235>
             rdf:type                   nc:TopologyAction;
@@ -951,7 +987,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationRemedialAction
                     <urn:uuid:fa3e3533-345a-4ef1-a46d-3ab6d251924a>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:GridStateAlteration.maximumPerDay
                     5;
             nc:GridStateAlteration.minimumActivation
@@ -995,7 +1031,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationCollection
                     <urn:uuid:ea6979c2-2ad4-484a-9f41-bec157a0eedd>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:TopologyAction.Switch   <urn:uuid:dafeb217-8a10-4068-b88a-2e884a2bdc32> .
     
     <urn:uuid:068d8431-c5b8-4908-8af0-9642779347c0>
@@ -1022,7 +1058,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationRemedialAction
                     <urn:uuid:7e422768-207d-455f-976e-0b1cb2338509>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:GridStateAlteration.maximumPerDay
                     5;
             nc:GridStateAlteration.minimumActivation
@@ -1038,7 +1074,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID    "958419bd-309d-4946-bf90-b4ce1819b3c7";
             cim:IdentifiedObject.name    "Current flow through the line CL6 is higher than TATL";
             nc:StageTrigger.GateTrigger  <urn:uuid:068d8431-c5b8-4908-8af0-9642779347c0>;
-            nc:StageTrigger.Stage        <urn:uuid:7d2d969e-6b11-45c5-ba66-9637072b3be5> , <urn:uuid:2f60b546-dfcf-4e0c-b0d6-40264de45cbd>;
+            nc:StageTrigger.Stage        <urn:uuid:7d2d969e-6b11-45c5-ba66-9637072b3be5>;
             nc:StageTrigger.normalArmed  true;
             nc:StageTrigger.priority     0 .
     
@@ -1061,7 +1097,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RangeConstraint.normalValue  "1"^^xsd:float;
             nc:RangeConstraint.valueKind    nc:ValueOffsetKind.absolute;
             nc:StaticPropertyRange.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open> .
+                    cim:Switch.open .
     
     <urn:uuid:55a11475-e39f-4541-accc-d979376bcda3>
             rdf:type                   nc:TopologyAction;
@@ -1071,10 +1107,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name  "TA2";
             nc:GridStateAlteration.GridStateAlterationCollection
                     <urn:uuid:8739648b-662d-46c1-9f51-2965398e6ded>;
-            nc:GridStateAlteration.GridStateAlterationRemedialAction
-                    <urn:uuid:347f4f7e-a2b6-4880-846a-8bd1effb00d5>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:GridStateAlteration.normalEnabled
                     true;
             nc:TopologyAction.Switch   <urn:uuid:2db971f1-ed3d-4ea6-acf5-983c4289d51b> .
@@ -1088,7 +1122,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationRemedialAction
                     <urn:uuid:7e422768-207d-455f-976e-0b1cb2338509>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:GridStateAlteration.maximumPerDay
                     5;
             nc:GridStateAlteration.minimumActivation
@@ -1108,7 +1142,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationRemedialAction
                     <urn:uuid:d9bd3aaf-cda3-4b54-bb2e-b03dd9925817>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:GridStateAlteration.normalEnabled
                     true;
             nc:TopologyAction.Switch   <urn:uuid:39428c75-098b-4366-861d-2df2a857a805> .
@@ -1145,7 +1179,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RemedialAction.AppointedToRegion
                     <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
             nc:RemedialAction.RemedialActionSystemOperator
-                    <https://energy.referencedata.eu/test/party/Svedala>;
+                    <urn:uuid:b9fbb881-573b-4e98-9b7b-31f00a45ebe0>;
             nc:RemedialAction.isCrossBorderRelevant
                     true;
             nc:RemedialAction.kind     nc:RemedialActionKind.preventive;
@@ -1164,10 +1198,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     "false";
             nc:RemedialAction.AppointedToRegion
                     <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
-            nc:RemedialAction.ContingencyWithRemedialAction
-                    <urn:uuid:3a364a5b-7aba-4e48-abd5-4cd79e2e8676>;
             nc:RemedialAction.RemedialActionSystemOperator
-                    <https://energy.referencedata.eu/test/party/Svedala>;
+                    <urn:uuid:b9fbb881-573b-4e98-9b7b-31f00a45ebe0>;
             nc:RemedialAction.isCrossBorderRelevant
                     true;
             nc:RemedialAction.kind     nc:RemedialActionKind.curative;
@@ -1176,25 +1208,27 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     
     <urn:uuid:f7b94ef6-e043-4d2a-a359-2718e6e20507>
             rdf:type              dcat:Dataset;
-            dct:accessRights      "https://energy.referencedata.eu/Confidentiality/Public";
-            dct:conformsTo        "https://cim.ucaiug.io/ns#" , "https://ap.cim4.eu/RemedialAction/2.4" , "https://cim4.eu/ns/nc/2.4#" , "http://iec.ch/TC57/2013/CIM-schema-cim16#";
+            dct:accessRights      <https://energy.referencedata.eu/Confidentiality/Public>;
+            dct:conformsTo        cim: , <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/RemedialAction/2.5>;
             dct:description       "This is the remedial action dataset for Svedala part of ReliCapGrid."@en;
             dct:identifier        "f7b94ef6-e043-4d2a-a359-2718e6e20507";
             dct:issued            "2022-06-15T22:30:00Z"^^xsd:dateTime;
-            dct:license           "https://creativecommons.org/licenses/by/4.0/";
-            dct:publisher         "https://energy.referencedata.eu/test/party/Svedala";
-            dct:requires          <urn:uuid:e54a29a9-de39-4ac0-b7c2-8dc935657202>;
+            dct:license           <https://creativecommons.org/licenses/by/4.0/>;
+            dct:publisher         <https://energy.referencedata.eu/test/party/TSO-Svedala>;
+            dct:requires          <urn:uuid:e54a29a9-de39-4ac0-b7c2-8dc935657202> , <urn:uuid:e6b94ef6-e043-4d29-a258-1718d6d2f507>;
             dct:rights            "Copyright";
             dct:rightsHolder      "ENTSO-E";
-            dct:spatial           "https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System";
+            dct:spatial           <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System>;
             dct:title             "20220615_Svedala_RA_1.0.0";
+            dct:type              <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
+            adms:versionNotes     "Initial version."@en;
             dcat:endDate          "2023-06-15T22:30:00Z"^^xsd:dateTime;
             dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-RA>;
             dcat:keyword          "RA";
             dcat:startDate        "2022-06-15T22:30:00Z"^^xsd:dateTime;
             dcat:version          "1.0.0";
             prov:generatedAtTime  "2022-06-10T07:06:25Z"^^xsd:dateTime;
-            prov:wasGeneratedBy   "https://energy.referencedata.eu/Activity/CGM-RA" .
+            prov:wasGeneratedBy   <https://energy.referencedata.eu/Activity/CGM-RA> .
     
     <urn:uuid:54174158-33fb-43ad-9c2d-e733165c3acb>
             rdf:type                   nc:RegulatingControlAction;
@@ -1205,7 +1239,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationRemedialAction
                     <urn:uuid:68255abc-9164-4e9a-89ae-d8c44cf3b2b3>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/RegulatingControl.targetValue>;
+                    cim:RegulatingControl.targetValue;
             nc:GridStateAlteration.normalEnabled
                     true;
             nc:RegulatingControlAction.RegulatingControl
@@ -1229,7 +1263,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationRemedialAction
                     <urn:uuid:fa3e3533-345a-4ef1-a46d-3ab6d251924a>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:GridStateAlteration.maximumPerDay
                     5;
             nc:GridStateAlteration.minimumActivation
@@ -1252,7 +1286,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RangeConstraint.normalValue  "1.0"^^xsd:float;
             nc:RangeConstraint.valueKind    nc:ValueOffsetKind.absolute;
             nc:StaticPropertyRange.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open> .
+                    cim:Switch.open .
     
     <urn:uuid:4b1410d4-3958-4a8c-8289-b3d6b57cfc65>
             rdf:type                   nc:TopologyAction;
@@ -1263,7 +1297,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlteration.GridStateAlterationRemedialAction
                     <urn:uuid:d9bd3aaf-cda3-4b54-bb2e-b03dd9925817>;
             nc:GridStateAlteration.PropertyReference
-                    <https://energy.referencedata.eu/PropertyReference/Switch.open>;
+                    cim:Switch.open;
             nc:GridStateAlteration.normalEnabled
                     true;
             nc:TopologyAction.Switch   <urn:uuid:902046a4-40e9-421d-9ef1-9adab0d9d41d> .

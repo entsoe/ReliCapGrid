@@ -62,9 +62,11 @@ jobs:
           done
           echo "$RUNNER_TEMP/jena-shim" >> "$GITHUB_PATH"
 
+      # -B: on a fresh checkout every file has the checkout time, so make would
+      # take most committed .trig files as up to date and skip them
       - name: Regenerate trig files
         working-directory: Instance
-        run: make trig
+        run: make -B trig
 
       - name: Validate regenerated files
         working-directory: Instance

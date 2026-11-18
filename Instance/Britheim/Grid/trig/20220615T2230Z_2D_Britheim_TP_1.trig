@@ -69,15 +69,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:DCBaseTerminal.DCTopologicalNode
                     <urn:uuid:560d3516-93b2-de9d-db4b-011bbe0cea64> .
     
-    <urn:uuid:232c1486-9c30-f45b-399c-2c3fe489670b>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "232c1486-9c30-f45b-399c-2c3fe489670b";
-            cim:IdentifiedObject.name  "Terminal_GA-BH_A220";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:2a1a7497-5dbe-4f36-8779-db1b1a4c37e2> .
-    
     <urn:uuid:8cc52631-f7e1-04fb-d4d4-1a86d17182fa>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:344411c7-d5e4-59bc-419b-b4e1ab483a2e> .
@@ -173,46 +164,10 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:b4c57b86-875d-da4a-d6d1-1b30101eaaab> .
     
-    <urn:uuid:f2e0b01a-112b-51ff-fc9e-27551521d5ab>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "f2e0b01a-112b-51ff-fc9e-27551521d5ab";
-            cim:IdentifiedObject.name  "TAC A";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:2f42290332354b55b66aa149044ffdb2>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:100482f8-7d76-4682-a4b3-40795bf55656> .
-    
     <urn:uuid:7c6c706a-6f61-96be-a9f8-7bda6eeee401>
             rdf:type  cim:ACDCConverterDCTerminal;
             cim:DCBaseTerminal.DCTopologicalNode
                     <urn:uuid:30d05e0b-9b33-ad5f-1df4-783d7ae13513> .
-    
-    <urn:uuid:344411c7-d5e4-59bc-419b-b4e1ab483a2e>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "344411c7-d5e4-59bc-419b-b4e1ab483a2e";
-            cim:IdentifiedObject.name  "TerminalBH1";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:3f5f9f0a-351f-ddbc-fbc9-8ecb130812f8> .
-    
-    <urn:uuid:b4c57b86-875d-da4a-d6d1-1b30101eaaab>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "b4c57b86-875d-da4a-d6d1-1b30101eaaab";
-            cim:IdentifiedObject.name  "BP_GA-BH1";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:dbd82264-a684-4b87-946d-a5a02714daa9> .
-    
-    <urn:uuid:c3d081d4-3414-a753-24d6-4e93d0f01d89>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "c3d081d4-3414-a753-24d6-4e93d0f01d89";
-            cim:IdentifiedObject.name  "Terminal_BH-GA_B220";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:2a1a7497-5dbe-4f36-8779-db1b1a4c37e2> .
     
     <urn:uuid:99087010-69e9-85d1-8a4e-4ee85a17d498>
             rdf:type                      cim:Terminal;
@@ -240,11 +195,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:06972def-239c-97c3-1dfe-d8b394a3084a>
             rdf:type                   cim:TopologicalNode;
             cim:IdentifiedObject.mRID  "06972def-239c-97c3-1dfe-d8b394a3084a";
-            cim:IdentifiedObject.name  "TAC B";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:2f42290332354b55b66aa149044ffdb2>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:100482f8-7d76-4682-a4b3-40795bf55656> .
+            cim:IdentifiedObject.name  "TAC B" .
     
     <urn:uuid:50bf2dbc-8c8c-4aa1-90c7-2b574eca11b5>
             rdf:type  cim:DCTerminal;

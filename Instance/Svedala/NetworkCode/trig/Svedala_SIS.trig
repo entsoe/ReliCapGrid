@@ -2,7 +2,6 @@ PREFIX adms:     <http://www.w3.org/ns/adms#>
 PREFIX cim:      <https://cim.ucaiug.io/ns#>
 PREFIX dcat:     <http://www.w3.org/ns/dcat#>
 PREFIX dcat-cim: <https://cim4.eu/ns/dcat-cim#>
-PREFIX dcatcim:  <https://cim4.eu/ns/dcatcim#>
 PREFIX dct:      <http://purl.org/dc/terms/>
 PREFIX dcterms:  <http://purl.org/dc/terms/>
 PREFIX dm:       <http://iec.ch/TC57/61970-552/DifferenceModel/1#>
@@ -38,6 +37,29 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlterationTimePoint.enabled
                     true .
     
+    <urn:uuid:b65e978c-d6ee-4ecd-a911-dd6b657b9265>
+            rdf:type                   nc:GenericEnablingSchedule;
+            cim:IdentifiedObject.mRID  "b65e978c-d6ee-4ecd-a911-dd6b657b9265";
+            cim:IdentifiedObject.name  "NORRSELE_G2 V-control enable schedule";
+            nc:BaseTimeSeries.interpolationKind
+                    nc:TimeSeriesInterpolationKind.previous;
+            nc:GenericEnablingSchedule.FunctionBlock
+                    <urn:uuid:96abc1bd-df1e-46d5-a41e-6795cd7900fc> .
+    
+    <urn:uuid:b6183924-1402-4d7e-94b4-675bc679e183>
+            rdf:type                      nc:EnablingTimePoint;
+            nc:EnablingTimePoint.GenericEnablingSchedule
+                    <urn:uuid:8ca65736-5629-4746-a629-1371153d2767>;
+            nc:EnablingTimePoint.atTime   "2022-06-15T22:30:00Z"^^xsd:dateTime;
+            nc:EnablingTimePoint.enabled  true .
+    
+    <urn:uuid:2a7b898f-dac7-4178-b511-8bf9f4b43dc4>
+            rdf:type                      nc:EnablingTimePoint;
+            nc:EnablingTimePoint.GenericEnablingSchedule
+                    <urn:uuid:8ca65736-5629-4746-a629-1371153d2767>;
+            nc:EnablingTimePoint.atTime   "2022-06-15T23:30:00Z"^^xsd:dateTime;
+            nc:EnablingTimePoint.enabled  false .
+    
     <urn:uuid:a951d00f-5f48-4fb9-9194-7fd88193529e>
             rdf:type                   nc:GridStateAlterationSchedule;
             cim:IdentifiedObject.mRID  "a951d00f-5f48-4fb9-9194-7fd88193529e";
@@ -49,25 +71,50 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:GridStateAlterationSchedule.GridStateAlteration
                     <urn:uuid:eb60d1c0-8bcc-463b-8b91-8dc1833b2a92> .
     
+    <urn:uuid:d9f41c88-dd31-4c99-aefa-7da90aa0ed21>
+            rdf:type                      nc:EnablingTimePoint;
+            nc:EnablingTimePoint.GenericEnablingSchedule
+                    <urn:uuid:b65e978c-d6ee-4ecd-a911-dd6b657b9265>;
+            nc:EnablingTimePoint.atTime   "2022-06-15T22:30:00Z"^^xsd:dateTime;
+            nc:EnablingTimePoint.enabled  true .
+    
+    <urn:uuid:459781ae-5181-4b3c-a733-7de6a16563b7>
+            rdf:type                      nc:EnablingTimePoint;
+            nc:EnablingTimePoint.GenericEnablingSchedule
+                    <urn:uuid:b65e978c-d6ee-4ecd-a911-dd6b657b9265>;
+            nc:EnablingTimePoint.atTime   "2022-06-15T23:30:00Z"^^xsd:dateTime;
+            nc:EnablingTimePoint.enabled  true .
+    
+    <urn:uuid:8ca65736-5629-4746-a629-1371153d2767>
+            rdf:type                   nc:GenericEnablingSchedule;
+            cim:IdentifiedObject.mRID  "8ca65736-5629-4746-a629-1371153d2767";
+            cim:IdentifiedObject.name  "XT201-T1 tap enable schedule";
+            nc:BaseTimeSeries.interpolationKind
+                    nc:TimeSeriesInterpolationKind.previous;
+            nc:GenericEnablingSchedule.FunctionBlock
+                    <urn:uuid:d5e9e69d-8c0c-45fe-b925-ed2dcd16fb80> .
+    
     <urn:uuid:2426ac74-18f0-441c-9814-3f06655302e6>
             rdf:type              dcat:Dataset;
-            dct:accessRights      "https://energy.referencedata.eu/Confidentiality/Public";
-            dct:conformsTo        "https://cim.ucaiug.io/ns#" , "https://cim4.eu/ns/nc/2.4#" , "https://ap.cim4.eu/StateInstructionSchedule/2.4" , "http://iec.ch/TC57/2013/CIM-schema-cim16#";
+            dct:accessRights      <https://energy.referencedata.eu/Confidentiality/Public>;
+            dct:conformsTo        cim: , <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/StateInstructionSchedule/2.5>;
             dct:description       "This is the state instruction schedule dataset for Svedala part of ReliCapGrid."@en;
             dct:identifier        "2426ac74-18f0-441c-9814-3f06655302e6";
             dct:issued            "2022-06-15T22:30:00Z"^^xsd:dateTime;
-            dct:license           "https://creativecommons.org/licenses/by/4.0/";
-            dct:publisher         "https://energy.referencedata.eu/test/party/Svedala";
+            dct:license           <https://creativecommons.org/licenses/by/4.0/>;
+            dct:publisher         <https://energy.referencedata.eu/test/party/TSO-Svedala>;
             dct:requires          <urn:uuid:f7b94ef6-e043-4d2a-a359-2718e6e20507>;
             dct:rights            "Copyright";
             dct:rightsHolder      "ENTSO-E";
-            dct:spatial           "https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System";
+            dct:spatial           <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System>;
             dct:title             "20220615_Svedala_SIS_1.0.0";
+            dct:type              <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
+            adms:versionNotes     "Initial version."@en;
             dcat:endDate          "2023-06-15T22:30:00Z"^^xsd:dateTime;
             dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-SIS>;
             dcat:keyword          "SIS";
             dcat:startDate        "2022-06-15T22:30:00Z"^^xsd:dateTime;
             dcat:version          "1.0.0";
             prov:generatedAtTime  "2022-06-10T07:06:25Z"^^xsd:dateTime;
-            prov:wasGeneratedBy   "https://energy.referencedata.eu/Activity/CGM-SIS" .
+            prov:wasGeneratedBy   <https://energy.referencedata.eu/Activity/CGM-SIS> .
 }

@@ -1,3 +1,4 @@
+PREFIX adms:     <http://www.w3.org/ns/adms#>
 PREFIX cim:      <https://cim.ucaiug.io/ns#>
 PREFIX dcat:     <http://www.w3.org/ns/dcat#>
 PREFIX dcat-cim: <https://cim4.eu/ns/dcat-cim#>
@@ -18,6 +19,22 @@ PREFIX rdfg:     <http://www.w3.org/2004/03/trix/rdfg-1/>
 PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 
 <urn:uuid:447dc560-28a7-41ff-b1ce-15dd3f0d5e87> {
+    <urn:uuid:19f080fc-a194-4ea7-8402-6cd070d572ba>
+            rdf:type                       nc:AssessedElement;
+            cim:IdentifiedObject.description
+                    "Assessed element for branch TieLine_GA_BO4 (ACLineSegment, 400 kV).";
+            cim:IdentifiedObject.mRID      "19f080fc-a194-4ea7-8402-6cd070d572ba";
+            cim:IdentifiedObject.name      "AE11_TieLine_GA_BO4";
+            nc:AssessedElement.AssessedSystemOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:AssessedElement.ConductingEquipment
+                    <urn:uuid:7f43f508-2496-4b64-9146-0a40406cbe49>;
+            nc:AssessedElement.ScannedForRegion
+                    <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
+            nc:AssessedElement.inBaseCase  true;
+            nc:AssessedElement.normalEnabled
+                    true .
+    
     <urn:uuid:e43a18a9-cd28-49ce-b6b1-7db8255462e2>
             rdf:type                       nc:AssessedElement;
             cim:IdentifiedObject.description
@@ -25,34 +42,68 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID      "e43a18a9-cd28-49ce-b6b1-7db8255462e2";
             cim:IdentifiedObject.name      "AE1";
             nc:AssessedElement.AssessedSystemOperator
-                    <https://energy.referencedata.eu/Test/Model/Galia-AE#X1001A1001A361>;
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
             nc:AssessedElement.ConductingEquipment
                     <urn:uuid:1dc9afba-23b5-41a0-8540-b479ed8baf4b>;
             nc:AssessedElement.ScannedForRegion
                     <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
             nc:AssessedElement.inBaseCase  true .
     
+    <urn:uuid:545fe80d-3556-4b3d-b9c2-f281f7f8c337>
+            rdf:type                       nc:AssessedElement;
+            cim:IdentifiedObject.description
+                    "Assessed element for branch TieLine_GA_BO3 (ACLineSegment, 400 kV).";
+            cim:IdentifiedObject.mRID      "545fe80d-3556-4b3d-b9c2-f281f7f8c337";
+            cim:IdentifiedObject.name      "AE10_TieLine_GA_BO3";
+            nc:AssessedElement.AssessedSystemOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:AssessedElement.ConductingEquipment
+                    <urn:uuid:dad02278-bd25-476f-8f58-dbe44be72586>;
+            nc:AssessedElement.ScannedForRegion
+                    <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
+            nc:AssessedElement.inBaseCase  true;
+            nc:AssessedElement.normalEnabled
+                    true .
+    
+    <urn:uuid:30b6e5ab-394a-4043-a2e5-64eeec8f0fb6>
+            rdf:type                       nc:AssessedElement;
+            cim:IdentifiedObject.description
+                    "Assessed element for branch TieLine_GA_BO2 (ACLineSegment, 220 kV).";
+            cim:IdentifiedObject.mRID      "30b6e5ab-394a-4043-a2e5-64eeec8f0fb6";
+            cim:IdentifiedObject.name      "AE9_TieLine_GA_BO2";
+            nc:AssessedElement.AssessedSystemOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:AssessedElement.ConductingEquipment
+                    <urn:uuid:8fdc7abd-3746-481a-a65e-3df56acd8b13>;
+            nc:AssessedElement.ScannedForRegion
+                    <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
+            nc:AssessedElement.inBaseCase  true;
+            nc:AssessedElement.normalEnabled
+                    true .
+    
     <urn:uuid:447dc560-28a7-41ff-b1ce-15dd3f0d5e87>
             rdf:type              dcat:Dataset;
-            dct:accessRights      "https://energy.referencedata.eu/Confidentiality/Public";
-            dct:conformsTo        "https://ap.cim4.eu/AssessedElement/2.4" , "https://cim.ucaiug.io/ns#" , "https://cim4.eu/ns/nc/2.4#" , "http://iec.ch/TC57/2013/CIM-schema-cim16#";
+            dct:accessRights      <https://energy.referencedata.eu/Confidentiality/Public>;
+            dct:conformsTo        cim: , <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/AssessedElement/2.4>;
             dct:description       "This is the assessed element dataset for Galia part of ReliCapGrid."@en;
             dct:identifier        "447dc560-28a7-41ff-b1ce-15dd3f0d5e87";
             dct:issued            "2022-06-15T22:30:00Z"^^xsd:dateTime;
-            dct:license           "https://creativecommons.org/licenses/by/4.0/";
-            dct:publisher         "https://energy.referencedata.eu/test/party/Galia";
-            dct:requires          <urn:uuid:2ea55b46-ad48-4408-be72-734b475ba18f>;
+            dct:license           <https://creativecommons.org/licenses/by/4.0/>;
+            dct:publisher         <https://energy.referencedata.eu/test/party/TSO-Galia>;
+            dct:requires          <urn:uuid:a2c02149-a114-4b5e-9de5-74dcccd9793a> , <urn:uuid:2ea55b46-ad48-4408-be72-734b475ba18f>;
             dct:rights            "Copyright";
             dct:rightsHolder      "ENTSO-E";
-            dct:spatial           "https://energy.referencedata.eu/Test/Frame/Galia-Power-Transmission-System";
+            dct:spatial           <https://energy.referencedata.eu/Test/Frame/Galia-Power-Transmission-System>;
             dct:title             "20220615_Galia_AE_1.0.0";
+            dct:type              <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
+            adms:versionNotes     "Initial version."@en;
             dcat:endDate          "2023-06-15T22:30:00Z"^^xsd:dateTime;
             dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Galia-AE>;
             dcat:keyword          "AE";
             dcat:startDate        "2022-06-15T22:30:00Z"^^xsd:dateTime;
             dcat:version          "1.0.0";
             prov:generatedAtTime  "2022-06-10T07:06:25Z"^^xsd:dateTime;
-            prov:wasGeneratedBy   "https://energy.referencedata.eu/Activity/CGM-AE" .
+            prov:wasGeneratedBy   <https://energy.referencedata.eu/Activity/CGM-AE> .
     
     <urn:uuid:e3165c3a-87a0-44b7-a209-939bda47778f>
             rdf:type  nc:AssessedElementWithContingency;
@@ -67,6 +118,22 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:AssessedElementWithContingency.normalEnabled
                     true .
     
+    <urn:uuid:ef5aff28-5015-44b6-bc2c-d94520ca7a50>
+            rdf:type                       nc:AssessedElement;
+            cim:IdentifiedObject.description
+                    "Assessed element for branch GA_TR2_2 (PowerTransformer, 220 kV).";
+            cim:IdentifiedObject.mRID      "ef5aff28-5015-44b6-bc2c-d94520ca7a50";
+            cim:IdentifiedObject.name      "AE4_GA_TR2_2";
+            nc:AssessedElement.AssessedSystemOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:AssessedElement.ConductingEquipment
+                    <urn:uuid:2184f365-8cd5-4b5d-8a28-9d68603bb6a4>;
+            nc:AssessedElement.ScannedForRegion
+                    <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
+            nc:AssessedElement.inBaseCase  true;
+            nc:AssessedElement.normalEnabled
+                    true .
+    
     <urn:uuid:e43a18a9-cd28-49ce-b6b1-7db8255462e3>
             rdf:type                       nc:AssessedElement;
             cim:IdentifiedObject.description
@@ -74,7 +141,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID      "e43a18a9-cd28-49ce-b6b1-7db8255462e3";
             cim:IdentifiedObject.name      "AE2";
             nc:AssessedElement.AssessedSystemOperator
-                    <https://energy.referencedata.eu/Test/Model/Galia-AE#X1001A1001A361>;
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
             nc:AssessedElement.ConductingEquipment
                     <urn:uuid:1dc9afba-23b5-41a0-8540-b479ed8baf4b>;
             nc:AssessedElement.ScannedForRegion
@@ -82,4 +149,100 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:AssessedElement.exclusionReason
                     nc:SecuredExclusionReasonKind.systemOperator;
             nc:AssessedElement.inBaseCase  true .
+    
+    <urn:uuid:41610d12-6138-4d83-b10c-4cba3daa175d>
+            rdf:type                       nc:AssessedElement;
+            cim:IdentifiedObject.description
+                    "Assessed element for branch GA-TR2_1 (PowerTransformer, 400 kV).";
+            cim:IdentifiedObject.mRID      "41610d12-6138-4d83-b10c-4cba3daa175d";
+            cim:IdentifiedObject.name      "AE3_GA_TR2_1";
+            nc:AssessedElement.AssessedSystemOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:AssessedElement.ConductingEquipment
+                    <urn:uuid:e8a7eaec-51d6-4571-b3d9-c36d52073c33>;
+            nc:AssessedElement.ScannedForRegion
+                    <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
+            nc:AssessedElement.inBaseCase  true;
+            nc:AssessedElement.normalEnabled
+                    true .
+    
+    <urn:uuid:f317199d-2aa4-49b7-9027-616916964d4e>
+            rdf:type                       nc:AssessedElement;
+            cim:IdentifiedObject.description
+                    "Assessed element for branch TieLine_GA-HVDC_GA_BH_1 (ACLineSegment, 220 kV).";
+            cim:IdentifiedObject.mRID      "f317199d-2aa4-49b7-9027-616916964d4e";
+            cim:IdentifiedObject.name      "AE6_TieLine_GA_HVDC_GA_BH_1";
+            nc:AssessedElement.AssessedSystemOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:AssessedElement.ConductingEquipment
+                    <urn:uuid:8d5bb92f-4938-4027-9322-f1b502b28fbe>;
+            nc:AssessedElement.ScannedForRegion
+                    <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
+            nc:AssessedElement.inBaseCase  true;
+            nc:AssessedElement.normalEnabled
+                    true .
+    
+    <urn:uuid:70c82567-b89d-4de9-8258-dbfca30e5713>
+            rdf:type                       nc:AssessedElement;
+            cim:IdentifiedObject.description
+                    "Assessed element for branch TieLine_GA_BO1 (ACLineSegment, 220 kV).";
+            cim:IdentifiedObject.mRID      "70c82567-b89d-4de9-8258-dbfca30e5713";
+            cim:IdentifiedObject.name      "AE8_TieLine_GA_BO1";
+            nc:AssessedElement.AssessedSystemOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:AssessedElement.ConductingEquipment
+                    <urn:uuid:a279a3dc-550b-426c-af3a-61b7be508dcc>;
+            nc:AssessedElement.ScannedForRegion
+                    <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
+            nc:AssessedElement.inBaseCase  true;
+            nc:AssessedElement.normalEnabled
+                    true .
+    
+    <urn:uuid:5821e835-4ee5-4e3d-85a9-1a9d76177463>
+            rdf:type                       nc:AssessedElement;
+            cim:IdentifiedObject.description
+                    "Assessed element for branch TieLine_GA_BO5 (ACLineSegment, 400 kV).";
+            cim:IdentifiedObject.mRID      "5821e835-4ee5-4e3d-85a9-1a9d76177463";
+            cim:IdentifiedObject.name      "AE12_TieLine_GA_BO5";
+            nc:AssessedElement.AssessedSystemOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:AssessedElement.ConductingEquipment
+                    <urn:uuid:e8acf6b6-99cb-45ad-b8dc-16c7866a4ddc>;
+            nc:AssessedElement.ScannedForRegion
+                    <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
+            nc:AssessedElement.inBaseCase  true;
+            nc:AssessedElement.normalEnabled
+                    true .
+    
+    <urn:uuid:7abd43eb-f79b-448e-81cd-86c0c0e51413>
+            rdf:type                       nc:AssessedElement;
+            cim:IdentifiedObject.description
+                    "Assessed element for branch TieLine_GA-HVDC_GA_NH_1 (ACLineSegment, 220 kV).";
+            cim:IdentifiedObject.mRID      "7abd43eb-f79b-448e-81cd-86c0c0e51413";
+            cim:IdentifiedObject.name      "AE7_TieLine_GA_HVDC_GA_NH_1";
+            nc:AssessedElement.AssessedSystemOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:AssessedElement.ConductingEquipment
+                    <urn:uuid:1ea986bc-7cb9-4efb-b524-69c5dc1372bc>;
+            nc:AssessedElement.ScannedForRegion
+                    <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
+            nc:AssessedElement.inBaseCase  true;
+            nc:AssessedElement.normalEnabled
+                    true .
+    
+    <urn:uuid:6351d5f8-f22e-40d3-b03b-ae44310dc9a4>
+            rdf:type                       nc:AssessedElement;
+            cim:IdentifiedObject.description
+                    "Assessed element for branch GA_TR2_3 (PowerTransformer, 220 kV).";
+            cim:IdentifiedObject.mRID      "6351d5f8-f22e-40d3-b03b-ae44310dc9a4";
+            cim:IdentifiedObject.name      "AE5_GA_TR2_3";
+            nc:AssessedElement.AssessedSystemOperator
+                    <urn:uuid:2ec42376-eee2-4ab9-b79a-165e1df2a185>;
+            nc:AssessedElement.ConductingEquipment
+                    <urn:uuid:80016742-31b3-432a-b00a-300667a1e572>;
+            nc:AssessedElement.ScannedForRegion
+                    <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
+            nc:AssessedElement.inBaseCase  true;
+            nc:AssessedElement.normalEnabled
+                    true .
 }

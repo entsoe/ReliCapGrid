@@ -33,26 +33,38 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     nc:AvailabilityFunctionKind.outOfService .
     
     <urn:uuid:dc9fc9d1-bb73-4b36-a5a6-7fbb9ed5b354>
-            rdf:type                 dcat:Dataset;
-            dct:accessRights         <https://energy.referencedata.eu/Confidentiality/Public>;
-            dct:conformsTo           cim: , <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/AvailabilitySchedule/2.3>;
-            dct:description          "This is the example for availability schedule dataset for Svedala part of ReliCapGrid";
-            dct:identifier           "dc9fc9d1-bb73-4b36-a5a6-7fbb9ed5b354";
-            dct:issued               "2024-12-03T10:00:00Z"^^xsd:dateTime;
-            dct:license              <https://creativecommons.org/licenses/by/4.0/>;
-            dct:publisher            <https://energy.referencedata.eu/test/party/Svedala>;
-            dct:requires             <urn:uuid:e54a29a9-de39-4ac0-b7c2-8dc935657202>;
-            dct:rights               "Copyright";
-            dct:rightsHolder         "ENTSO-E";
-            dct:spatial              <https://energy.referencedata.eu/Frame/Svedala-Power-Transmission-System>;
-            dct:title                "20241203_Svedala_AS_1.0.0";
-            adms:versionNotes        "This is an example of Availability schedule dataset for SvK.";
-            dcat:isVersionOf         <https://energy.referencedata.eu/Test/Model/Svedala-AS>;
-            dcat:keyword             "AS";
-            dcat:startDate           "2024-12-03T10:00:00Z"^^xsd:dateTime;
-            dcat:version             "1.0.0";
-            prov:generatedAtTime     "2024-12-03T10:00:00Z"^^xsd:dateTime;
-            prov:wasGeneratedBy      <https://energy.referencedata.eu/Activity/OPC-AS> .
+            rdf:type              dcat:Dataset;
+            dct:accessRights      <https://energy.referencedata.eu/Confidentiality/Public>;
+            dct:conformsTo        cim: , <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/AvailabilitySchedule/2.4>;
+            dct:description       "This is the example for availability schedule dataset for Svedala part of ReliCapGrid"@en;
+            dct:identifier        "dc9fc9d1-bb73-4b36-a5a6-7fbb9ed5b354";
+            dct:issued            "2024-12-03T10:00:00Z"^^xsd:dateTime;
+            dct:license           <https://creativecommons.org/licenses/by/4.0/>;
+            dct:publisher         <https://energy.referencedata.eu/test/party/TSO-Svedala>;
+            dct:requires          <urn:uuid:e54a29a9-de39-4ac0-b7c2-8dc935657202>;
+            dct:rights            "Copyright";
+            dct:rightsHolder      "ENTSO-E";
+            dct:spatial           <https://energy.referencedata.eu/Frame/Svedala-Power-Transmission-System>;
+            dct:title             "20241203_Svedala_AS_1.0.0";
+            dct:type              <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
+            adms:versionNotes     "This is an example of Availability schedule dataset for SvK."@en;
+            dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-AS>;
+            dcat:keyword          "AS";
+            dcat:startDate        "2024-12-03T10:00:00Z"^^xsd:dateTime;
+            dcat:version          "1.0.0";
+            prov:generatedAtTime  "2024-12-03T10:00:00Z"^^xsd:dateTime;
+            prov:wasGeneratedBy   <https://energy.referencedata.eu/Activity/OPC-AS> .
+    
+    <urn:uuid:7591824a-2694-4dbc-b9ec-c1613ff81814>
+            rdf:type                   nc:EventSchedule;
+            cim:IdentifiedObject.description
+                    "event schedule example";
+            cim:IdentifiedObject.mRID  "7591824a-2694-4dbc-b9ec-c1613ff81814";
+            cim:IdentifiedObject.name  "event ";
+            nc:BaseTimeSeries.interpolationKind
+                    nc:TimeSeriesInterpolationKind.previous;
+            nc:BaseTimeSeries.timeSeriesKind
+                    nc:BaseTimeSeriesKind.schedule .
     
     <urn:uuid:0d4d4078-f3ad-409d-8882-73dafef11b80>
             rdf:type                   nc:AvailabilityContainer;
@@ -67,6 +79,19 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:AvailabilityPowerSystemFunction.kind
                     nc:AvailabilityFunctionKind.outOfService .
     
+    <urn:uuid:12d82418-69c5-43c7-9ba5-645a8b3561f0>
+            rdf:type                   nc:AvailabilityEquipment;
+            cim:IdentifiedObject.description
+                    "Sample Availability Equipment";
+            cim:IdentifiedObject.mRID  "12d82418-69c5-43c7-9ba5-645a8b3561f0";
+            cim:IdentifiedObject.name  "Availability Equipment 1";
+            nc:AvailabilityEquipment.Equipment
+                    <urn:uuid:536f4b84-db4c-4545-96e9-bb5a87f65d13>;
+            nc:AvailabilityPowerSystemFunction.AvailabilitySchedule
+                    <urn:uuid:d394295f-9d18-4d9f-9808-bd23282bf60f>;
+            nc:AvailabilityPowerSystemFunction.kind
+                    nc:AvailabilityFunctionKind.outOfService .
+    
     <urn:uuid:9fa5e26d-d64e-4bfb-afb8-fb6dbe884b48>
             rdf:type                   nc:AvailabilitySchedule;
             cim:IdentifiedObject.description
@@ -74,7 +99,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "9fa5e26d-d64e-4bfb-afb8-fb6dbe884b48";
             cim:IdentifiedObject.name  "Test schedule for Availability Container example";
             nc:AvailabilitySchedule.PlannedSchedule
-                    <urn:uuid:7acbe49b-be64-4dd8-a02e-87778468d55a>;
+                    <urn:uuid:7591824a-2694-4dbc-b9ec-c1613ff81814>;
             nc:AvailabilitySchedule.causeDescription
                     "Preparation to start Project B";
             nc:AvailabilitySchedule.causeKind
@@ -97,7 +122,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name  "event ";
             nc:BaseTimeSeries.interpolationKind
                     nc:TimeSeriesInterpolationKind.previous;
-            nc:BaseTimeSeries.kind     nc:BaseTimeSeriesKind.schedule .
+            nc:BaseTimeSeries.timeSeriesKind
+                    nc:BaseTimeSeriesKind.schedule .
     
     <urn:uuid:389a8f82-cb8e-4b8c-8aa7-3b26a4957eba>
             rdf:type                    nc:EventTimePoint;
@@ -111,6 +137,13 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:EventTimePoint.EventSchedule
                     <urn:uuid:7acbe49b-be64-4dd8-a02e-87778468d55a>;
             nc:EventTimePoint.atTime    "2025-01-30T23:50:00Z"^^xsd:dateTime;
+            nc:EventTimePoint.isActive  true .
+    
+    <https://energy.referencedata.eu/Test/Model/Svedala-AS#d934f699-7835-46ec-88bb-7268b4671d8a>
+            rdf:type                    nc:EventTimePoint;
+            nc:EventTimePoint.EventSchedule
+                    <urn:uuid:7591824a-2694-4dbc-b9ec-c1613ff81814>;
+            nc:EventTimePoint.atTime    "2025-03-30T23:50:00Z"^^xsd:dateTime;
             nc:EventTimePoint.isActive  true .
     
     <urn:uuid:31c77d68-cf6a-462a-8194-956d697dc3a2>

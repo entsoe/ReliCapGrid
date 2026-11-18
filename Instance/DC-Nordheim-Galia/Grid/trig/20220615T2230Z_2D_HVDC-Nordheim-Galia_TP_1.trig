@@ -36,15 +36,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:a30ec2da-0349-7b55-c130-a0519ded3066> .
     
-    <urn:uuid:297b3420-914e-4e65-d423-60dcbf6302da>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "297b3420-914e-4e65-d423-60dcbf6302da";
-            cim:IdentifiedObject.name  "TerminalGA-NH_A220";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:512ac1ce-7df4-4caf-937c-5bb9380140e9> .
-    
     <urn:uuid:2cb059da-8262-dc6a-1849-83863c5bfc65>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:fc1470ef-3707-7fc5-4e29-1c037a1c2a51> .
@@ -52,11 +43,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:f8d940dd-81a9-ba4f-b198-50a03be3b862>
             rdf:type                   cim:TopologicalNode;
             cim:IdentifiedObject.mRID  "f8d940dd-81a9-ba4f-b198-50a03be3b862";
-            cim:IdentifiedObject.name  "TAC Bp";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:e50ca4bd591d4c30bd6eca3635f70516>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:d487ff06-4419-477b-a85a-b55c34598b1b> .
+            cim:IdentifiedObject.name  "TAC Bp" .
     
     <urn:uuid:fad46165-4174-1665-2cf1-7d147603822a>
             rdf:type  cim:DCTerminal;
@@ -96,27 +83,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "9f314acd-4133-3dd1-7cc7-b21fda343878";
             cim:IdentifiedObject.name  "TDC A minus" .
     
-    <urn:uuid:34334895-232c-75cb-9a58-36c799a1a485>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "34334895-232c-75cb-9a58-36c799a1a485";
-            cim:IdentifiedObject.name  "BP HVDC GA-NH NH side";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:e61f8ecf-8129-4702-a3a2-826bdf5ad13d> .
-    
     <urn:uuid:6d218e49-0d6b-4e14-9079-2ee1c6832fa3>
             rdf:type                      cim:DCNode;
             cim:DCNode.DCTopologicalNode  <urn:uuid:76e7d22a-2a43-6b2a-b8ef-da4cff46d0d6> .
-    
-    <urn:uuid:7c9c425e-5a8f-ca3c-6c8c-96c992a4815f>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "7c9c425e-5a8f-ca3c-6c8c-96c992a4815f";
-            cim:IdentifiedObject.name  "BP_GA-NH1";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:82abfaf2-36df-44ac-b4e5-e40a535affa4> .
     
     <urn:uuid:f04df7ea-bb4d-428e-8adf-3bd61cf27083>
             rdf:type                      cim:DCNode;
@@ -125,15 +94,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:1413fe8d-03de-51bb-998f-9c8c4c841b98>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:4b3668ba-5ea4-8f11-c783-9db2ed8b04f2> .
-    
-    <urn:uuid:4b3668ba-5ea4-8f11-c783-9db2ed8b04f2>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "4b3668ba-5ea4-8f11-c783-9db2ed8b04f2";
-            cim:IdentifiedObject.name  "TAC Ap";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:e50ca4bd591d4c30bd6eca3635f70516>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:d487ff06-4419-477b-a85a-b55c34598b1b> .
     
     <urn:uuid:03092750-41f7-347b-fd90-e82e1b8b5704>
             rdf:type  cim:DCTerminal;
@@ -180,15 +140,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:DCBaseTerminal.DCTopologicalNode
                     <urn:uuid:3c1169b7-08be-1faf-271b-cd4e8eb5654f> .
     
-    <urn:uuid:2a8adbaf-63a7-e6ff-17e7-3bf58a5f7f9c>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "2a8adbaf-63a7-e6ff-17e7-3bf58a5f7f9c";
-            cim:IdentifiedObject.name  "Terminal B_220";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:512ac1ce-7df4-4caf-937c-5bb9380140e9> .
-    
     <urn:uuid:7b2ebf97-7150-426b-beb1-c60686ca8cb2>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
@@ -234,15 +185,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:83274019-cf88-d03e-c291-efc418632b61>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:fc1470ef-3707-7fc5-4e29-1c037a1c2a51> .
-    
-    <urn:uuid:fc1470ef-3707-7fc5-4e29-1c037a1c2a51>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "fc1470ef-3707-7fc5-4e29-1c037a1c2a51";
-            cim:IdentifiedObject.name  "TAC Am";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:e50ca4bd591d4c30bd6eca3635f70516>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:d487ff06-4419-477b-a85a-b55c34598b1b> .
     
     <urn:uuid:048a6928-aa41-246c-97a2-970cd8e32d20>
             rdf:type  cim:DCTerminal;
@@ -376,15 +318,6 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:bb580ab8-eb07-4e59-8932-8a078288e409>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:4b3668ba-5ea4-8f11-c783-9db2ed8b04f2> .
-    
-    <urn:uuid:a30ec2da-0349-7b55-c130-a0519ded3066>
-            rdf:type                   cim:TopologicalNode;
-            cim:IdentifiedObject.mRID  "a30ec2da-0349-7b55-c130-a0519ded3066";
-            cim:IdentifiedObject.name  "TAC Bm";
-            cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:e50ca4bd591d4c30bd6eca3635f70516>;
-            cim:TopologicalNode.ConnectivityNodeContainer
-                    <urn:uuid:d487ff06-4419-477b-a85a-b55c34598b1b> .
     
     <urn:uuid:13b855a8-a566-02a3-4602-4ce2ad44bf22>
             rdf:type  cim:DCTerminal;

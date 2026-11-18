@@ -17,24 +17,7 @@ PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfg:     <http://www.w3.org/2004/03/trix/rdfg-1/>
 PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 
-<urn:uuid:7205352b-3af5-4bb1-a008-aba810e8a35d> {
-    <urn:uuid:7205352b-3af5-4bb1-a008-aba810e8a35d>
-            rdf:type           rdfg:Graph , dcat:Dataset;
-            dct:conformsTo     <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
-            dct:description    "The equipment dataset of the boundary that is used in the ReliCapGrid.";
-            dct:identifier     "7205352b-3af5-4bb1-a008-aba810e8a35d";
-            dct:issued         "2025-02-06T14:18:22Z"^^xsd:dateTime;
-            dct:requires       <urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3>;
-            dct:temporal       [ rdf:type        dct:PeriodOfTime;
-                                 dcat:startDate  "2022-06-16T23:30:00Z"^^xsd:dateTime
-                               ];
-            dcat:distribution  [ rdf:type    dcat:Distribution;
-                                 dct:issued  "2025-02-06T14:18:22Z"^^xsd:dateTime
-                               ];
-            dcat:isVersionOf   <http://ninerealms.nr/boundary>;
-            dcat:version       "1";
-            json-ld:base       "http://ninerealms.nr/boundary#" .
-    
+<urn:uuid:e93aa4de-4f3a-401e-991e-8b6c47d05b76> {
     <urn:uuid:dbd82264-a684-4b87-946d-a5a02714daa9>
             rdf:type                       cim:Line;
             cim:IdentifiedObject.description
@@ -54,23 +37,55 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name      "BP_GA-BH1";
             eu:IdentifiedObject.shortName  "BP_GA-BH1" .
     
+    <urn:uuid:f9ff9a61-68ab-9b05-b850-45e03e7c7483>
+            rdf:type                   nc:BoundaryPointBorder;
+            cim:IdentifiedObject.mRID  "f9ff9a61-68ab-9b05-b850-45e03e7c7483";
+            cim:IdentifiedObject.name  "TSO-Galia-TSO-Britheim";
+            nc:BoundaryPointBorder.partyOneDesignatorRef
+                    <https://vocabulary.uncefact.org/unlocode-countries#GA>;
+            nc:BoundaryPointBorder.partyOneName
+                    "TSO-Galia";
+            nc:BoundaryPointBorder.partyOneRef
+                    <https://energy.referencedata.eu/party/TSO-Galia>;
+            nc:BoundaryPointBorder.partyTwoDesignatorRef
+                    <https://vocabulary.uncefact.org/unlocode-countries#BH>;
+            nc:BoundaryPointBorder.partyTwoName
+                    "TSO-Britheim";
+            nc:BoundaryPointBorder.partyTwoRef
+                    <https://energy.referencedata.eu/party/TSO-Britheim> .
+    
+    <urn:uuid:e93aa4de-4f3a-401e-991e-8b6c47d05b76>
+            rdf:type              dcat:Dataset;
+            dct:accessRights      <https://energy.referencedata.eu/Confidentiality/Public>;
+            dct:conformsTo        cim: , <https://cim4.eu/ns/nc/2.4#>;
+            dct:description       "The equipment dataset of the boundary that is used in the ReliCapGrid."@en;
+            dct:identifier        "e93aa4de-4f3a-401e-991e-8b6c47d05b76";
+            dct:license           <https://creativecommons.org/licenses/by/4.0/>;
+            dct:publisher         <https://energy.referencedata.eu/test/party/RCC-Jotunheim>;
+            dct:requires          <urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3>;
+            dct:rights            "Copyright";
+            dct:rightsHolder      "ENTSO-E";
+            dct:spatial           <https://energy.referencedata.eu/test/frame/Galia-Britheim-Transmission>;
+            dcat:isVersionOf      <https://energy.referencedata.eu/test/model/TSO-Galia-TSO-Britheim_BD>;
+            dcat:keyword          "BD";
+            dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
+            dcat:version          "1";
+            prov:generatedAtTime  "2026-03-20T15:53:10Z"^^xsd:dateTime;
+            prov:wasGeneratedBy   <https://energy.referencedata.eu/activity/BD> .
+    
     <urn:uuid:e364f3e7-a2a8-3561-5540-6e74801a20ff>
-            rdf:type                       eu:BoundaryPoint;
+            rdf:type                       nc:BoundaryPoint;
             cim:IdentifiedObject.description
                     "Boundary point 1 between Galia (substation name) and Britheim (substation name) (220kV).";
             cim:IdentifiedObject.mRID      "e364f3e7-a2a8-3561-5540-6e74801a20ff";
-            cim:IdentifiedObject.name      "BP_GA-BH1";
-            eu:BoundaryPoint.ConnectivityNode
-                    <urn:uuid:4905819a-7927-4112-8e3b-4e8178b7daa5>;
-            eu:BoundaryPoint.fromEndIsoCode
-                    "GA";
-            eu:BoundaryPoint.fromEndName   "Alfheim6";
-            eu:BoundaryPoint.fromEndNameTso
-                    "TSO-Galia";
-            eu:BoundaryPoint.isExcludedFromAreaInterchange
-                    false;
-            eu:BoundaryPoint.toEndIsoCode  "BH";
-            eu:BoundaryPoint.toEndName     "Londgard1";
-            eu:BoundaryPoint.toEndNameTso  "TSO-Britheim";
-            eu:IdentifiedObject.shortName  "BP_GA-BH1" .
+            cim:IdentifiedObject.name      "Alfheim6-Londgard1";
+            eu:IdentifiedObject.shortName  "BP_GA-BH1";
+            nc:BoundaryPoint.BoundaryPointBorder
+                    <urn:uuid:f9ff9a61-68ab-9b05-b850-45e03e7c7483>;
+            nc:BoundaryPoint.partyOneResourceName
+                    "Alfheim6";
+            nc:BoundaryPoint.partyTwoResourceName
+                    "Londgard1";
+            nc:CommonResponsibilityPoint.ConnectivityNode
+                    <urn:uuid:4905819a-7927-4112-8e3b-4e8178b7daa5> .
 }

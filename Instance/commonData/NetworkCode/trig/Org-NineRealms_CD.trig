@@ -31,13 +31,15 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:9377bdae-ac1a-44f5-a619-4e71af22e0a4>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
-                    "Bidding Zone Border for the direction from Belgovia to Galia";
+                    "Bidding Zone Border for the direction from Galia to Belgovia";
             cim:IdentifiedObject.mRID  "9377bdae-ac1a-44f5-a619-4e71af22e0a4";
-            cim:IdentifiedObject.name  "BZB-Belgovia-Galia";
+            cim:IdentifiedObject.name  "BZB-Galia-Belgovia";
             nc:BiddingZoneBorder.CapacityCalculationRegion
                     <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
             nc:BiddingZoneBorder.FromBiddingZone
                     <urn:uuid:4d4166a4-c0dc-4c77-9b67-a04a7e68ddf2>;
+            nc:BiddingZoneBorder.TieCorridor
+                    <urn:uuid:fb695a5b-72b7-434c-b7db-f27167b951af>;
             nc:BiddingZoneBorder.ToBiddingZone
                     <urn:uuid:87fb9f56-fd86-446f-b35d-c0abba19925f> .
     
@@ -63,11 +65,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:fb695a5b-72b7-434c-b7db-f27167b951af>
             rdf:type                   nc:TieCorridor;
             cim:IdentifiedObject.description
-                    "Tie Corridor (TC) between Belgovia Control Area and Galia Control Area.";
+                    "Tie Corridor (TC) between Galia Control Area and Belgovia Control Area.";
             cim:IdentifiedObject.mRID  "fb695a5b-72b7-434c-b7db-f27167b951af";
-            cim:IdentifiedObject.name  "TC-Belgovia-Galia";
-            nc:TieCorridor.BiddingZoneBorder
-                    <urn:uuid:9377bdae-ac1a-44f5-a619-4e71af22e0a4> .
+            cim:IdentifiedObject.name  "TC-Galia-Belgovia" .
     
     <urn:uuid:a9dba80c-9dfb-4ebf-b383-446ddc2c4adf>
             rdf:type                   nc:TransmissionSystemOperator;
@@ -107,11 +107,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:b50a7b3d-49aa-4ab8-a75e-4a90f8439b25>
             rdf:type                   nc:TieCorridor;
             cim:IdentifiedObject.description
-                    "Tie Corridor (TC) between Nordheim Control Area and Galia Control Area.";
+                    "Tie Corridor (TC) between Galia Control Area and Nordheim Control Area.";
             cim:IdentifiedObject.mRID  "b50a7b3d-49aa-4ab8-a75e-4a90f8439b25";
-            cim:IdentifiedObject.name  "TC-Nordheim-Galia";
-            nc:TieCorridor.BiddingZoneBorder
-                    <urn:uuid:f31b779f-6058-4719-8aff-80d96c7b5fbb> .
+            cim:IdentifiedObject.name  "TC-Galia-Nordheim" .
     
     <urn:uuid:aa44b0d7-efce-4b1a-ba97-5a0024e2af77>
             rdf:type                   cim:Organisation;
@@ -123,11 +121,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:a3fbc7eb-3f3d-4b15-ba90-b94b3eb4d9e1>
             rdf:type                   nc:TieCorridor;
             cim:IdentifiedObject.description
-                    "Tie Corridor (TC) between Galia Control Area and Belgovia Control Area.";
+                    "Tie Corridor (TC) between Belgovia Control Area and Galia Control Area.";
             cim:IdentifiedObject.mRID  "a3fbc7eb-3f3d-4b15-ba90-b94b3eb4d9e1";
-            cim:IdentifiedObject.name  "TC-Galia-Belgovia";
-            nc:TieCorridor.BiddingZoneBorder
-                    <urn:uuid:c1540280-a038-4d7f-ba5c-52e1f908d20d> .
+            cim:IdentifiedObject.name  "TC-Belgovia-Galia" .
     
     <urn:uuid:19b82142-10d6-4deb-abe7-5462a2314f30>
             rdf:type                   nc:LoadFrequencyControlArea;
@@ -166,13 +162,15 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:1e93200d-0279-4aa4-9baa-136dcf242458>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
-                    "Bidding Zone Border for the direction from Espheim to Portheim";
+                    "Bidding Zone Border for the direction from Portheim to Espheim";
             cim:IdentifiedObject.mRID  "1e93200d-0279-4aa4-9baa-136dcf242458";
-            cim:IdentifiedObject.name  "BZB-Espheim-Portheim";
+            cim:IdentifiedObject.name  "BZB-Portheim-Espheim";
             nc:BiddingZoneBorder.CapacityCalculationRegion
                     <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
             nc:BiddingZoneBorder.FromBiddingZone
                     <urn:uuid:23cadd6e-47f2-42f4-b2b5-3b59e7e700a7>;
+            nc:BiddingZoneBorder.TieCorridor
+                    <urn:uuid:51c2059d-ac3c-45b6-b6c1-ac59dfa4da12>;
             nc:BiddingZoneBorder.ToBiddingZone
                     <urn:uuid:cf8a8cc9-4b94-4983-8a36-e3f84888f461> .
     
@@ -184,11 +182,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:b7fee594-75e4-40d0-9008-7e192b75b1cb>
             rdf:type                   nc:TieCorridor;
             cim:IdentifiedObject.description
-                    "Tie Corridor (TC) between Galia Control Area and Nordheim Control Area.";
+                    "Tie Corridor (TC) between Nordheim Control Area and Galia Control Area.";
             cim:IdentifiedObject.mRID  "b7fee594-75e4-40d0-9008-7e192b75b1cb";
-            cim:IdentifiedObject.name  "TC-Galia-Nordheim";
-            nc:TieCorridor.BiddingZoneBorder
-                    <urn:uuid:06c9f0bb-26a4-4e83-af1d-d2166c414b94> .
+            cim:IdentifiedObject.name  "TC-Nordheim-Galia" .
     
     <urn:uuid:9ceee888-cab0-49fa-b855-4eb7e1ef8474>
             rdf:type                       nc:SchedulingArea;
@@ -196,7 +192,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     "Scheduling Area (SA) for Svedala.";
             cim:IdentifiedObject.mRID      "9ceee888-cab0-49fa-b855-4eb7e1ef8474";
             cim:IdentifiedObject.name      "SA-Svedala";
-            nc:SchedulingArea.BiddingZone  <urn:uuid:d220bcdc-0ab8-44ce-bb17-1c154f02adcd>;
+            nc:SchedulingArea.BiddingZone  <urn:uuid:f8d26efa-aaaf-49d2-97f8-24de7660047b>;
             nc:SchedulingArea.ControlArea  <urn:uuid:ebccc726-b760-46c6-b7f6-8289bafce797>;
             nc:SchedulingArea.LoadFrequencyControlArea
                     <urn:uuid:fe39fc92-2f2e-412a-8b9c-321fdc485a48>;
@@ -220,7 +216,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     "Scheduling Area (SA) for Britheim.";
             cim:IdentifiedObject.mRID      "e0ea984b-a1d8-4dcd-808d-22b46e78aa33";
             cim:IdentifiedObject.name      "SA-Britheim";
-            nc:SchedulingArea.BiddingZone  <urn:uuid:87fb9f56-fd86-446f-b35d-c0abba19925f>;
+            nc:SchedulingArea.BiddingZone  <urn:uuid:d220bcdc-0ab8-44ce-bb17-1c154f02adcd>;
             nc:SchedulingArea.ControlArea  <urn:uuid:642a2421-d5ef-450a-90c3-868485f2bf37>;
             nc:SchedulingArea.LoadFrequencyControlArea
                     <urn:uuid:19b82142-10d6-4deb-abe7-5462a2314f30>;
@@ -243,20 +239,16 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:d6f19e28-4461-4e56-922b-8891767dd4d0>
             rdf:type                   nc:TieCorridor;
             cim:IdentifiedObject.description
-                    "Tie Corridor (TC) between Svedala Control Area and Belgovia Control Area.";
+                    "Tie Corridor (TC) between Belgovia Control Area and Svedala Control Area.";
             cim:IdentifiedObject.mRID  "d6f19e28-4461-4e56-922b-8891767dd4d0";
-            cim:IdentifiedObject.name  "TC-Svedala-Belgovia";
-            nc:TieCorridor.BiddingZoneBorder
-                    <urn:uuid:45909aac-a6be-441e-8847-c952ba94b0d0> .
+            cim:IdentifiedObject.name  "TC-Belgovia-Svedala" .
     
     <urn:uuid:51c2059d-ac3c-45b6-b6c1-ac59dfa4da12>
             rdf:type                   nc:TieCorridor;
             cim:IdentifiedObject.description
-                    "Tie Corridor (TC) between Espheim Control Area and Portheim Control Area.";
+                    "Tie Corridor (TC) between Portheim Control Area and Espheim Control Area.";
             cim:IdentifiedObject.mRID  "51c2059d-ac3c-45b6-b6c1-ac59dfa4da12";
-            cim:IdentifiedObject.name  "TC-Espheim-Portheim";
-            nc:TieCorridor.BiddingZoneBorder
-                    <urn:uuid:1e93200d-0279-4aa4-9baa-136dcf242458> .
+            cim:IdentifiedObject.name  "TC-Portheim-Espheim" .
     
     <urn:uuid:aaccbbc9-1adc-433f-bc74-672c5a2383a9>
             rdf:type                       cim:ControlArea;
@@ -266,9 +258,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:20a47715-dc1f-48ca-9db4-b99dbecc8221>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
-                    "Bidding Zone Border for the direction from Galia to Britheim";
+                    "Bidding Zone Border for the direction from Britheim to Galia";
             cim:IdentifiedObject.mRID  "20a47715-dc1f-48ca-9db4-b99dbecc8221";
-            cim:IdentifiedObject.name  "BZB-Galia-Britheim";
+            cim:IdentifiedObject.name  "BZB-Britheim-Galia";
             nc:BiddingZoneBorder.CapacityCalculationRegion
                     <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
             nc:BiddingZoneBorder.FromBiddingZone
@@ -279,11 +271,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:ebcf2e91-11c0-49c1-8c1c-0f58c73f8ab7>
             rdf:type                   nc:TieCorridor;
             cim:IdentifiedObject.description
-                    "Tie Corridor (TC) between Espheim Control Area and Svedala Control Area.";
+                    "Tie Corridor (TC) between Svedala Control Area and Espheim Control Area.";
             cim:IdentifiedObject.mRID  "ebcf2e91-11c0-49c1-8c1c-0f58c73f8ab7";
-            cim:IdentifiedObject.name  "TC-Espheim-Svedala";
-            nc:TieCorridor.BiddingZoneBorder
-                    <urn:uuid:17f1bb3a-d222-4565-95a1-89b5c3204ce5> .
+            cim:IdentifiedObject.name  "TC-Svedala-Espheim" .
     
     <urn:uuid:27bd4e95-602b-4db5-815e-e8ccf77dd1ec>
             rdf:type                   nc:LoadFrequencyControlArea;
@@ -324,13 +314,15 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:f31b779f-6058-4719-8aff-80d96c7b5fbb>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
-                    "Bidding Zone Border for the direction from Nordheim to Galia";
+                    "Bidding Zone Border for the direction from Galia to Nordheim";
             cim:IdentifiedObject.mRID  "f31b779f-6058-4719-8aff-80d96c7b5fbb";
-            cim:IdentifiedObject.name  "BZB-Nordheim-Galia";
+            cim:IdentifiedObject.name  "BZB-Galia-Nordheim";
             nc:BiddingZoneBorder.CapacityCalculationRegion
                     <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
             nc:BiddingZoneBorder.FromBiddingZone
                     <urn:uuid:4d4166a4-c0dc-4c77-9b67-a04a7e68ddf2>;
+            nc:BiddingZoneBorder.TieCorridor
+                    <urn:uuid:b50a7b3d-49aa-4ab8-a75e-4a90f8439b25>;
             nc:BiddingZoneBorder.ToBiddingZone
                     <urn:uuid:28c20a8b-917f-41e0-8562-54b6b1044d48> .
     
@@ -351,9 +343,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:a7b0705b-8046-44e4-9f83-01b0aed73e90>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
-                    "Bidding Zone Border for the direction from Britheim to Galia";
+                    "Bidding Zone Border for the direction from Galia to Britheim";
             cim:IdentifiedObject.mRID  "a7b0705b-8046-44e4-9f83-01b0aed73e90";
-            cim:IdentifiedObject.name  "BZB-Britheim-Galia";
+            cim:IdentifiedObject.name  "BZB-Galia-Britheim";
             nc:BiddingZoneBorder.CapacityCalculationRegion
                     <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
             nc:BiddingZoneBorder.FromBiddingZone
@@ -373,11 +365,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:3fcc353a-fe97-4413-86c0-6d3e7135be09>
             rdf:type                   nc:TieCorridor;
             cim:IdentifiedObject.description
-                    "Tie Corridor (TC) between Svedala Control Area and Espheim Control Area.";
+                    "Tie Corridor (TC) between Espheim Control Area and Svedala Control Area.";
             cim:IdentifiedObject.mRID  "3fcc353a-fe97-4413-86c0-6d3e7135be09";
-            cim:IdentifiedObject.name  "TC-Svedala-Espheim";
-            nc:TieCorridor.BiddingZoneBorder
-                    <urn:uuid:488ac74b-7c1d-41ac-b2d8-2108ff754752> .
+            cim:IdentifiedObject.name  "TC-Espheim-Svedala" .
     
     <urn:uuid:aa68ef2d-a489-45e9-99b9-b53f58621d6f>
             rdf:type                   nc:LoadFrequencyControlArea;
@@ -413,13 +403,15 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:c1540280-a038-4d7f-ba5c-52e1f908d20d>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
-                    "Bidding Zone Border for the direction from Galia to Belgovia";
+                    "Bidding Zone Border for the direction from Belgovia to Galia";
             cim:IdentifiedObject.mRID  "c1540280-a038-4d7f-ba5c-52e1f908d20d";
-            cim:IdentifiedObject.name  "BZB-Galia-Belgovia";
+            cim:IdentifiedObject.name  "BZB-Belgovia-Galia";
             nc:BiddingZoneBorder.CapacityCalculationRegion
                     <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
             nc:BiddingZoneBorder.FromBiddingZone
                     <urn:uuid:87fb9f56-fd86-446f-b35d-c0abba19925f>;
+            nc:BiddingZoneBorder.TieCorridor
+                    <urn:uuid:a3fbc7eb-3f3d-4b15-ba90-b94b3eb4d9e1>;
             nc:BiddingZoneBorder.ToBiddingZone
                     <urn:uuid:4d4166a4-c0dc-4c77-9b67-a04a7e68ddf2> .
     
@@ -440,7 +432,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     "Scheduling Area (SA) for Galia.";
             cim:IdentifiedObject.mRID      "aa26bb5c-d226-4642-a791-85ce2b43f0c7";
             cim:IdentifiedObject.name      "SA-Galia";
-            nc:SchedulingArea.BiddingZone  <urn:uuid:28c20a8b-917f-41e0-8562-54b6b1044d48>;
+            nc:SchedulingArea.BiddingZone  <urn:uuid:4d4166a4-c0dc-4c77-9b67-a04a7e68ddf2>;
             nc:SchedulingArea.ControlArea  <urn:uuid:b20c892a-a5d2-4378-8744-c2cfea79d0be>;
             nc:SchedulingArea.LoadFrequencyControlArea
                     <urn:uuid:425dc462-e348-4aac-81c1-4c1f921ffe50>;
@@ -452,11 +444,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:69a4f038-dfa7-4978-8d49-140c7570b9ac>
             rdf:type                   nc:TieCorridor;
             cim:IdentifiedObject.description
-                    "Tie Corridor (TC) between Belgovia Control Area and Svedala Control Area.";
+                    "Tie Corridor (TC) between Svedala Control Area and Belgovia Control Area.";
             cim:IdentifiedObject.mRID  "69a4f038-dfa7-4978-8d49-140c7570b9ac";
-            cim:IdentifiedObject.name  "TC-Belgovia-Svedala";
-            nc:TieCorridor.BiddingZoneBorder
-                    <urn:uuid:f8566f29-9f1b-4484-b738-1f7bc8f31f0b> .
+            cim:IdentifiedObject.name  "TC-Svedala-Belgovia" .
     
     <urn:uuid:28c20a8b-917f-41e0-8562-54b6b1044d48>
             rdf:type                       nc:BiddingZone;
@@ -471,23 +461,25 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:06c9f0bb-26a4-4e83-af1d-d2166c414b94>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
-                    "Bidding Zone Border for the direction from Galia to Nordheim";
+                    "Bidding Zone Border for the direction from Nordheim to Galia";
             cim:IdentifiedObject.mRID  "06c9f0bb-26a4-4e83-af1d-d2166c414b94";
-            cim:IdentifiedObject.name  "BZB-Galia-Nordheim";
+            cim:IdentifiedObject.name  "BZB-Nordheim-Galia";
             nc:BiddingZoneBorder.CapacityCalculationRegion
                     <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
             nc:BiddingZoneBorder.FromBiddingZone
                     <urn:uuid:28c20a8b-917f-41e0-8562-54b6b1044d48>;
+            nc:BiddingZoneBorder.TieCorridor
+                    <urn:uuid:b7fee594-75e4-40d0-9008-7e192b75b1cb>;
             nc:BiddingZoneBorder.ToBiddingZone
                     <urn:uuid:4d4166a4-c0dc-4c77-9b67-a04a7e68ddf2> .
     
     <urn:uuid:297f533e-77a7-42d9-a683-32babcf6c82f>
             rdf:type                       nc:SchedulingArea;
             cim:IdentifiedObject.description
-                    "Scheduling Area (SA) for Belgovia.";
+                    "Scheduling Area (SA) for Belgovia. Duplicated instance definition in CommonData and ER file.";
             cim:IdentifiedObject.mRID      "297f533e-77a7-42d9-a683-32babcf6c82f";
             cim:IdentifiedObject.name      "SA-Belgovia";
-            nc:SchedulingArea.BiddingZone  <urn:uuid:4d4166a4-c0dc-4c77-9b67-a04a7e68ddf2>;
+            nc:SchedulingArea.BiddingZone  <urn:uuid:87fb9f56-fd86-446f-b35d-c0abba19925f>;
             nc:SchedulingArea.ControlArea  <urn:uuid:50487bb8-be6d-42a8-9358-cc0bbfe6cfa7>;
             nc:SchedulingArea.LoadFrequencyControlArea
                     <urn:uuid:27bd4e95-602b-4db5-815e-e8ccf77dd1ec>;
@@ -548,13 +540,15 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:45909aac-a6be-441e-8847-c952ba94b0d0>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
-                    "Bidding Zone Border for the direction from Svedala to Belgovia";
+                    "Bidding Zone Border for the direction from Belgovia to Svedala";
             cim:IdentifiedObject.mRID  "45909aac-a6be-441e-8847-c952ba94b0d0";
-            cim:IdentifiedObject.name  "BZB-Svedala-Belgovia";
+            cim:IdentifiedObject.name  "BZB-Belgovia-Svedala";
             nc:BiddingZoneBorder.CapacityCalculationRegion
                     <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
             nc:BiddingZoneBorder.FromBiddingZone
                     <urn:uuid:87fb9f56-fd86-446f-b35d-c0abba19925f>;
+            nc:BiddingZoneBorder.TieCorridor
+                    <urn:uuid:d6f19e28-4461-4e56-922b-8891767dd4d0>;
             nc:BiddingZoneBorder.ToBiddingZone
                     <urn:uuid:f8d26efa-aaaf-49d2-97f8-24de7660047b> .
     
@@ -578,11 +572,9 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:4b418cee-109e-4789-8de3-3d66b58ea11f>
             rdf:type                   nc:TieCorridor;
             cim:IdentifiedObject.description
-                    "Tie Corridor (TC) between Portheim Control Area and Espheim Control Area.";
+                    "Tie Corridor (TC) between Espheim Control Area and Portheim Control Area.";
             cim:IdentifiedObject.mRID  "4b418cee-109e-4789-8de3-3d66b58ea11f";
-            cim:IdentifiedObject.name  "TC-Portheim-Espheim";
-            nc:TieCorridor.BiddingZoneBorder
-                    <urn:uuid:07565540-a4ad-45b2-a313-3e093bce9f30> .
+            cim:IdentifiedObject.name  "TC-Espheim-Portheim" .
     
     <urn:uuid:865d0a1c-4718-416e-9496-1e24c46067ab>
             rdf:type                   cim:Organisation;
@@ -603,20 +595,22 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:07565540-a4ad-45b2-a313-3e093bce9f30>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
-                    "Bidding Zone Border for the direction from Portheim to Espheim";
+                    "Bidding Zone Border for the direction from Espheim to Portheim";
             cim:IdentifiedObject.mRID  "07565540-a4ad-45b2-a313-3e093bce9f30";
-            cim:IdentifiedObject.name  "BZB-Portheim-Espheim";
+            cim:IdentifiedObject.name  "BZB-Espheim-Portheim";
             nc:BiddingZoneBorder.CapacityCalculationRegion
                     <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
             nc:BiddingZoneBorder.FromBiddingZone
                     <urn:uuid:cf8a8cc9-4b94-4983-8a36-e3f84888f461>;
+            nc:BiddingZoneBorder.TieCorridor
+                    <urn:uuid:4b418cee-109e-4789-8de3-3d66b58ea11f>;
             nc:BiddingZoneBorder.ToBiddingZone
                     <urn:uuid:23cadd6e-47f2-42f4-b2b5-3b59e7e700a7> .
     
     <urn:uuid:87fb9f56-fd86-446f-b35d-c0abba19925f>
             rdf:type                       nc:BiddingZone;
             cim:IdentifiedObject.description
-                    "Bidding Zone for Belgovia";
+                    "Bidding Zone for Belgovia. Duplicated instance definition in CommonData and ER file.";
             cim:IdentifiedObject.mRID      "87fb9f56-fd86-446f-b35d-c0abba19925f";
             cim:IdentifiedObject.name      "BZ-Belgovia";
             nc:BiddingZone.CapacityCalculationRegion
@@ -643,34 +637,37 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:2667b32c-d94c-4198-96a2-e9f288cc8e3d>
             rdf:type              dcat:Dataset;
             dct:accessRights      <https://energy.referencedata.eu/Confidentiality/Public>;
-            dct:conformsTo        "https://cim.ucaiug.io/ns#" , "https://ap.cim4.eu/EquipmentReliability/2.4" , "https://cim4.eu/ns/nc/2.4#" , "http://iec.ch/TC57/2013/CIM-schema-cim16#";
+            dct:conformsTo        <https://ap.cim4.eu/EquipmentReliability/2.5> , cim: , <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#>;
             dct:description       "Common data the NineRealms responsibility are as part of the ReliCapGrid ENTSO-E test model."@en;
             dct:identifier        "2667b32c-d94c-4198-96a2-e9f288cc8e3d";
             dct:issued            "2026-03-18T10:00:00Z"^^xsd:dateTime;
             dct:license           <https://creativecommons.org/licenses/by/4.0/>;
-            dct:publisher         "https://energy.referencedata.eu/test/party/Org-NineRealms";
+            dct:publisher         <https://energy.referencedata.eu/test/party/Org-NineRealms>;
             dct:rights            "Copyright";
             dct:rightsHolder      "ENTSO-E";
             dct:spatial           <https://energy.referencedata.eu/test/frame/NineRealms-Transmission>;
             dct:title             "20260331_Org-NineRealms_CD_v2-1-0";
+            dct:type              <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
             adms:versionNotes     "Include BZB for Britheim and related borders, and fixing SchedulingArea.ControlArea associations"@en;
             dcat:isVersionOf      <https://energy.referencedata.eu/test/model/Org-NineRealms_CD>;
-            dcat:keyword          "CommonData" , "CD";
+            dcat:keyword          "CD" , "CommonData";
             dcat:startDate        "2026-03-31T10:00:00Z"^^xsd:dateTime;
             dcat:version          "2.1.0";
             prov:generatedAtTime  "2026-03-31T10:00:00Z"^^xsd:dateTime;
-            prov:wasGeneratedBy   "https://energy.referencedata.eu/activity/CD" .
+            prov:wasGeneratedBy   <https://energy.referencedata.eu/activity/CD> .
     
     <urn:uuid:488ac74b-7c1d-41ac-b2d8-2108ff754752>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
-                    "Bidding Zone Border for the direction from Svedala to Espheim";
+                    "Bidding Zone Border for the direction from Espheim to Svedala";
             cim:IdentifiedObject.mRID  "488ac74b-7c1d-41ac-b2d8-2108ff754752";
-            cim:IdentifiedObject.name  "BZB-Svedala-Espheim";
+            cim:IdentifiedObject.name  "BZB-Espheim-Svedala";
             nc:BiddingZoneBorder.CapacityCalculationRegion
                     <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
             nc:BiddingZoneBorder.FromBiddingZone
                     <urn:uuid:cf8a8cc9-4b94-4983-8a36-e3f84888f461>;
+            nc:BiddingZoneBorder.TieCorridor
+                    <urn:uuid:3fcc353a-fe97-4413-86c0-6d3e7135be09>;
             nc:BiddingZoneBorder.ToBiddingZone
                     <urn:uuid:f8d26efa-aaaf-49d2-97f8-24de7660047b> .
     
@@ -691,13 +688,15 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:17f1bb3a-d222-4565-95a1-89b5c3204ce5>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
-                    "Bidding Zone Border for the direction from Espheim to Svedala";
+                    "Bidding Zone Border for the direction from Svedala to Espheim";
             cim:IdentifiedObject.mRID  "17f1bb3a-d222-4565-95a1-89b5c3204ce5";
-            cim:IdentifiedObject.name  "BZB-Espheim-Svedala";
+            cim:IdentifiedObject.name  "BZB-Svedala-Espheim";
             nc:BiddingZoneBorder.CapacityCalculationRegion
                     <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
             nc:BiddingZoneBorder.FromBiddingZone
                     <urn:uuid:f8d26efa-aaaf-49d2-97f8-24de7660047b>;
+            nc:BiddingZoneBorder.TieCorridor
+                    <urn:uuid:ebcf2e91-11c0-49c1-8c1c-0f58c73f8ab7>;
             nc:BiddingZoneBorder.ToBiddingZone
                     <urn:uuid:cf8a8cc9-4b94-4983-8a36-e3f84888f461> .
     
@@ -756,13 +755,15 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:f8566f29-9f1b-4484-b738-1f7bc8f31f0b>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
-                    "Bidding Zone Border for the direction from Belgovia to Svedala";
+                    "Bidding Zone Border for the direction from Svedala to Belgovia";
             cim:IdentifiedObject.mRID  "f8566f29-9f1b-4484-b738-1f7bc8f31f0b";
-            cim:IdentifiedObject.name  "BZB-Belgovia-Svedala";
+            cim:IdentifiedObject.name  "BZB-Svedala-Belgovia";
             nc:BiddingZoneBorder.CapacityCalculationRegion
                     <urn:uuid:56d81c91-4fb8-47a2-9d7c-baa13dedd605>;
             nc:BiddingZoneBorder.FromBiddingZone
                     <urn:uuid:f8d26efa-aaaf-49d2-97f8-24de7660047b>;
+            nc:BiddingZoneBorder.TieCorridor
+                    <urn:uuid:69a4f038-dfa7-4978-8d49-140c7570b9ac>;
             nc:BiddingZoneBorder.ToBiddingZone
                     <urn:uuid:87fb9f56-fd86-446f-b35d-c0abba19925f> .
     
@@ -783,7 +784,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     "Scheduling Area (SA) for Nordheim.";
             cim:IdentifiedObject.mRID      "b3e16d67-ceb1-480f-aab2-3f909ef436a6";
             cim:IdentifiedObject.name      "SA-Nordheim";
-            nc:SchedulingArea.BiddingZone  <urn:uuid:f8d26efa-aaaf-49d2-97f8-24de7660047b>;
+            nc:SchedulingArea.BiddingZone  <urn:uuid:28c20a8b-917f-41e0-8562-54b6b1044d48>;
             nc:SchedulingArea.ControlArea  <urn:uuid:aaccbbc9-1adc-433f-bc74-672c5a2383a9>;
             nc:SchedulingArea.LoadFrequencyControlArea
                     <urn:uuid:aa68ef2d-a489-45e9-99b9-b53f58621d6f>;

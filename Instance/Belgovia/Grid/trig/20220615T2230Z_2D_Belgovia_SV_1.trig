@@ -385,6 +385,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:SvPowerFlow.p         "-54.1314"^^xsd:float;
             cim:SvPowerFlow.q         "43.4397"^^xsd:float .
     
+    <urn:uuid:ccb70d1c-4630-47c7-a4e5-656b9f6796bf>
+            rdf:type                cim:SvStatus;
+            cim:SvStatus.ConductingEquipment
+                    <urn:uuid:7c43d75f-f169-4525-9a55-ef54c6f95f3c>;
+            cim:SvStatus.inService  true .
+    
     <urn:uuid:c61065fb-3315-4c68-9919-c1f1b85290d1>
             rdf:type                  cim:SvTapStep;
             cim:SvTapStep.TapChanger  <urn:uuid:23c255c0-09e8-d446-2526-920905420c17>;
@@ -725,6 +731,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:SvPowerFlow.Terminal  <urn:uuid:e1e6f751-259f-4182-b4e1-12eba54a54ce>;
             cim:SvPowerFlow.p         "29.9512"^^xsd:float;
             cim:SvPowerFlow.q         "-5.02687"^^xsd:float .
+    
+    <urn:uuid:211e4a73-dddb-4685-ba53-77111e7248b7>
+            rdf:type                  cim:SvPowerFlow;
+            cim:SvPowerFlow.Terminal  <urn:uuid:515bd41d-c5bc-4d0c-bf0f-449875c7bd9b>;
+            cim:SvPowerFlow.p         "0"^^xsd:float;
+            cim:SvPowerFlow.q         "0"^^xsd:float .
     
     <urn:uuid:c7b21698-edf3-4379-ae58-f12f22a9e66d>
             rdf:type                  cim:SvPowerFlow;

@@ -43,9 +43,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:37b823e4-ffde-4e4b-a334-8db84362b454>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "37b823e4-ffde-4e4b-a334-8db84362b454" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:a1985b97-b2c0-42b6-844d-4c2aab2af48f>
             rdf:type                    cim:Terminal;
@@ -432,9 +431,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:632d9eaa-06f7-4b7b-8f8f-ae248941efe2>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "632d9eaa-06f7-4b7b-8f8f-ae248941efe2" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:0f51eac9-0b42-45d3-b5a7-4e81058ffe02>
             rdf:type                    cim:Terminal;
@@ -445,9 +443,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:fc724d3d-846d-4db7-92e8-08f5b29f5355>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "fc724d3d-846d-4db7-92e8-08f5b29f5355" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:872ea5f6-5fed-4822-a6ab-f7eb79cf0a2e>
             rdf:type                    cim:Terminal;
@@ -540,9 +537,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:5a864c5e-6581-49c6-8dc4-bf0378ab3a22>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "5a864c5e-6581-49c6-8dc4-bf0378ab3a22" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:0c8c3b4a-2ed3-429b-a9fe-72b69c935c85>
             rdf:type                 cim:Disconnector;
@@ -710,9 +706,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:5da94c86-8568-4013-88a1-55551e425a1e>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "5da94c86-8568-4013-88a1-55551e425a1e" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:e32ff999-65cd-49c1-8909-7dd70caaff09>
             rdf:type                    cim:Terminal;
@@ -1170,9 +1165,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:38a82a92-ed12-e5ff-268e-86252cf17857>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "38a82a92-ed12-e5ff-268e-86252cf17857" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:61b4cb56-1554-4356-864a-37b82959bb23>
             rdf:type                    cim:Terminal;
@@ -1203,9 +1197,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     0 .
     
     <urn:uuid:43811509-d17a-4550-4098-4cdd7a63ecc2>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "43811509-d17a-4550-4098-4cdd7a63ecc2" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:58644356-cdf2-4b20-8091-95daf42cf04c>
             rdf:type                    cim:Terminal;
@@ -1218,9 +1211,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Equipment.inService  true .
     
     <urn:uuid:642f3507-bfd4-43cd-b13d-9d8512e126bb>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "642f3507-bfd4-43cd-b13d-9d8512e126bb" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:a9fb50e0-a0f9-46db-888f-f312357c372d>
             rdf:type                 cim:Disconnector;
@@ -1484,9 +1476,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:68576ea0-50b7-4484-997c-e18bc4feee91>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "68576ea0-50b7-4484-997c-e18bc4feee91" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:390df833-c4b7-49a3-853e-a6c380304955>
             rdf:type                    cim:Terminal;
@@ -1561,9 +1552,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:fe82151b-75c9-467a-98ee-377d5407e696>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "fe82151b-75c9-467a-98ee-377d5407e696" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:39a2edae-4f84-4f7e-a2d3-dcb71c2d7d26>
             rdf:type                    cim:Terminal;
@@ -1608,9 +1598,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:68ff1db6-29ec-4e03-9a47-fd6810f27a0a>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "68ff1db6-29ec-4e03-9a47-fd6810f27a0a" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:572ed22a-8ec2-4471-868d-e8b7cea67c78>
             rdf:type                    cim:Terminal;
@@ -1778,9 +1767,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:77672b4f-7be7-4b8a-bef2-8ff06908ae96>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "77672b4f-7be7-4b8a-bef2-8ff06908ae96" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:368dea5d-7d4a-4982-ac3e-70fd2a5aaf47>
             rdf:type                 cim:Breaker;
@@ -1893,9 +1881,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:c1324554-fa88-4259-9782-b3aaf0cb97d2>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "c1324554-fa88-4259-9782-b3aaf0cb97d2" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:29b9fbc0-38b5-4369-8029-ff6583c71bf2>
             rdf:type                    cim:Terminal;
@@ -2087,9 +2074,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:c2563c56-e216-dd45-d655-c4c40e1ab4f6>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "c2563c56-e216-dd45-d655-c4c40e1ab4f6" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:b51d045d-be7e-434b-bbaf-c68a84b6fe5d>
             rdf:type                    cim:Terminal;
@@ -2160,14 +2146,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:7b4c0091-4a5a-f9bc-fe0e-fc9563d7a9b6>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "7b4c0091-4a5a-f9bc-fe0e-fc9563d7a9b6" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:04421d86-6435-91e7-2686-11e5d25841f7>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "04421d86-6435-91e7-2686-11e5d25841f7" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:088935b8-e2e9-19a7-193b-9e43f41afdd7>
             rdf:type                    cim:Terminal;
@@ -2178,18 +2162,16 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:4a4edd66-b2d4-4ebd-82fa-b42cdad91f3f>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "4a4edd66-b2d4-4ebd-82fa-b42cdad91f3f" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:1c28f8a8-1519-430a-bb0f-5fc032d6438c>
             rdf:type                    cim:Terminal;
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:ea2cf7d8-bdcd-7ffb-ce67-eef53fc6c35a>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "ea2cf7d8-bdcd-7ffb-ce67-eef53fc6c35a" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:5ed13942-f3a1-4a24-8b03-baa4e1ae289f>
             rdf:type                    cim:Terminal;
@@ -2200,9 +2182,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:2ab1b800-0c93-4517-86b5-8fd6a3a24ee7>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "2ab1b800-0c93-4517-86b5-8fd6a3a24ee7" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:bfb8b747-4693-40ff-8f85-23e9c99ec344>
             rdf:type                 cim:Disconnector;
@@ -2354,9 +2335,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:4bc00412-7da5-42d2-b3b9-758bc15942a6>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "4bc00412-7da5-42d2-b3b9-758bc15942a6" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:1d924102-8cc4-4767-b7d5-3e58ccb58920>
             rdf:type                 cim:Disconnector;
@@ -2373,9 +2353,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:e367a6f2-cd94-46cc-9bf2-9ca959dea807>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "e367a6f2-cd94-46cc-9bf2-9ca959dea807" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:364504bb-998b-4cc8-9980-5f06c0b51039>
             rdf:type                    cim:Terminal;
@@ -2466,9 +2445,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:cd6b9797-ab35-48a4-94cd-038484fee143>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "cd6b9797-ab35-48a4-94cd-038484fee143" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:9bfa4417-40d2-6049-5b8e-8976b964dd65>
             rdf:type                    cim:Terminal;
@@ -2663,9 +2641,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:6f5e600f-dc92-80ac-b046-a4641f7b1db1>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "6f5e600f-dc92-80ac-b046-a4641f7b1db1" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:2ad1747e-7311-47bc-af5b-76cec9561fa7>
             rdf:type                 cim:Disconnector;
@@ -2734,9 +2711,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:3fb0eb88-7c1e-4cfd-94e4-a70f591191de>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "3fb0eb88-7c1e-4cfd-94e4-a70f591191de" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:4e0815e9-2b27-4396-9311-e2bcd96ac505>
             rdf:type                    cim:Terminal;
@@ -2928,9 +2904,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:584e920a-4b71-80c1-da77-8ad9091b9e16>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "584e920a-4b71-80c1-da77-8ad9091b9e16" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:7d0d0fe2-5adc-d67d-ade5-ff5185b377f6>
             rdf:type                cim:CurrentLimit;
@@ -2985,9 +2960,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:9004a717-5381-4004-8927-cb7aa1e3fcf7>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "9004a717-5381-4004-8927-cb7aa1e3fcf7" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:df459101-2334-4513-bcf3-de6f169aa2eb>
             rdf:type                 cim:Disconnector;
@@ -3020,9 +2994,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:7f2ab29f-606d-42c7-af86-9d659b650c0a>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "7f2ab29f-606d-42c7-af86-9d659b650c0a" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:ea76f31c-f380-4ec8-93e2-5ba043b5b391>
             rdf:type                    cim:Terminal;
@@ -3154,9 +3127,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:2dc656d8-797f-4f27-a55e-6e0d3627e39e>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "2dc656d8-797f-4f27-a55e-6e0d3627e39e" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:76e57baf-4268-43db-9e0e-62ca0b0386e5>
             rdf:type                 cim:Disconnector;
@@ -3165,9 +3137,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:c77668c9-6993-4391-8c03-29fc802ad605>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "c77668c9-6993-4391-8c03-29fc802ad605" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:08ad5b00-b451-e3d8-d0ff-95b816a60aab>
             rdf:type                cim:CurrentLimit;
@@ -3364,9 +3335,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:259f770d-bdf6-cd5f-c44e-4fc62257a937>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "259f770d-bdf6-cd5f-c44e-4fc62257a937" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:52032b25-0442-433a-9a59-e90edb24dac8>
             rdf:type                    cim:Terminal;
@@ -3379,9 +3349,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:8a2774af-c1c2-d244-a451-6b61dbc01bae>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "8a2774af-c1c2-d244-a451-6b61dbc01bae" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:55f02de0-b92e-4be2-8440-bd83ed5aae45>
             rdf:type                 cim:Disconnector;
@@ -3538,9 +3507,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:3dd0b210-c76e-4f8a-a430-caa2a6c8ba20>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "3dd0b210-c76e-4f8a-a430-caa2a6c8ba20" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:960d8d68-0439-4088-b617-816604a20041>
             rdf:type                    cim:Terminal;
@@ -3563,9 +3531,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:7a00f820-18f4-a89e-e6b6-37fc55e18003>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "7a00f820-18f4-a89e-e6b6-37fc55e18003" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:a55a6dec-3a5e-4298-88c8-a5c782dea25a>
             rdf:type                 cim:ConformLoad;
@@ -3578,9 +3545,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:2f2c8a1a-d88d-31ab-c40b-f2425b680f1a>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "2f2c8a1a-d88d-31ab-c40b-f2425b680f1a" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:ed42696c-b2fc-49b6-95bf-7561d656e91a>
             rdf:type                    cim:Terminal;
@@ -3973,9 +3939,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:aeb32efc-7847-02c3-6e75-f9fa6c762594>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "aeb32efc-7847-02c3-6e75-f9fa6c762594" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:0f1355f7-33f5-de40-1fca-9d66c4ef36b1>
             rdf:type                cim:CurrentLimit;
@@ -4292,9 +4257,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:955e71b5-1921-42c8-be3f-8bcbdc8b0149>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "955e71b5-1921-42c8-be3f-8bcbdc8b0149" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:9f63c932-8194-40a3-9e4d-da7fcbe30215>
             rdf:type                    cim:Terminal;
@@ -4405,9 +4369,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:b267ac72-2096-431f-882a-8139bc5c4615>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "b267ac72-2096-431f-882a-8139bc5c4615" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:67a1ab2b-fab5-48dd-a19b-a176e685f854>
             rdf:type                 cim:Disconnector;
@@ -4434,9 +4397,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:5454c41c-e348-4237-b91a-1ad85d4bd6e7>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "5454c41c-e348-4237-b91a-1ad85d4bd6e7" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:b6dae7e2-678f-4878-be13-a3b1d0c3be33>
             rdf:type                    cim:Terminal;
@@ -4477,9 +4439,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:385facd6-d38a-4778-a93c-7b32b071b5ee>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "385facd6-d38a-4778-a93c-7b32b071b5ee" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:f0c93e85-2a25-458e-9b4d-04bbc7a635a5>
             rdf:type                 cim:Disconnector;
@@ -4514,9 +4475,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:cc663ad5-16a2-42d5-8cbb-7043d34825b8>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "cc663ad5-16a2-42d5-8cbb-7043d34825b8" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:43de3c45-0d41-933c-cd01-2a0f7e391874>
             rdf:type                cim:CurrentLimit;
@@ -4607,9 +4567,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:c74e2c04-c55f-46b5-839a-a38d09653d2a>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "c74e2c04-c55f-46b5-839a-a38d09653d2a" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:d32d8e91-a414-3057-6fdc-d85e16bf55eb>
             rdf:type                cim:CurrentLimit;
@@ -4643,9 +4602,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ShuntCompensator.sections  "1"^^xsd:float .
     
     <urn:uuid:891e77ff-39c6-4648-8eda-d81f730271f9>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "891e77ff-39c6-4648-8eda-d81f730271f9" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:09424bda-4f3a-4da3-be3f-1ad7d2b42f6b>
             rdf:type                    cim:Terminal;
@@ -4778,9 +4736,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:d625c918-ee31-1d55-1607-19f2f9b43bc3>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "d625c918-ee31-1d55-1607-19f2f9b43bc3" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:a3a882b1-b0d0-7b47-50ad-fbd10ab3e585>
             rdf:type                        cim:RegulatingControl;
@@ -5010,9 +4967,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "500"^^xsd:float .
     
     <urn:uuid:61a16c63-5938-47fc-8648-13275aae3140>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "61a16c63-5938-47fc-8648-13275aae3140" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:c4614e4f-298d-418b-839a-97517e98ac95>
             rdf:type                 cim:Breaker;
@@ -5110,9 +5066,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:GeneratingUnit.normalPF  "0"^^xsd:float .
     
     <urn:uuid:e4a69d52-39eb-4add-988c-cc864e50e5ff>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "e4a69d52-39eb-4add-988c-cc864e50e5ff" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:37480157-9c00-9c35-8b93-45c3ba0187eb>
             rdf:type                    cim:Terminal;
@@ -5329,9 +5284,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:02bb1185-320a-0976-8417-c1be8f8d54ca>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "02bb1185-320a-0976-8417-c1be8f8d54ca" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:9ab3382a-ca74-4385-ac5a-69981c70c27c>
             rdf:type                    cim:Terminal;
@@ -5423,9 +5377,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:c6278b38-b777-4ad9-b395-50c4009afdff>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "c6278b38-b777-4ad9-b395-50c4009afdff" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:e09e6b89-ba08-4a31-b303-c23c08845181>
             rdf:type                    cim:Terminal;
@@ -5516,9 +5469,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:4bc85579-c7e8-4a75-b834-95fbe9549acf>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "4bc85579-c7e8-4a75-b834-95fbe9549acf" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:86eb3c0a-192b-44ec-a5e3-101c0097d996>
             rdf:type                 cim:Disconnector;
@@ -5599,9 +5551,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:9d0a03df-2f49-42cb-86a7-3476fbf7766b>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "9d0a03df-2f49-42cb-86a7-3476fbf7766b" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:630c7ec7-b774-7cd3-b772-8917da55f0ff>
             rdf:type                    cim:Terminal;
@@ -5762,9 +5713,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:9ccfb87e-688a-41f5-b49b-5a847d2f7f35>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "9ccfb87e-688a-41f5-b49b-5a847d2f7f35" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:b017a79d-6b6d-4422-8ac3-b98b23aff75e>
             rdf:type                    cim:Terminal;
@@ -5787,9 +5737,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:f848b6b2-7cd3-6730-1fd9-2b735e98995f>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "f848b6b2-7cd3-6730-1fd9-2b735e98995f" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:f47ebb77-d46c-40b1-bb46-e3662047b68e>
             rdf:type                 cim:Disconnector;
@@ -5834,9 +5783,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:8f2736b3-92b0-ea87-2f88-ac79eee8b6f4>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "8f2736b3-92b0-ea87-2f88-ac79eee8b6f4" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:8c5259f8-c8ed-7df5-e0bb-0b67dd375392>
             rdf:type                    cim:Terminal;
@@ -6121,9 +6069,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:36ce73b1-57da-4ef9-a461-97c0c5a7249e>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "36ce73b1-57da-4ef9-a461-97c0c5a7249e" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:1f9c4aab-a07e-4233-8e9c-bbaa503882fe>
             rdf:type                 cim:Disconnector;
@@ -6252,18 +6199,16 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:75958ad5-1f34-5b2d-ccd1-082ef9fa6e84>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "75958ad5-1f34-5b2d-ccd1-082ef9fa6e84" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:8852a988-b5da-91eb-69f5-7e161859ae5f>
             rdf:type                cim:CurrentLimit;
             cim:CurrentLimit.value  "500"^^xsd:float .
     
     <urn:uuid:f044d5f4-5fba-4eb4-be7b-a7625fda85e4>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "f044d5f4-5fba-4eb4-be7b-a7625fda85e4" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:a17e9c87-d092-478f-9e7c-9c2653fe2c60>
             rdf:type                    cim:Terminal;
@@ -6322,9 +6267,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:9e29b829-b840-4d5d-ad7b-4721c59a58e2>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "9e29b829-b840-4d5d-ad7b-4721c59a58e2" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:14744076-e59b-4ec5-b89f-06ac5a8d6f70>
             rdf:type                 cim:Disconnector;
@@ -6376,9 +6320,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "500"^^xsd:float .
     
     <urn:uuid:66b055d1-7f8e-c7a3-f9ae-8eef0308222c>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "66b055d1-7f8e-c7a3-f9ae-8eef0308222c" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:a5d489b2-aea0-41e4-8471-efb0128c4b42>
             rdf:type                    cim:Terminal;
@@ -6526,9 +6469,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:9d8926b7-e2da-42ff-93ae-afaf170f4130>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "9d8926b7-e2da-42ff-93ae-afaf170f4130" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:fa6c89e5-6650-4c46-a05d-d339bacb4396>
             rdf:type                 cim:Disconnector;
@@ -6559,9 +6501,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:c8cdfc99-55e9-413b-8c5b-6904d8ced67d>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "c8cdfc99-55e9-413b-8c5b-6904d8ced67d" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:7d1e1616-fffa-4ee3-9b70-442d925fe252>
             rdf:type                    cim:Terminal;
@@ -6665,9 +6606,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:b6750099-1ff2-4dc9-98de-041392bb1287>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "b6750099-1ff2-4dc9-98de-041392bb1287" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:e061cbb1-ad15-4402-9426-456830c25149>
             rdf:type                 cim:Disconnector;
@@ -6714,9 +6654,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:52a29d0b-d382-4a5e-ba4e-84d8fa606246>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "52a29d0b-d382-4a5e-ba4e-84d8fa606246" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:b079f0fc-9b49-4c91-9897-d4ee1e5cff52>
             rdf:type                 cim:Disconnector;
@@ -6771,9 +6710,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "1530"^^xsd:float .
     
     <urn:uuid:e90ba1a6-2889-4ddd-bc6f-f2a86e63c522>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "e90ba1a6-2889-4ddd-bc6f-f2a86e63c522" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:d5ac1e47-48e0-4145-ad39-70089c3d4605>
             rdf:type                 cim:Disconnector;
@@ -6806,9 +6744,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:2ca00f1a-d839-4b72-b754-eb666f063ff4>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "2ca00f1a-d839-4b72-b754-eb666f063ff4" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:0296bd60-faa1-4a67-b66e-b43fef902c52>
             rdf:type                    cim:Terminal;
@@ -6943,9 +6880,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:91ac9bdf-784d-405b-8b51-e5cb76cf8745>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "91ac9bdf-784d-405b-8b51-e5cb76cf8745" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:10e2474e-e3c9-46ce-b0c4-6498d5cf3a0c>
             rdf:type                    cim:Terminal;
@@ -6999,9 +6935,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:6e2ba1c1-0bc9-473a-0b8a-67575c85de12>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "6e2ba1c1-0bc9-473a-0b8a-67575c85de12" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:b4829e09-2dca-4269-845e-d88fe189f858>
             rdf:type                    cim:Terminal;
@@ -7061,9 +6996,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:238f57f6-c402-dcf9-74ee-affa34ee2432>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "238f57f6-c402-dcf9-74ee-affa34ee2432" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:d9e0c2e1-0a67-484f-8a95-3505dfdac4c4>
             rdf:type                    cim:Terminal;
@@ -7207,9 +7141,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "500"^^xsd:float .
     
     <urn:uuid:cb01eeef-4961-4e39-3cf6-fff798abc93f>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "cb01eeef-4961-4e39-3cf6-fff798abc93f" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:dee797ac-c476-42b1-9616-ef1b8cc3bf54>
             rdf:type                 cim:Disconnector;
@@ -7462,9 +7395,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:fb096d3d-b18c-475a-bc2f-29344c55715f>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "fb096d3d-b18c-475a-bc2f-29344c55715f" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:02d4daa0-70fd-4b74-b7fe-12e912021e54>
             rdf:type                 cim:Breaker;
@@ -7744,9 +7676,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:7e1c06df-8278-8105-d417-63970cadacc6>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "7e1c06df-8278-8105-d417-63970cadacc6" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:7f2fc001-cf15-4390-b902-0843d8a05ff6>
             rdf:type                 cim:ConformLoad;
@@ -7835,9 +7766,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:56efce6c-12e2-a6df-c4a2-c9f67ff38573>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "56efce6c-12e2-a6df-c4a2-c9f67ff38573" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:8fa07830-cd82-493c-b821-7a726026cd42>
             rdf:type                 cim:Disconnector;
@@ -7987,9 +7917,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:b6d73e8a-6c9f-93f9-2295-1818ab7ad4fb>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "b6d73e8a-6c9f-93f9-2295-1818ab7ad4fb" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:8c1bbcf8-29bd-4c5b-9417-f963feaae2d2>
             rdf:type                    cim:Terminal;
@@ -8092,14 +8021,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:ce2b6e41-191e-48f4-9a76-f33da0323f05>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "ce2b6e41-191e-48f4-9a76-f33da0323f05" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:6c6e3c6f-ed78-46f0-1489-854b0766a657>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "6c6e3c6f-ed78-46f0-1489-854b0766a657" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:c9e339df-d326-47da-b921-3e9a89007b7e>
             rdf:type                    cim:Terminal;
@@ -8112,9 +8039,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:4c390dab-3499-4a9f-9cee-5877081479ab>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "4c390dab-3499-4a9f-9cee-5877081479ab" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:0f314798-9406-49b5-8489-07c95b37d91c>
             rdf:type                 cim:Disconnector;
@@ -8160,9 +8086,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:06d686b8-168c-8c61-8be3-4b0c0cc35c96>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "06d686b8-168c-8c61-8be3-4b0c0cc35c96" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:3077a640-a189-4414-a48a-052f2422c4eb>
             rdf:type                 cim:Disconnector;
@@ -8179,9 +8104,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:e951026f-1382-4305-8628-7cad2e237add>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "e951026f-1382-4305-8628-7cad2e237add" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:5040785f-58fd-465b-ba3a-779c9df50d4e>
             rdf:type                    cim:Terminal;
@@ -8468,9 +8392,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:b722780e-0064-4cf9-a8d1-6c33c29f3acb>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "b722780e-0064-4cf9-a8d1-6c33c29f3acb" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:39f6d7a9-3569-41a4-bfad-50f46ddf3e25>
             rdf:type                    cim:Terminal;
@@ -8642,9 +8565,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "866.025"^^xsd:float .
     
     <urn:uuid:6794aef5-cd8c-b02a-13b9-d14366e10cd8>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "6794aef5-cd8c-b02a-13b9-d14366e10cd8" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:58b76f6b-cf5a-4be8-b3cf-8c62d9eebf8c>
             rdf:type                    cim:Terminal;
@@ -8783,9 +8705,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Equipment.inService  true .
     
     <urn:uuid:ebe26128-0b1e-409c-841f-0c1bd4829039>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "ebe26128-0b1e-409c-841f-0c1bd4829039" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:6fbda295-d601-4dc0-b006-a5230edef567>
             rdf:type                    cim:Terminal;
@@ -8940,9 +8861,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:5ff7e158-bcca-4a90-8019-b64b6b9337f0>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "5ff7e158-bcca-4a90-8019-b64b6b9337f0" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:d56f6cb2-f8eb-41c1-906a-8039082d4993>
             rdf:type                    cim:Terminal;
@@ -8987,9 +8907,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:1c3d6ef8-6c9c-7461-3f35-7747372ab4f7>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "1c3d6ef8-6c9c-7461-3f35-7747372ab4f7" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:fb32ea93-bad6-4945-adfd-e4ecef869a7a>
             rdf:type                    cim:Terminal;
@@ -9027,9 +8946,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "500"^^xsd:float .
     
     <urn:uuid:eec142b7-df7b-4276-87d7-613662be7dd1>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "eec142b7-df7b-4276-87d7-613662be7dd1" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:93c01cee-3eda-40be-a6ea-34e63d742934>
             rdf:type                 cim:Breaker;
@@ -9060,9 +8978,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:1a2dc4bf-e45d-4bb0-bc56-2c3e089fec12>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "1a2dc4bf-e45d-4bb0-bc56-2c3e089fec12" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:d7f7a26d-21fa-2589-2576-77bb849f820f>
             rdf:type                cim:CurrentLimit;
@@ -9111,9 +9028,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:a21a6dd6-dcaa-281b-e3df-2bc4805b64ed>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "a21a6dd6-dcaa-281b-e3df-2bc4805b64ed" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:8d1cf8dc-f171-4771-91a8-05e27bc94e3f>
             rdf:type                    cim:Terminal;
@@ -9150,9 +9066,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:77eb87f6-dbaf-4d48-7dee-55354d7003bd>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "77eb87f6-dbaf-4d48-7dee-55354d7003bd" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:4e350f9f-9304-44e8-9df4-fb1e2f127828>
             rdf:type                    cim:Terminal;
@@ -9395,9 +9310,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:7a3dd132-9e77-46c2-48b0-f645131fb9c5>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "7a3dd132-9e77-46c2-48b0-f645131fb9c5" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:57ab0f75-0a8c-49b3-9956-a6686485bb06>
             rdf:type                    cim:Terminal;
@@ -9460,9 +9374,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:7dd1b20e-2d80-54fa-10be-526745cdc35d>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "7dd1b20e-2d80-54fa-10be-526745cdc35d" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:90ad1e4c-7ccd-45c5-b53e-70a5cfa986d5>
             rdf:type                    cim:Terminal;
@@ -9482,9 +9395,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:42d5ec38-dacd-4961-5e79-db820d8252e8>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "42d5ec38-dacd-4961-5e79-db820d8252e8" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:6de894c3-bb9e-f995-bfe2-bc9d57bcd95e>
             rdf:type                    cim:Terminal;
@@ -9645,9 +9557,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:35f44d0d-aa25-4083-c8fa-2c9186f2a407>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "35f44d0d-aa25-4083-c8fa-2c9186f2a407" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:11ceecb8-a2d8-42b4-82e7-48d3e05a5493>
             rdf:type                    cim:Terminal;
@@ -9735,9 +9646,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:1f2ee7dc-087e-6705-1b9c-458820f34dbb>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "1f2ee7dc-087e-6705-1b9c-458820f34dbb" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:aaaf2693-281e-4b99-a486-0dfc810ccceb>
             rdf:type                 cim:Breaker;
@@ -9820,9 +9730,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "866.025"^^xsd:float .
     
     <urn:uuid:22e14879-30ee-735f-bc1f-d506d4af4f96>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "22e14879-30ee-735f-bc1f-d506d4af4f96" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:d019ac66-bee9-14ae-def2-41db5dea877d>
             rdf:type                cim:CurrentLimit;
@@ -9837,9 +9746,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:361d9fd3-5c8b-40ef-8ef4-3ba3c47410ea>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "361d9fd3-5c8b-40ef-8ef4-3ba3c47410ea" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:23ad3954-cd6b-44b3-bd1a-c2b5bbbdc93e>
             rdf:type                    cim:Terminal;
@@ -9960,9 +9868,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:9f967761-fe1d-454d-ad69-9b7c5abc010a>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "9f967761-fe1d-454d-ad69-9b7c5abc010a" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:bdb4e02d-7e53-46b0-926d-b110ce7610d2>
             rdf:type                    cim:Terminal;
@@ -10009,9 +9916,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:e65c6d27-942c-d201-1703-fdec7aea6153>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "e65c6d27-942c-d201-1703-fdec7aea6153" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:5d1eae72-6092-424e-8c16-c6ba928a534f>
             rdf:type                 cim:Disconnector;
@@ -10045,14 +9951,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:555aceb5-a63e-4acb-a820-be850f080160>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "555aceb5-a63e-4acb-a820-be850f080160" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:dec54c37-c666-4193-8ffe-a9754d0e2753>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "dec54c37-c666-4193-8ffe-a9754d0e2753" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:c4352f9c-b32f-47e5-9745-af968752212d>
             rdf:type                    cim:Terminal;
@@ -10173,9 +10077,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:ed362cb5-c16b-47cc-9a3e-d994b504d5a8>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "ed362cb5-c16b-47cc-9a3e-d994b504d5a8" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:00dceeae-9b1c-46da-86cf-c0e09fe7ec25>
             rdf:type                    cim:Terminal;
@@ -10230,9 +10133,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:bd49bfa4-a01c-43be-82fb-f2119d1b42de>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "bd49bfa4-a01c-43be-82fb-f2119d1b42de" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:a8ed6fdf-4775-4328-bc7a-83ec5d0efe2e>
             rdf:type                    cim:Terminal;
@@ -10415,9 +10317,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:26f7a4d5-60b8-4864-bb5e-311f20242300>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "26f7a4d5-60b8-4864-bb5e-311f20242300" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:1d638567-13ea-c74b-bbc1-ec93474553c1>
             rdf:type                cim:CurrentLimit;
@@ -10448,18 +10349,16 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:3d66eef5-80ec-01e9-c7ce-526936cf8e4c>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "3d66eef5-80ec-01e9-c7ce-526936cf8e4c" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:e509d3c7-415b-2853-045e-8b5a66e4c589>
             rdf:type                    cim:Terminal;
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:1cdd73c5-0f2b-af84-85ef-97d3028e46ec>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "1cdd73c5-0f2b-af84-85ef-97d3028e46ec" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:bd588384-0e39-4a70-931f-8ba40a79488f>
             rdf:type                 cim:SynchronousMachine;
@@ -10488,9 +10387,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:d3ee04cf-e36c-48fd-8048-e40a963625b2>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "d3ee04cf-e36c-48fd-8048-e40a963625b2" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:83006b0d-7b1c-4991-ba6f-572d5dba6a22>
             rdf:type                    cim:Terminal;
@@ -10669,9 +10567,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:4f585c8d-6b19-aa60-81a7-283738926656>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "4f585c8d-6b19-aa60-81a7-283738926656" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:2406bfa4-f9b7-4d9c-8500-472caabb6362>
             rdf:type                    cim:Terminal;
@@ -10740,9 +10637,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:308cabc6-5748-3499-384e-8c9b2abfb795>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "308cabc6-5748-3499-384e-8c9b2abfb795" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:395a313a-7a42-4df9-86f1-68cf2820ed90>
             rdf:type                    cim:Terminal;
@@ -10775,9 +10671,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:7bcfaa17-ff34-6bd0-f8e3-125c2de8c649>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "7bcfaa17-ff34-6bd0-f8e3-125c2de8c649" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:f7d805ac-b58c-ef55-f520-386d5e0e8a04>
             rdf:type                cim:CurrentLimit;
@@ -10794,9 +10689,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "500"^^xsd:float .
     
     <urn:uuid:08464663-7dbf-4195-9754-a6ff63c421d6>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "08464663-7dbf-4195-9754-a6ff63c421d6" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:28587e0b-8d37-40bb-a86f-2fe2e8165cda>
             rdf:type                       cim:LinearShuntCompensator;
@@ -11004,9 +10898,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:6e8d9783-59a8-143d-c5fe-7c55f372daa0>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "6e8d9783-59a8-143d-c5fe-7c55f372daa0" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:e59f8e0e-0b9f-4df0-86a1-9af49e09a249>
             rdf:type                    cim:Terminal;
@@ -11049,9 +10942,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "525"^^xsd:float .
     
     <urn:uuid:823c693a-229d-1b38-d260-b484ae4d8f5f>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "823c693a-229d-1b38-d260-b484ae4d8f5f" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:f727d078-6f8c-dd2d-4af9-979c2a886d98>
             rdf:type                cim:CurrentLimit;
@@ -11074,6 +10966,10 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     cim:SynchronousMachineOperatingMode.generator;
             cim:SynchronousMachine.referencePriority
                     0 .
+    
+    <urn:uuid:ec2a2385-872d-4cf7-b50b-f9e8a7210dbb>
+            rdf:type                    cim:ActivePowerLimit;
+            cim:ActivePowerLimit.value  "2500"^^xsd:float .
     
     <urn:uuid:6fbbd2ca-2933-4f32-b6e9-4f8f7e359c9c>
             rdf:type                    cim:Terminal;
@@ -11250,9 +11146,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:fc180ed4-ff4b-de85-fd1e-9d2459959c11>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "fc180ed4-ff4b-de85-fd1e-9d2459959c11" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:48daf452-5d05-4ede-8028-ec6552f19186>
             rdf:type                    cim:Terminal;
@@ -11351,9 +11246,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:5722e187-ddbb-3795-141d-f61f78e3fc22>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "5722e187-ddbb-3795-141d-f61f78e3fc22" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:ba02a8cd-d31d-410f-8578-5d5a71fab251>
             rdf:type                    cim:Terminal;
@@ -11400,9 +11294,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "1530"^^xsd:float .
     
     <urn:uuid:2d13027f-8670-018b-3e6d-b2b594578ba7>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "2d13027f-8670-018b-3e6d-b2b594578ba7" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:9d74853a-2d80-4016-b1af-dfa4ddd3c9a7>
             rdf:type                    cim:Terminal;
@@ -11596,9 +11489,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:f9359686-3f5f-45e1-8122-0c677d0e366b>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "f9359686-3f5f-45e1-8122-0c677d0e366b" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:ed7dda66-1e1c-4a8a-97c6-b2534a55a25f>
             rdf:type                    cim:Terminal;
@@ -11695,9 +11587,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:d8019287-bb61-4c9d-8aec-e176a51b37fa>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "d8019287-bb61-4c9d-8aec-e176a51b37fa" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:9a7776c4-3ef7-4ebc-a0e0-d9cf7aeacd83>
             rdf:type                    cim:Terminal;
@@ -11730,9 +11621,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:ae26e955-0df6-4064-44d7-172b62ba49b0>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "ae26e955-0df6-4064-44d7-172b62ba49b0" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:17f5d104-e648-37a4-62d3-712dfcfa2a7d>
             rdf:type                        cim:RegulatingControl;
@@ -11888,9 +11778,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:3eafea84-b5ab-9bc1-0b5a-f225bc118185>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "3eafea84-b5ab-9bc1-0b5a-f225bc118185" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:01955a0a-a1b6-430b-b23a-3f2f13fc9f15>
             rdf:type                 cim:Disconnector;
@@ -11899,9 +11788,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:20f3f6ca-906f-4c6c-bc12-89ffff80b03b>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "20f3f6ca-906f-4c6c-bc12-89ffff80b03b" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:22bc4212-a046-43b4-acf7-5cd1abf1a005>
             rdf:type                    cim:Terminal;
@@ -11958,14 +11846,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:ced0f44f-2123-1aaa-3394-1f78a3317064>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "ced0f44f-2123-1aaa-3394-1f78a3317064" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:8122c574-0501-483c-9cf4-1a8e74325a7c>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "8122c574-0501-483c-9cf4-1a8e74325a7c" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:12942849-3647-43ee-b2eb-1912165eb3d4>
             rdf:type                    cim:Terminal;
@@ -12062,9 +11948,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:ce123500-56ec-4101-b876-aff2e9abf5c3>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "ce123500-56ec-4101-b876-aff2e9abf5c3" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:3e7a082f-388a-ae28-0281-754955772d54>
             rdf:type                        cim:RegulatingControl;
@@ -12107,9 +11992,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:75a3b7bd-65e4-4e35-b0e5-f5b21c3c4977>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "75a3b7bd-65e4-4e35-b0e5-f5b21c3c4977" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:fa495ac0-e66d-4af0-b8b9-be217208b39c>
             rdf:type                       cim:LinearShuntCompensator;
@@ -12161,9 +12045,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:bde75e02-02ed-453f-8a4a-1fad9c00bd32>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "bde75e02-02ed-453f-8a4a-1fad9c00bd32" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:98c847c1-4f75-414a-bbf6-1f5c02991104>
             rdf:type                 cim:Breaker;
@@ -12437,9 +12320,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:b3a6d38c-beb2-a3e9-fb8b-5e8bf96d4b33>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "b3a6d38c-beb2-a3e9-fb8b-5e8bf96d4b33" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:44bb6898-bd21-4679-bb62-6947f2fdf248>
             rdf:type                    cim:Terminal;
@@ -12603,9 +12485,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:d1302a07-86dc-76b4-b6a0-3264a9d1f3c7>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "d1302a07-86dc-76b4-b6a0-3264a9d1f3c7" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:5bf798bb-bd8f-4288-991c-4c35fdb13e9a>
             rdf:type                    cim:Terminal;
@@ -12698,9 +12579,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "1050"^^xsd:float .
     
     <urn:uuid:323f028a-75e5-3ea7-e8c4-00f28df6e50e>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "323f028a-75e5-3ea7-e8c4-00f28df6e50e" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:54070a1a-c66d-44e5-aed5-22a0c4dfbeae>
             rdf:type                 cim:Breaker;
@@ -13175,9 +13055,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:e02e1166-1c43-4a4d-8c5a-82298ee0c8f5>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "e02e1166-1c43-4a4d-8c5a-82298ee0c8f5" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:e280eb6b-cb14-4048-a27b-952bb4e52769>
             rdf:type                    cim:Terminal;
@@ -13234,9 +13113,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:1530e354-0f48-a70c-8438-4f3bc1bae328>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "1530e354-0f48-a70c-8438-4f3bc1bae328" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:8017fe4c-d9d8-40c4-87c4-f2ac6c77be6c>
             rdf:type                    cim:Terminal;
@@ -13401,9 +13279,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:16a708a3-c934-e27c-0392-130c1e2a053d>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "16a708a3-c934-e27c-0392-130c1e2a053d" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:3a456a16-8828-47d2-a8ac-a6f55c9f82bc>
             rdf:type                    cim:Terminal;
@@ -13533,9 +13410,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     cim:UnitMultiplier.k .
     
     <urn:uuid:93e39ba3-f699-5c40-5d60-25dc8f2736d2>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "93e39ba3-f699-5c40-5d60-25dc8f2736d2" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:3053f905-18df-4bc1-97e1-f399c9155124>
             rdf:type                    cim:Terminal;
@@ -13546,9 +13422,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:114d3862-b97e-4321-c797-af7b686b7cd1>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "114d3862-b97e-4321-c797-af7b686b7cd1" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:b0bbdce9-cbb8-4ae3-badb-c4726bdc6221>
             rdf:type                    cim:Terminal;
@@ -13982,9 +13857,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:25702faa-3988-7e3a-f4a9-fd40f1e00e7e>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "25702faa-3988-7e3a-f4a9-fd40f1e00e7e" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:4e733af7-9ef9-4681-8000-087d1bcc638a>
             rdf:type                    cim:Terminal;
@@ -14359,9 +14233,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:f9e69bf2-a9fb-0bbb-5982-ba1221bb7d8d>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "f9e69bf2-a9fb-0bbb-5982-ba1221bb7d8d" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:ac7c9ae8-5fb6-4be4-b901-f78857e8ab08>
             rdf:type                 cim:Disconnector;
@@ -14370,9 +14243,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:ebfab4de-74dd-40fe-af26-9590801b9e1d>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "ebfab4de-74dd-40fe-af26-9590801b9e1d" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:f8397dc1-6858-415a-9117-6b7f79fcbe40>
             rdf:type                 cim:Disconnector;
@@ -14512,9 +14384,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:81b02d3f-4d5a-808f-c42b-112e05526d68>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "81b02d3f-4d5a-808f-c42b-112e05526d68" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:b8029d14-fc19-4f97-87fc-f99b9ad49c9b>
             rdf:type                    cim:Terminal;
@@ -14602,9 +14473,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:840bb6ae-8734-454d-b00e-00873fe3c412>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "840bb6ae-8734-454d-b00e-00873fe3c412" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:5309a5e0-d3da-4442-a9b9-d42b8068acda>
             rdf:type                    cim:Terminal;
@@ -14747,9 +14617,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:02eaabb7-5736-43aa-9b32-d45565e2e141>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "02eaabb7-5736-43aa-9b32-d45565e2e141" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:1f012301-d6ab-4e2e-b07c-0164f88ab110>
             rdf:type                 cim:Disconnector;
@@ -14996,9 +14865,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     cim:UnitMultiplier.k .
     
     <urn:uuid:a43c18d3-97af-cbe0-2e76-6f80ccfd021c>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "a43c18d3-97af-cbe0-2e76-6f80ccfd021c" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:022bad2c-6ef4-4ae2-9400-9531c8272b30>
             rdf:type                 cim:Disconnector;
@@ -15151,9 +15019,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:8dc3146e-0b53-4a70-8368-72129e794e2f>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "8dc3146e-0b53-4a70-8368-72129e794e2f" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:2cfbbd49-e652-411d-ae8e-11af156619f4>
             rdf:type                    cim:Terminal;
@@ -15192,9 +15059,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:ffd94371-3b75-1e9b-b075-d00d1f4c3601>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "ffd94371-3b75-1e9b-b075-d00d1f4c3601" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:213a53e0-0f0c-4e22-a725-baa6da11c385>
             rdf:type                    cim:Terminal;
@@ -15251,9 +15117,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:409e3cb7-f24c-4abb-899a-9c83f685d114>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "409e3cb7-f24c-4abb-899a-9c83f685d114" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:815a0b88-fae7-4df9-9ae7-910c26c23f3b>
             rdf:type                 cim:Breaker;
@@ -15356,9 +15221,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:acb7d38e-ef2f-431a-bcef-232539693dc4>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "acb7d38e-ef2f-431a-bcef-232539693dc4" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:e7d76c30-23ba-46fd-8726-2a022e14a667>
             rdf:type                    cim:Terminal;
@@ -15373,9 +15237,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:a41ac55b-e9a3-455e-85db-c69abe3932d7>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "a41ac55b-e9a3-455e-85db-c69abe3932d7" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:7698fecb-7352-43f8-9c9e-5344c2e86f87>
             rdf:type                    cim:Terminal;
@@ -15410,9 +15273,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:63d8319b-fae4-3511-0909-dd62359c17f2>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "63d8319b-fae4-3511-0909-dd62359c17f2" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:9a2e25bc-0d82-4d94-bedc-d609e45914cd>
             rdf:type                 cim:Breaker;
@@ -15449,9 +15311,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:ff8f255b-7395-4cfc-a258-141c2e520b64>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "ff8f255b-7395-4cfc-a258-141c2e520b64" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:5241f7de-8c56-4a81-b557-9f68211e4067>
             rdf:type                 cim:Disconnector;
@@ -15540,9 +15401,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:5b576d07-99a4-4ca0-bdb6-5407c80ace2c>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "5b576d07-99a4-4ca0-bdb6-5407c80ace2c" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:e15fa6d3-f5ff-45e2-9755-067f49370954>
             rdf:type                 cim:Breaker;
@@ -15559,9 +15419,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:f0dee14e-aa43-411e-a2ea-b9879c20f3be>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "f0dee14e-aa43-411e-a2ea-b9879c20f3be" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:b155f1d9-dea2-458a-93be-a815f8980bf7>
             rdf:type                    cim:Terminal;
@@ -15659,9 +15518,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:3f8c71ab-22a1-ad28-cfd1-f000fd4ebdda>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "3f8c71ab-22a1-ad28-cfd1-f000fd4ebdda" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:8b0637f5-43b1-4574-ba9a-e5222df429dd>
             rdf:type                    cim:Terminal;
@@ -15690,9 +15548,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:452ad737-7105-4620-9871-7326e5fc9f32>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "452ad737-7105-4620-9871-7326e5fc9f32" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:db4bfa67-913e-44db-bab9-4ce36f91d5a4>
             rdf:type                    cim:Terminal;
@@ -15713,9 +15570,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:3ef4b5d3-e80b-4626-b1ce-be0f8d8139fa>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "3ef4b5d3-e80b-4626-b1ce-be0f8d8139fa" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:2a32f333-572b-574f-1dd9-c258871fe5f9>
             rdf:type                cim:CurrentLimit;
@@ -15884,9 +15740,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:23d42703-f213-79ba-025e-95d616a86f1e>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "23d42703-f213-79ba-025e-95d616a86f1e" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:f239ab2a-bf94-4248-bd17-beac2bb1671a>
             rdf:type                    cim:Terminal;
@@ -15929,9 +15784,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:846117e4-d436-4b37-a4b3-6a8d6eaae2bc>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "846117e4-d436-4b37-a4b3-6a8d6eaae2bc" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:8389c0d2-eb91-d5f4-738a-8c362a0f5b09>
             rdf:type                    cim:Terminal;
@@ -16168,9 +16022,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:76725700-d7c9-b2bf-f52b-151c9339d9b6>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "76725700-d7c9-b2bf-f52b-151c9339d9b6" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:de72d04b-c574-4cc8-94a3-49c900113ced>
             rdf:type                    cim:Terminal;
@@ -16269,9 +16122,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:2fee64cd-e920-4858-a96f-0bf81be36124>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "2fee64cd-e920-4858-a96f-0bf81be36124" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:6a7ce9d4-7e73-485c-8aaa-7bb5a16bc1e6>
             rdf:type                    cim:Terminal;
@@ -16422,9 +16274,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:18d5cc2d-20f6-4f20-93cc-9e97fefc3597>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "18d5cc2d-20f6-4f20-93cc-9e97fefc3597" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:b996af60-39c2-41a7-9e9a-22501326de0f>
             rdf:type                    cim:Terminal;
@@ -16583,9 +16434,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:f91005a2-26f6-4478-9454-adc4bb014a01>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "f91005a2-26f6-4478-9454-adc4bb014a01" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:9c53025b-ce37-5c42-3bc7-33f9a95aaec2>
             rdf:type                cim:CurrentLimit;
@@ -16596,9 +16446,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:877b0778-89f2-4a78-89f0-6391553b97d9>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "877b0778-89f2-4a78-89f0-6391553b97d9" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:594f1be8-7df9-4883-8a94-bc185c650fe9>
             rdf:type                    cim:Terminal;
@@ -16704,9 +16553,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:5562a97b-bb8e-4078-80e4-22898b03bce7>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "5562a97b-bb8e-4078-80e4-22898b03bce7" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:9bcbdd49-5e67-4806-a02c-871bb4df34f3>
             rdf:type                    cim:Terminal;
@@ -16768,9 +16616,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:13b04579-5b2b-3bc6-15d6-f34f729e1cef>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "13b04579-5b2b-3bc6-15d6-f34f729e1cef" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:57b8689c-f55b-48d0-eddc-9eb635d3c695>
             rdf:type                cim:CurrentLimit;
@@ -16799,18 +16646,16 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:aad08d5b-3a0a-4e03-b234-be37f45cbcbb>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "aad08d5b-3a0a-4e03-b234-be37f45cbcbb" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:5cb4685a-c863-488b-85a3-72fba20d0523>
             rdf:type                    cim:Terminal;
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:f7f0b54c-b3a5-1c26-97b9-61e82041dd23>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "f7f0b54c-b3a5-1c26-97b9-61e82041dd23" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:50484332-95f4-81f7-08cc-f8efb5b58155>
             rdf:type                cim:CurrentLimit;
@@ -16821,18 +16666,16 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:d5c0d6d6-b846-4406-9739-066ee473d945>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "d5c0d6d6-b846-4406-9739-066ee473d945" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:1797a070-241f-4f6e-b1b9-add6023986fe>
             rdf:type                    cim:Terminal;
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:628cee38-ba9c-4fdd-915d-1dd7857a8f66>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "628cee38-ba9c-4fdd-915d-1dd7857a8f66" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:ab9660b5-3f17-4aa6-8cdc-e26c3805c7cd>
             rdf:type                    cim:Terminal;
@@ -16862,9 +16705,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:536f4b84-db4c-4545-96e9-bb5a87f65d13>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "536f4b84-db4c-4545-96e9-bb5a87f65d13" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:65ab4587-40e8-6c65-f1d3-a60222f866e6>
             rdf:type                cim:CurrentLimit;
@@ -16883,9 +16725,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:731dd053-70c9-4e1a-96cf-eb1208993e3d>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "731dd053-70c9-4e1a-96cf-eb1208993e3d" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:1b20e0e1-7237-41d5-8c1b-fd0523db9b1c>
             rdf:type                 cim:Disconnector;
@@ -16912,9 +16753,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:b676e63f-e89a-4bd7-b786-95fe458298eb>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "b676e63f-e89a-4bd7-b786-95fe458298eb" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:fa8f9c9e-dde3-1299-902a-da32da20a40c>
             rdf:type                     cim:HydroGeneratingUnit;
@@ -17247,9 +17087,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     0 .
     
     <urn:uuid:cf1e3acd-c58c-4677-b0ea-6ce16cd866ed>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "cf1e3acd-c58c-4677-b0ea-6ce16cd866ed" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:f56dd761-3ccc-6808-879a-09dc98d76f8b>
             rdf:type                cim:CurrentLimit;
@@ -17359,9 +17198,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:4cc583ea-c923-4fe2-89e3-b7b271ef00dc>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "4cc583ea-c923-4fe2-89e3-b7b271ef00dc" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:4f8f5e61-9ae8-4f79-94ac-5b16c1aa3793>
             rdf:type                    cim:Terminal;
@@ -17396,9 +17234,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:a36cbeda-f0a6-443c-acbd-b5b59e77791d>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "a36cbeda-f0a6-443c-acbd-b5b59e77791d" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:aa241e8c-8424-4579-9961-78d43354033c>
             rdf:type                 cim:Disconnector;
@@ -17481,9 +17318,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:81345924-7369-431a-aefb-35f14ad8c0c6>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "81345924-7369-431a-aefb-35f14ad8c0c6" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:dc236506-e684-49db-a301-c536c6329f82>
             rdf:type                    cim:Terminal;
@@ -17504,9 +17340,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:48485857-d388-4d24-8e5c-02a68ec905e9>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "48485857-d388-4d24-8e5c-02a68ec905e9" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:7519288a-b54e-44ce-95c1-565aad8368ac>
             rdf:type                 cim:Disconnector;
@@ -17547,9 +17382,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:5f2229b2-faec-4594-ad5d-0414e3985ce6>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "5f2229b2-faec-4594-ad5d-0414e3985ce6" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:b99a2131-940d-45f2-a10c-492241d826f1>
             rdf:type                 cim:Disconnector;
@@ -17684,7 +17518,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:ee9064e4-3f25-e88e-8c7b-66763e94050a>
             rdf:type                        cim:RegulatingControl;
             cim:RegulatingControl.discrete  false;
-            cim:RegulatingControl.enabled   true;
+            cim:RegulatingControl.enabled   false;
             cim:RegulatingControl.targetValue
                     "18.7"^^xsd:float;
             cim:RegulatingControl.targetValueUnitMultiplier
@@ -17727,9 +17561,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:d0bd1e6a-3b97-bacd-03b5-b94365e9b947>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "d0bd1e6a-3b97-bacd-03b5-b94365e9b947" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:2fa34b83-2193-40e4-9054-245b71e56527>
             rdf:type                    cim:Terminal;
@@ -17810,9 +17643,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:74e0209f-e3e4-a0ad-86a8-0fa27737d3ee>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "74e0209f-e3e4-a0ad-86a8-0fa27737d3ee" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:7e935fb0-20d7-4a6a-8eac-3d8197ded271>
             rdf:type                 cim:Disconnector;
@@ -18237,9 +18069,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "2566"^^xsd:float .
     
     <urn:uuid:bbd5fca1-9fc0-dc0a-f88e-d59de6cd2e92>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "bbd5fca1-9fc0-dc0a-f88e-d59de6cd2e92" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:0a45fa42-ad33-4bcc-adee-067caad10455>
             rdf:type                    cim:Terminal;
@@ -18254,9 +18085,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:a685eb20-d115-cb4f-379b-92aeb987ed2f>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "a685eb20-d115-cb4f-379b-92aeb987ed2f" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:36af22c9-caf9-496c-965c-10fac1986215>
             rdf:type                    cim:Terminal;
@@ -18305,9 +18135,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:f2df8633-f95a-410c-bc0f-2a1abaf92880>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "f2df8633-f95a-410c-bc0f-2a1abaf92880" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:7fb4b918-f518-4323-97c2-b964a2d6d7f0>
             rdf:type                    cim:Terminal;
@@ -18395,9 +18224,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:111087bf-d1d1-4a26-bc6b-90e2b349c26a>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "111087bf-d1d1-4a26-bc6b-90e2b349c26a" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:6909fe76-a32d-4766-bac3-3de2ff6a58cd>
             rdf:type                 cim:Disconnector;
@@ -18456,9 +18284,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:eaa322fa-4103-4566-ab44-7af721220c5f>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "eaa322fa-4103-4566-ab44-7af721220c5f" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:917e3322-4c22-4c69-9531-a642f67d926f>
             rdf:type                 cim:Breaker;
@@ -18516,9 +18343,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:e43c6518-376c-4907-9e31-7ae4d87468aa>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "e43c6518-376c-4907-9e31-7ae4d87468aa" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:53a48a7b-6e71-491e-bd61-7d27ff98230e>
             rdf:type                 cim:Disconnector;
@@ -18560,9 +18386,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:7b858bec-17c8-4cab-bfcb-6bbd645af2db>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "7b858bec-17c8-4cab-bfcb-6bbd645af2db" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:34e4bae3-8d7c-44c9-ac9d-d8e35712fc30>
             rdf:type                    cim:Terminal;
@@ -18798,9 +18623,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:3852b69e-22d2-41cb-b370-fb372ddcde19>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "3852b69e-22d2-41cb-b370-fb372ddcde19" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:b35e6e61-5425-4883-b248-2062e490f8de>
             rdf:type                    cim:Terminal;
@@ -18841,6 +18665,10 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:c9ace70b-e386-4cbe-b5af-cb427a8f961e>
             rdf:type                    cim:Terminal;
             cim:ACDCTerminal.connected  true .
+    
+    <urn:uuid:a331310f-a6b9-4e30-be2e-a6f62b0b5430>
+            rdf:type                    cim:ActivePowerLimit;
+            cim:ActivePowerLimit.value  "2500"^^xsd:float .
     
     <urn:uuid:690ace13-2584-4b8b-aaa9-d41e0e6a759b>
             rdf:type                    cim:Terminal;
@@ -18933,9 +18761,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:8510880c-0d91-44ed-897e-f95877ba489f>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "8510880c-0d91-44ed-897e-f95877ba489f" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:9eebc1e1-2188-6d56-6289-ff9d3e9f048b>
             rdf:type                        cim:RegulatingControl;
@@ -19033,9 +18860,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:6ec08942-2922-4365-cd33-bb49f447c565>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "6ec08942-2922-4365-cd33-bb49f447c565" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:aedd0938-cb3d-d0d5-5ce3-ebeaea8c6535>
             rdf:type                cim:CurrentLimit;
@@ -19368,9 +19194,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:21a24799-d0f7-467e-9676-1a523633bf13>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "21a24799-d0f7-467e-9676-1a523633bf13" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:21e52c8c-b9de-4de8-aca5-936f851d6304>
             rdf:type                    cim:Terminal;
@@ -19488,9 +19313,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:f3006553-de90-49f1-909b-016c0bdbf47d>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "f3006553-de90-49f1-909b-016c0bdbf47d" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:dca33355-509a-48b3-b559-3e84a4314acd>
             rdf:type                    cim:Terminal;
@@ -19768,9 +19592,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:7ec991da-f2c4-a99f-5abd-674d154a8097>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "7ec991da-f2c4-a99f-5abd-674d154a8097" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:1c3d1978-a481-47b2-a9bf-d417335cbf52>
             rdf:type                 cim:Disconnector;
@@ -19917,9 +19740,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:3999e85a-2cf6-0810-f020-0c19808766e7>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "3999e85a-2cf6-0810-f020-0c19808766e7" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:ce6f6db1-107a-4cf4-85f2-c984e0b8f3ef>
             rdf:type                    cim:Terminal;
@@ -19973,9 +19795,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:e7f28ab6-bd69-469c-b28a-2c23ff0bcd31>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "e7f28ab6-bd69-469c-b28a-2c23ff0bcd31" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:6d032ca2-dac0-4a4b-bf88-aa0522bf4d14>
             rdf:type                 cim:Breaker;
@@ -20213,9 +20034,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:7810c181-9586-4b08-5612-6b5c4c8ccc75>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "7810c181-9586-4b08-5612-6b5c4c8ccc75" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:02c4508e-530b-43b5-bc2b-704eeb7c67fe>
             rdf:type                 cim:Breaker;
@@ -20397,9 +20217,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:33aea261-2d7a-919b-fde3-f0bf2e665d36>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "33aea261-2d7a-919b-fde3-f0bf2e665d36" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:14943bd3-0d46-44b0-8ea6-0f6375c59556>
             rdf:type                 cim:Disconnector;
@@ -20466,9 +20285,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:96a5fd18-e4cc-4a64-b146-46b1d4c1a909>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "96a5fd18-e4cc-4a64-b146-46b1d4c1a909" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:94d017dd-1750-4d07-9e2f-74a7761d62d7>
             rdf:type                    cim:Terminal;
@@ -20489,9 +20307,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:c18bfa48-66d6-0582-19a7-44751c9aef82>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "c18bfa48-66d6-0582-19a7-44751c9aef82" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:621b5b1a-7ef2-4364-963a-9ad302c550b9>
             rdf:type                 cim:Breaker;
@@ -20558,9 +20375,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:e456243c-a5a7-a90a-da42-fa2c0444419e>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "e456243c-a5a7-a90a-da42-fa2c0444419e" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:0bdbe13f-2e26-4ea6-8e99-bdeadbaf8bf4>
             rdf:type                 cim:Disconnector;
@@ -20589,9 +20405,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:20119a6d-5ad3-4d08-aed7-79b476537602>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "20119a6d-5ad3-4d08-aed7-79b476537602" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:6ec44fb0-d792-482e-b037-943dcec2db16>
             rdf:type                    cim:Terminal;
@@ -20668,14 +20483,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:268d6965-c800-4aa8-8b54-bd80a7c21058>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "268d6965-c800-4aa8-8b54-bd80a7c21058" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:304d54cf-810c-950e-4f54-ff306315d25d>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "304d54cf-810c-950e-4f54-ff306315d25d" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:26961977-6b13-4a07-8996-0b671e7df0b3>
             rdf:type                    cim:Terminal;
@@ -20744,9 +20557,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     0 .
     
     <urn:uuid:8015871a-664a-364e-fe95-d85ac98fc246>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "8015871a-664a-364e-fe95-d85ac98fc246" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:048f5315-7dac-4852-8ecf-951bd41fb1f5>
             rdf:type                    cim:Terminal;
@@ -20797,9 +20609,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "2970"^^xsd:float .
     
     <urn:uuid:a41edad5-0610-4ac5-bcfc-d46bea6f9d4e>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "a41edad5-0610-4ac5-bcfc-d46bea6f9d4e" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:afb57580-fd73-4a97-8631-40cfa0032af5>
             rdf:type                    cim:Terminal;
@@ -20858,9 +20669,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:2c070e90-aeae-edba-ef41-c6ebe969698c>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "2c070e90-aeae-edba-ef41-c6ebe969698c" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:f60e2452-c5f4-415f-849c-6993f817715f>
             rdf:type                    cim:Terminal;
@@ -20889,9 +20699,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:f522c53d-dab5-6087-73a3-2e9b0a99d5ef>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "f522c53d-dab5-6087-73a3-2e9b0a99d5ef" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:a9ae48ee-6cfa-dc08-4683-4e9d5a613dc4>
             rdf:type                cim:CurrentLimit;
@@ -20907,9 +20716,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     cim:UnitMultiplier.k .
     
     <urn:uuid:a8b3ce88-81d1-ea51-23f0-0ef563b0472a>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "a8b3ce88-81d1-ea51-23f0-0ef563b0472a" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:a89e75dc-c0ff-483d-bf59-d6825f5edc6c>
             rdf:type                    cim:Terminal;
@@ -20994,18 +20802,16 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:6d093cbc-a433-52a4-6687-6c98fd5e730d>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "6d093cbc-a433-52a4-6687-6c98fd5e730d" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:6007ba59-87d2-4dbd-847c-61377d6ff6a6>
             rdf:type                    cim:Terminal;
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:17ce94c0-ce0d-14a4-83f2-67d3b7b7b202>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "17ce94c0-ce0d-14a4-83f2-67d3b7b7b202" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:b9f3ead9-9dd5-4ff8-9469-81176f8d9382>
             rdf:type                 cim:SynchronousMachine;
@@ -21070,9 +20876,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "1530"^^xsd:float .
     
     <urn:uuid:b167c15f-d862-aa38-c3b4-914a9b0e17e9>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "b167c15f-d862-aa38-c3b4-914a9b0e17e9" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:d02c4604-453b-4bde-ad14-3e8304d1a47b>
             rdf:type                    cim:Terminal;
@@ -21087,9 +20892,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:ef11fdd0-7dc8-4df7-a635-251ff310d171>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "ef11fdd0-7dc8-4df7-a635-251ff310d171" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:56dfac45-861c-4367-99ba-5fc143efcf23>
             rdf:type                    cim:Terminal;
@@ -21355,9 +21159,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:fd618f7c-e069-0357-84f2-c48d731e7d87>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "fd618f7c-e069-0357-84f2-c48d731e7d87" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:15fb07e2-3e01-4958-8ee3-3e5612afbb49>
             rdf:type                    cim:Terminal;
@@ -21572,9 +21375,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:7e16462d-0e11-6283-6e8b-17c9d1c3fdfd>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "7e16462d-0e11-6283-6e8b-17c9d1c3fdfd" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:284c27c2-9212-433b-94ad-d6a6f41fa3cb>
             rdf:type                    cim:Terminal;
@@ -21589,9 +21391,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:f6bc0b3b-7e66-428f-bffd-dc09f3ae3c65>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "f6bc0b3b-7e66-428f-bffd-dc09f3ae3c65" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:4cd665dc-ddd0-4271-b3af-285e71aa7982>
             rdf:type                    cim:Terminal;
@@ -21627,9 +21428,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ShuntCompensator.sections  "1"^^xsd:float .
     
     <urn:uuid:d78418ce-7741-48a3-9301-18661647c908>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "d78418ce-7741-48a3-9301-18661647c908" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:141306cd-9e1d-4a07-9658-0b5d21f00ad5>
             rdf:type                 cim:Disconnector;
@@ -21680,9 +21480,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:71936f5d-2290-362f-be13-108732c9438a>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "71936f5d-2290-362f-be13-108732c9438a" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:17e18066-efb4-4065-86c8-2a45d67c3687>
             rdf:type                    cim:Terminal;
@@ -21902,9 +21701,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "1050"^^xsd:float .
     
     <urn:uuid:c336e840-59fd-f8ae-40a5-ecbd824dd12d>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "c336e840-59fd-f8ae-40a5-ecbd824dd12d" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:3d5a819a-42e7-4306-a036-34045a922654>
             rdf:type                 cim:SynchronousMachine;
@@ -22089,9 +21887,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:7b0fddc3-6ed5-83b9-2091-58b1d03b7a10>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "7b0fddc3-6ed5-83b9-2091-58b1d03b7a10" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:11c17c19-e4a6-ba8a-b9f2-9552693fca89>
             rdf:type                cim:CurrentLimit;
@@ -22102,9 +21899,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:ea5deac1-1c34-58a6-2bb7-fe8129a51a9f>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "ea5deac1-1c34-58a6-2bb7-fe8129a51a9f" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:2e8bad11-6065-4da9-8044-f59f0b7202c4>
             rdf:type                    cim:Terminal;
@@ -22119,9 +21915,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:b2a3ba57-d592-4bc9-b4cb-8a78cf8a0bb6>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "b2a3ba57-d592-4bc9-b4cb-8a78cf8a0bb6" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:d2402a66-8f85-4515-88f1-195b20bb999f>
             rdf:type                    cim:Terminal;
@@ -22307,9 +22102,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:fe4c2897-07e1-a5a8-bac5-9713b3d648de>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "fe4c2897-07e1-a5a8-bac5-9713b3d648de" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:ea92c6b5-96a6-48e7-9c4c-3a082076cae2>
             rdf:type                    cim:Terminal;
@@ -22526,9 +22320,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:f1c13f90-6d89-4a37-a51c-94742ad2dd72>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "f1c13f90-6d89-4a37-a51c-94742ad2dd72" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:13791e4c-69d5-4bba-a666-0b13da6dd1af>
             rdf:type                    cim:Terminal;
@@ -22717,9 +22510,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:5b79393b-3b5b-9eb6-992c-d011cdbb8d47>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "5b79393b-3b5b-9eb6-992c-d011cdbb8d47" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:83240df0-ecd1-589f-0b2f-265cd5b76813>
             rdf:type                cim:CurrentLimit;
@@ -22842,9 +22634,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:f352fcad-0445-2666-f332-1f48a1a0afde>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "f352fcad-0445-2666-f332-1f48a1a0afde" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:6c11af0c-c333-43c9-a55d-f93ffe5b2bcc>
             rdf:type                    cim:Terminal;
@@ -22908,9 +22699,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:4c32ce25-e0c0-5c5d-eebc-03a2582e603c>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "4c32ce25-e0c0-5c5d-eebc-03a2582e603c" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:c991685b-06c3-42c0-9d4d-a0a2299a2df8>
             rdf:type                       cim:LinearShuntCompensator;
@@ -23271,9 +23061,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:a3704974-65ca-0102-12ce-0f0e02576b2e>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "a3704974-65ca-0102-12ce-0f0e02576b2e" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:41343592-cfc1-420a-821a-8aa31eaade78>
             rdf:type                    cim:Terminal;
@@ -23302,9 +23091,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "1050"^^xsd:float .
     
     <urn:uuid:37c2b629-ffb4-4f6b-b54f-80cd13fdf791>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "37c2b629-ffb4-4f6b-b54f-80cd13fdf791" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:a9e96340-64ce-48f4-b75b-bbaf89c48bf2>
             rdf:type                 cim:Breaker;
@@ -23337,9 +23125,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:c54a6b54-c1be-87eb-b6f2-592ed8a9f8ec>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "c54a6b54-c1be-87eb-b6f2-592ed8a9f8ec" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:54125a2a-e584-453a-b020-903d23cadd2c>
             rdf:type                    cim:StaticVarCompensator;
@@ -23458,9 +23245,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:b13ae298-dcdb-4600-810f-c0adc11dbb3b>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "b13ae298-dcdb-4600-810f-c0adc11dbb3b" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:cc00ba52-58eb-4471-ad5f-ccf9bba4d660>
             rdf:type                 cim:Disconnector;
@@ -23509,9 +23295,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:2ac7070d-3ede-928c-d53d-14473148e6be>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "2ac7070d-3ede-928c-d53d-14473148e6be" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:39da3ac7-ada4-4513-9e0a-d34723c502e8>
             rdf:type                 cim:Disconnector;
@@ -23626,18 +23411,16 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:a733fb91-753a-42e7-aeb9-9c1518315900>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "a733fb91-753a-42e7-aeb9-9c1518315900" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:9eab9076-f88d-4fc9-88df-01df7021c2cc>
             rdf:type                    cim:Terminal;
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:8a33cec2-49b6-44df-8286-10a92377c58e>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "8a33cec2-49b6-44df-8286-10a92377c58e" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:b1679271-7f71-40a2-96cd-4f76c57133ba>
             rdf:type                 cim:Disconnector;
@@ -23668,9 +23451,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:a15f3a52-d36a-0660-be7e-f514b3e06d16>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "a15f3a52-d36a-0660-be7e-f514b3e06d16" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:29640b99-2866-40ed-86d5-8b608c91dd1e>
             rdf:type                    cim:Terminal;
@@ -23892,9 +23674,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:b7ebe594-e470-4a2f-9cbe-c83e4dbb9379>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "b7ebe594-e470-4a2f-9cbe-c83e4dbb9379" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:669f077f-1be3-42ec-9a00-e46fe154cd66>
             rdf:type                    cim:Terminal;
@@ -23929,9 +23710,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:d75b5e41-afaa-ca6f-1d23-6ca6e4d78a39>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "d75b5e41-afaa-ca6f-1d23-6ca6e4d78a39" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:6742e244-a1e6-4477-b133-757e4d5f6538>
             rdf:type                    cim:Terminal;
@@ -24033,9 +23813,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:ce3112ee-bb8d-48b3-a1b0-689cf7585fd6>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "ce3112ee-bb8d-48b3-a1b0-689cf7585fd6" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:caf4f4d2-22d7-4880-8880-6785458dc6a1>
             rdf:type                 cim:Disconnector;
@@ -24116,9 +23895,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:a9edebec-edc1-44e4-9961-a5aae919ede7>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "a9edebec-edc1-44e4-9961-a5aae919ede7" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:a398ec5a-13ef-7a2c-5d52-be14b3054956>
             rdf:type                cim:CurrentLimit;
@@ -24225,9 +24003,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:GeneratingUnit.normalPF  "5.47086"^^xsd:float .
     
     <urn:uuid:5db4c69e-6da5-416e-920a-04910c408848>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "5db4c69e-6da5-416e-920a-04910c408848" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:a1a8d4a5-ff91-4ad2-a840-21f6e735e1e5>
             rdf:type                 cim:Breaker;
@@ -24240,9 +24017,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:498410ba-8b68-4418-91ae-e0848698bf06>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "498410ba-8b68-4418-91ae-e0848698bf06" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:3a5e6ad4-c3d1-4855-801f-e8ecfa5a4d34>
             rdf:type                 cim:Disconnector;
@@ -24309,9 +24085,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:2b84cf5b-5b92-a348-5fd3-e178a56467b3>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "2b84cf5b-5b92-a348-5fd3-e178a56467b3" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:f48ba72b-b179-4076-906f-9ad362461236>
             rdf:type                    cim:Terminal;
@@ -24456,9 +24231,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     cim:UnitMultiplier.k .
     
     <urn:uuid:75ed9ad2-4ff8-4a41-b664-f4064378c1cb>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "75ed9ad2-4ff8-4a41-b664-f4064378c1cb" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:b71a0a08-93d9-4ae1-b930-02a45b35d374>
             rdf:type                    cim:Terminal;
@@ -24523,18 +24297,16 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:92483954-b247-7922-35b8-122835028799>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "92483954-b247-7922-35b8-122835028799" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:2dac48ab-1e49-40b2-a75c-edfac22acbcb>
             rdf:type                    cim:Terminal;
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:aaefb10e-2505-951a-ef93-017a58daaa1d>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "aaefb10e-2505-951a-ef93-017a58daaa1d" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:453f71b4-3f5d-4209-a59d-9dcca74bd71a>
             rdf:type                 cim:Disconnector;
@@ -24565,9 +24337,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:baa1e091-7c9f-469c-ab5b-33ebbe376600>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "baa1e091-7c9f-469c-ab5b-33ebbe376600" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:b2455a02-546a-4083-9e2c-2c78e1964641>
             rdf:type                 cim:Disconnector;
@@ -24609,9 +24380,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:GeneratingUnit.normalPF  "2.60914"^^xsd:float .
     
     <urn:uuid:10451f6a-672a-4fbb-b0af-591e9ca70117>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "10451f6a-672a-4fbb-b0af-591e9ca70117" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:6caa88a7-7440-4d9b-bd4e-5b2ad849bb70>
             rdf:type                 cim:Disconnector;
@@ -24658,9 +24428,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:af6fad54-36f2-6d8c-7407-74f741ac3b9b>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "af6fad54-36f2-6d8c-7407-74f741ac3b9b" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:a5aa5096-f48d-4fd3-b4bb-287188f5b979>
             rdf:type                 cim:Breaker;
@@ -24677,9 +24446,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:833f3956-45d6-a396-2541-98c7f515b833>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "833f3956-45d6-a396-2541-98c7f515b833" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:dec3a80a-96e1-4820-a9fc-ce06572dba61>
             rdf:type                 cim:Disconnector;
@@ -24824,9 +24592,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:45e5b772-d2be-b8d4-65bc-e8b2277b3b8f>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "45e5b772-d2be-b8d4-65bc-e8b2277b3b8f" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:87ca9aa2-1d49-47fe-bc28-5f0094183a57>
             rdf:type                    cim:Terminal;
@@ -24888,9 +24655,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "500"^^xsd:float .
     
     <urn:uuid:ef04420b-b0c0-bce1-87a4-cf4884580cbf>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "ef04420b-b0c0-bce1-87a4-cf4884580cbf" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:1e48a024-9fb6-89e2-c814-7c4a795556b6>
             rdf:type                cim:CurrentLimit;
@@ -24947,9 +24713,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:dbaf338c-e30b-4146-b0cb-3ea550fab936>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "dbaf338c-e30b-4146-b0cb-3ea550fab936" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:760b235e-3cf1-4442-affc-fd4137af223b>
             rdf:type                    cim:Terminal;
@@ -25131,9 +24896,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:2340d49e-5355-8bc6-c5f2-c264ebb68eb6>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "2340d49e-5355-8bc6-c5f2-c264ebb68eb6" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:26f6da62-316a-4a9a-a612-ae746dba603c>
             rdf:type                    cim:Terminal;
@@ -25162,9 +24926,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:d6001f9e-f0e3-90eb-c8a9-f44b3f2ca08e>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "d6001f9e-f0e3-90eb-c8a9-f44b3f2ca08e" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:6ff66cf7-b0f2-4502-973a-ea5ef82a0be5>
             rdf:type                    cim:Terminal;
@@ -25251,9 +25014,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:8455f014-d0a0-4712-ad70-8275de3b2ee8>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "8455f014-d0a0-4712-ad70-8275de3b2ee8" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:7d1d1bbe-a4af-43cf-8c5c-b08346b4b927>
             rdf:type                    cim:Terminal;
@@ -25330,9 +25092,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:d6550ed1-c6b0-7e6e-72fb-a4eee2c6591d>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "d6550ed1-c6b0-7e6e-72fb-a4eee2c6591d" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:4042f985-914b-40dd-8385-cddaa67dd2d7>
             rdf:type                    cim:Terminal;
@@ -25470,9 +25231,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:7ee13d9a-ada9-4272-b3e8-c4a8c57d3dc4>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "7ee13d9a-ada9-4272-b3e8-c4a8c57d3dc4" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:36ffda94-f140-446f-8120-6291b568a790>
             rdf:type                    cim:Terminal;
@@ -25515,9 +25275,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:c244b8d0-086e-a6ca-27e0-50a72ee597e9>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "c244b8d0-086e-a6ca-27e0-50a72ee597e9" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:86b02a23-795c-4b14-a539-5e0650402c3a>
             rdf:type                    cim:Terminal;
@@ -25538,9 +25297,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:6ae77ca8-eb37-2103-bb99-b8d4adff41df>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "6ae77ca8-eb37-2103-bb99-b8d4adff41df" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:cde2a5d3-ffde-4ebe-85c5-c89248edb681>
             rdf:type                    cim:Terminal;
@@ -25598,9 +25356,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          true .
     
     <urn:uuid:a32454ad-0b0b-60b4-2dd4-6cf79f1c40f6>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "a32454ad-0b0b-60b4-2dd4-6cf79f1c40f6" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:e583d6c6-c680-4852-a328-0170c0621935>
             rdf:type                    cim:Terminal;
@@ -25694,9 +25451,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:c34e2af7-c13b-eb2c-c0bf-f8b8d481f2ee>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "c34e2af7-c13b-eb2c-c0bf-f8b8d481f2ee" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:59825b22-ff1f-436b-ba63-de18cb038157>
             rdf:type                    cim:Terminal;
@@ -25788,9 +25544,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:a3b36967-7165-3228-1697-401bb62a89e8>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "a3b36967-7165-3228-1697-401bb62a89e8" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:f496d329-de49-4ae2-af65-714770ff6d24>
             rdf:type                 cim:Disconnector;
@@ -25831,9 +25586,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:b2dc8985-174a-4e4e-970c-65ee87af809d>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "b2dc8985-174a-4e4e-970c-65ee87af809d" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:b102f580-0338-49ea-9a26-8c8c6f119b9b>
             rdf:type                    cim:Terminal;
@@ -25868,9 +25622,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "500"^^xsd:float .
     
     <urn:uuid:4bf005f3-c6cd-80b6-d456-0e1b5861ad7d>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "4bf005f3-c6cd-80b6-d456-0e1b5861ad7d" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:c1870af1-5e54-475d-91ac-e2dd05921a73>
             rdf:type                 cim:Breaker;
@@ -25917,9 +25670,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:45d46be7-6419-4054-817b-f0423329b51b>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "45d46be7-6419-4054-817b-f0423329b51b" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:d5e0ad99-2c3b-c58c-7097-d5996a25b506>
             rdf:type                cim:CurrentLimit;
@@ -25940,9 +25692,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:3efc9b3b-7b60-4c13-cede-195e8db734eb>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "3efc9b3b-7b60-4c13-cede-195e8db734eb" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:9a2a3925-2e03-43f1-a010-59aa3502a727>
             rdf:type                 cim:Breaker;
@@ -26001,9 +25752,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:ffff9490-6b6b-42fa-a14c-8480749f794c>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "ffff9490-6b6b-42fa-a14c-8480749f794c" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:84305ab2-c124-4cfd-baa1-97b44718922e>
             rdf:type                    cim:Terminal;
@@ -26136,9 +25886,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:889ff644-5a23-4de5-98d4-9de939e688c0>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "889ff644-5a23-4de5-98d4-9de939e688c0" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:379312ef-4bc0-493b-834b-8ea03b2b37ae>
             rdf:type                    cim:Terminal;
@@ -26218,7 +25967,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:91c7383a-cadc-b37f-6395-f62b77d6189c>
             rdf:type                        cim:TapChangerControl;
             cim:RegulatingControl.discrete  true;
-            cim:RegulatingControl.enabled   true;
+            cim:RegulatingControl.enabled   false;
             cim:RegulatingControl.targetDeadband
                     "0.275"^^xsd:float;
             cim:RegulatingControl.targetValue
@@ -26307,9 +26056,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:8f4ee963-cf37-4252-5fd2-aa5cac86d9d5>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "8f4ee963-cf37-4252-5fd2-aa5cac86d9d5" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:b39c8ed7-0672-473e-adf0-41bf02beb74e>
             rdf:type                    cim:Terminal;
@@ -26601,9 +26349,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:e6137190-0ed6-1b2a-e061-348f45119fd0>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "e6137190-0ed6-1b2a-e061-348f45119fd0" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:282688c2-24ed-4f58-875b-b7c9312331b8>
             rdf:type                 cim:Disconnector;
@@ -26654,9 +26401,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:7c6bc77a-09ce-53d3-bf50-0f870cc43394>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "7c6bc77a-09ce-53d3-bf50-0f870cc43394" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:31c0cb2a-546b-4b96-84b6-95db96bd8c38>
             rdf:type                    cim:Terminal;
@@ -26825,9 +26571,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:f9afd596-8e07-433a-9256-0f12f71c1603>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "f9afd596-8e07-433a-9256-0f12f71c1603" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:c03326d1-ccbf-48c8-8069-c89a9545b69d>
             rdf:type                    cim:Terminal;
@@ -27008,9 +26753,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:7f296d95-be87-df38-5334-f5dce4710234>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "7f296d95-be87-df38-5334-f5dce4710234" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:91a416b0-54a4-46e1-8a83-43d3aae40c42>
             rdf:type                    cim:Terminal;
@@ -27074,9 +26818,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "500"^^xsd:float .
     
     <urn:uuid:082cf81b-d632-8697-d934-800cb6b87085>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "082cf81b-d632-8697-d934-800cb6b87085" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:06651b66-8bf4-413c-95ca-420b29249a34>
             rdf:type                 cim:Breaker;
@@ -27179,9 +26922,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "2100"^^xsd:float .
     
     <urn:uuid:be58e1c7-485f-4e1e-bcad-8109f11269ad>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "be58e1c7-485f-4e1e-bcad-8109f11269ad" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:ed1b4ecf-f538-4293-9845-745bb6854190>
             rdf:type                    cim:Terminal;
@@ -27501,9 +27243,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:92d29b33-1d7f-4b36-bda0-e1ffa053bf06>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "92d29b33-1d7f-4b36-bda0-e1ffa053bf06" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:40055381-e182-4095-9656-89ae213844fa>
             rdf:type                    cim:Terminal;
@@ -27564,9 +27305,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:4f91e791-81f4-4452-9259-ce7eb693d442>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "4f91e791-81f4-4452-9259-ce7eb693d442" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:7466ffb5-7e19-4aa0-b5df-7214f49326d9>
             rdf:type                    cim:Terminal;
@@ -27673,9 +27413,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:31e184a9-e736-41d8-8c64-d1c230021303>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "31e184a9-e736-41d8-8c64-d1c230021303" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:6285f028-e286-4595-b498-9cfdc0e2f7e5>
             rdf:type                    cim:Terminal;
@@ -27762,18 +27501,16 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Switch.open          false .
     
     <urn:uuid:a780ef79-6add-e8b7-d306-6477d460539b>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "a780ef79-6add-e8b7-d306-6477d460539b" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:1e5fb00f-03b3-f26d-c609-ff1e3815d641>
             rdf:type                cim:CurrentLimit;
             cim:CurrentLimit.value  "17320.5"^^xsd:float .
     
     <urn:uuid:c30585bb-fe3f-404f-91c6-c5cb91948418>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "c30585bb-fe3f-404f-91c6-c5cb91948418" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:02386862-1c24-a71a-ae37-dbb784e3be26>
             rdf:type                cim:CurrentLimit;
@@ -27794,14 +27531,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:ac07a112-5170-76a8-4aef-e8b05e899619>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "ac07a112-5170-76a8-4aef-e8b05e899619" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:ada489a9-34fc-41b1-998e-c7e94ad95a76>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    false;
-            cim:IdentifiedObject.mRID  "ada489a9-34fc-41b1-998e-c7e94ad95a76" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  false .
     
     <urn:uuid:ae98e7e4-5de1-43f8-ba46-26c1e219d63d>
             rdf:type                 cim:Disconnector;
@@ -28087,9 +27822,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:CurrentLimit.value  "500"^^xsd:float .
     
     <urn:uuid:0822322b-a09a-2b3c-b8fd-9a89ebde2c81>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "0822322b-a09a-2b3c-b8fd-9a89ebde2c81" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:1cd9d361-cb2f-1e5e-bda8-b360c66364eb>
             rdf:type                    cim:Terminal;
@@ -28118,9 +27852,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:cef99b4a-2f58-471e-bb46-a5bd364a39e7>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "cef99b4a-2f58-471e-bb46-a5bd364a39e7" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:0abccbab-466d-4ea2-bdc2-b61004c3dc89>
             rdf:type                    cim:Terminal;
@@ -28259,9 +27992,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:e4c0eb8f-a5c2-41ec-8669-d1e0133814c1>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "e4c0eb8f-a5c2-41ec-8669-d1e0133814c1" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:dd8a986e-5928-5041-22cb-8147f4c58eee>
             rdf:type                cim:CurrentLimit;
@@ -28589,14 +28321,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:ff86a9e9-808f-43d1-b441-eb6614c88db7>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "ff86a9e9-808f-43d1-b441-eb6614c88db7" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:134e7e0a-4c7e-4faf-923f-6c15e53792d3>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "134e7e0a-4c7e-4faf-923f-6c15e53792d3" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:b294d006-18b4-4d2f-af3f-e4906553bcbd>
             rdf:type                    cim:Terminal;
@@ -28715,9 +28445,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACDCTerminal.connected  true .
     
     <urn:uuid:e34994fb-d12c-408a-a016-b2148c6d28e3>
-            rdf:type                   cim:Equipment;
-            cim:Equipment.inService    true;
-            cim:IdentifiedObject.mRID  "e34994fb-d12c-408a-a016-b2148c6d28e3" .
+            rdf:type                 cim:Equipment;
+            cim:Equipment.inService  true .
     
     <urn:uuid:fa891498-e36e-44c8-a7db-cf063da33c93>
             rdf:type                 cim:SynchronousMachine;

@@ -23,7 +23,7 @@ DIRS_NEW = $(patsubst %, %/trig, $(DIRS))
 CIMXML   = $(wildcard $(patsubst %,%/cimxml/*.xml,$(DIRS)))
 TRIG     = $(subst cimxml,trig,$(subst .xml,.trig,$(CIMXML)))
 TTL      = $(patsubst %,%/manifest.ttl,$(DIRS)) $(wildcard ./referenceData/*/ttl/*)
-TOOLS    = ../semantic-tools
+TOOLS    = ../tools
 
 targets:
 	echo targets: dirs, echo, trig, validate, zip

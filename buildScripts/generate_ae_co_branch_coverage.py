@@ -17,7 +17,7 @@ Notes:
       transformer is classified as GSU if its lowest-voltage end's ConnectivityNode has
       no other attached equipment except a single SynchronousMachine.
     - .trig regeneration is NOT performed by this script -- it requires the Jena
-      riot/owl.bat toolchain used by semantic-tools/cim-trig.pl, which is not available
+      riot/owl.bat toolchain used by tools/cim-trig.pl, which is not available
       in this environment. Trig files must be regenerated separately.
 """
 from __future__ import annotations

@@ -43,7 +43,7 @@ jobs:
           # extension), so Jena's real bin/ needs to be on PATH too.
           echo "$RUNNER_TEMP/apache-jena-${JENA_VERSION}/bin" >> "$GITHUB_PATH"
 
-          # semantic-tools/cim-trig.pl and the rest of the Makefile were
+          # tools/cim-trig.pl and the rest of the Makefile were
           # authored on Windows/Cygwin and shell out to "riot.bat"/
           # "update.bat" instead. Shim those exact names on Linux (dots in
           # filenames are unremarkable here) so the vendored tooling runs

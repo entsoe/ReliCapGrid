@@ -48,7 +48,7 @@ naming the tripped branch, and an `nc:OrdinaryContingency`:
 ```
 
 **`.trig` files mirror the `.xml` files** (same triples in TriG syntax, generated — see
-`semantic-tools/cim-trig.pl`). New entries need to land in both; the trig is very likely
+`tools/cim-trig.pl`). New entries need to land in both; the trig is very likely
 regenerated from the xml by that script rather than hand-edited.
 
 ## Per-grid results

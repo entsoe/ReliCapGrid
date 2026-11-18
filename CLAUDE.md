@@ -43,7 +43,7 @@ docs/
   HeaderExample.xml          # Reference for dcat:Dataset header structure
   DifferenceSetHeaderExample.xml
 TestUseCases/                # Use-case documentation (Markdown)
-semantic-tools/              # Scripts to convert CIMXML → TriG for graph DBs
+tools/                       # Scripts to convert CIMXML → TriG for graph DBs (used by Instance/Makefile)
 ```
 
 ### Fictitious TSOs in NineRealms

@@ -136,8 +136,10 @@ and `entsoe/NC-AP` for NCP 2.5 — the application-profiles-library only links t
 submodules, with an extra folder level, so it cannot be used directly):
 
 ```bash
-git clone --depth 1 https://github.com/entsoe/CGMES-AP .apl-cgmes
-git clone --depth 1 https://github.com/entsoe/NC-AP .apl-ncp
+# each AP repo at the commit CI pins (env: CGMES_AP_REF / NC_AP_REF in the workflow)
+pin() { sed -n "s/^  $1: *\([0-9a-f]\{40\}\).*/\1/p" .github/workflows/shacl_validation.yml; }
+git clone https://github.com/entsoe/CGMES-AP .apl-cgmes && git -C .apl-cgmes checkout --detach "$(pin CGMES_AP_REF)"
+git clone https://github.com/entsoe/NC-AP .apl-ncp && git -C .apl-ncp checkout --detach "$(pin NC_AP_REF)"
 uv run buildScripts/validate_instances.py --apl cgmes-3.0=.apl-cgmes --apl ncp-2.5=.apl-ncp
 # SARIF + sh:ValidationReports + summary.md written to reports/
 ```

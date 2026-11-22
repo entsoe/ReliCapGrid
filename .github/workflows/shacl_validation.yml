@@ -14,6 +14,13 @@ permissions:
   contents: read
   security-events: write
 
+# Application-profile pins (PROF + SHACL), one full commit SHA per repo.
+# To bump: replace the SHA with the new commit of that repo's main branch
+# (git ls-remote https://github.com/entsoe/<repo> main) and re-run the workflow.
+env:
+  CGMES_AP_REF: e96dd4e323b1e2236e141dd03bf9adea81672e00  # entsoe/CGMES-AP
+  NC_AP_REF: fc34557addcdb2c0869f6d399f4e2b395c5e3229  # entsoe/NC-AP
+
 jobs:
   shacl-validation:
     name: Validate all instances via PROF-mapped SHACL
@@ -22,17 +29,20 @@ jobs:
       - uses: actions/checkout@v4
 
       # application-profiles-library only links CGMES/ and NCP/ as submodules
-      # since 2026-10-15; check out the two AP repos (PROF + SHACL) directly
+      # since 2026-10-15; check out the two AP repos (PROF + SHACL) directly,
+      # each at its own pinned commit (env above)
       - name: Checkout CGMES application profiles (CGMES 3.0)
         uses: actions/checkout@v4
         with:
           repository: entsoe/CGMES-AP
+          ref: ${{ env.CGMES_AP_REF }}
           path: .apl-cgmes
 
       - name: Checkout NC application profiles (NCP 2.5)
         uses: actions/checkout@v4
         with:
           repository: entsoe/NC-AP
+          ref: ${{ env.NC_AP_REF }}
           path: .apl-ncp
 
       - name: Install uv
